@@ -57,10 +57,26 @@ nav li {
     gap: 20px;
 }
 
-.property-card {
+.property-card-web {
     border: 1px solid #ddd;
     padding: 15px;
     text-align: center;
+}
+
+.property-card-web img {
+    max-width: 100%;
+    height: auto;
+}
+
+.property-card {
+    display: none;
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+
+.property-card.show {
+    display: block;
 }
 
 .property-card img {
@@ -101,3 +117,56 @@ footer {
     cursor: pointer;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+#image-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+#image-container img {
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+button {
+    background-color: #165f00; /* Example: Green background */
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a transition effect */
+}
+
+button:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
+
+select {
+    background-color: #9ca59d; /* Match button background */
+    color: white;
+    padding: 10px;            /* Similar padding to buttons */
+    margin: 10px 0;       
+    border: none;             /* Remove default border */
+    border-radius: 5px;       /* Match button rounded corners */
+    cursor: pointer;
+}
+
+/* Styling the dropdown arrow (If you want) */
+select::-ms-expand { 
+    display: none; /* Hide the default arrow in IE */
+}
+
+select:hover {
+    background-color: #3e413d; /* Match button hover color */
+}

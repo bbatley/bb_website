@@ -1,32 +1,15 @@
-const properties = [
-    {
-        // ... other properties
-        contactName: 'Brian Batley',
-        contactEmail: 'bbatley@gmail.com', 
-        contactPhone: '(734) 657-6588'
-    },
-    // ... other properties
-];
-// ... (previous JavaScript code)
+const imageContainer = document.getElementById('image-container');
+const images = [];
 
-const contactLinks = document.querySelectorAll('.contact-link');
-const contactModal = document.getElementById('contactModal');
-const closeButton = document.querySelector('.close-button');
-const contactNameSpan = document.getElementById('contactName');
-const contactEmailSpan = document.getElementById('contactEmail');
-const contactPhoneSpan = document.getElementById('contactPhone');
+for (let i = 0; i <= 50; i++) {
+    let num = 465 + i;
+    const imageNumber = num.toString(); 
+    const imagePath = `/photos/1708_E_Main_St_Little_Chute_WI/IMG_0${imageNumber}.JPG`;
+    images.push(imagePath);
+}
 
-contactLinks.forEach((link, index) => {
-    link.addEventListener('click', (event) => {
-        event.preventDefault(); // Prevent default link behavior
-        const property = properties[index];
-        contactNameSpan.textContent = property.contactName;
-        contactEmailSpan.textContent = property.contactEmail;
-        contactPhoneSpan.textContent = property.contactPhone;
-        contactModal.style.display = 'block';
-    });
-});
-
-closeButton.addEventListener('click', () => {
-    contactModal.style.display = 'none';
+images.forEach(imagePath => {
+    const image = document.createElement('img');
+    image.src = imagePath;
+    imageContainer.appendChild(image);
 });
