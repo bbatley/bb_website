@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="logo">
-            <img src="your-logo.jpeg" alt="Company Logo">
+            <img src="logo_green_house.jpg" alt="Company Logo">
         </div>
         <nav>
             <ul>
@@ -24,12 +24,17 @@
     <main>
         <section class="featured-listings">
             <h2>All Listings</h2>
-            <select id="filter-dropdown">
+            <select id="avail_dropdown">
+                <option value="Available">Available</option>
+                <option value="Unavailable">Unavailable</option>
+                <option value="All Properties">Any Availability</option>
+            </select>
+            <select id="bedroom_dropdown">
                 <option value="all-sizes">All Sizes</option>
                 <option value="1-bedroom">One Bedroom</option>
                 <option value="2-bedroom">Two Bedroom</option>
             </select>
-            <select id="filter-dropdown">
+            <select id="type-dropdown">
                 <option value="all-types">All Types</option>
                 <option value="apartments">Apartments</option>
                 <option value="condos">Condos</option>
@@ -39,31 +44,43 @@
             <button id="showSome">Filter</button> 
 
             <div class="listings-grid">
-                <div class="property-card">
-                    <img src="1708.jpg" alt="Property 1"> 
-                    <h3>2 Bedroom Apartment</h3>
+
+                <div class="property-card" avail="yes" bedroom="two">
+                    <img src="photos/1708_E_Main_St_Little_Chute_WI/IMG_0517.JPG" alt="Property 1"> 
+                    <h3 class="beds">2 Bedroom Apartment</h3>
                     <p>1708 E Main St, Little Chute, WI</p>
+                    <p class="available">Currently Unavailable</p>
                     <p class="price">$1,200,234/month</p>
                     <a href="photos/home_photos.html?imageDirectory=1708_E_Main_St_Little_Chute_WI">photos</a>
                 </div>
-                <div class="property-card">
-                    <img src="property-image-1.jpg" alt="Property 1"> 
-                    <h3>2 Bedroom Apartment</h3>
-                    <p>Downtown Area</p>
-                    <p class="price">$1200/month</p>
+
+                <div class="property-card" avail="yes" bedroom="two">
+                    <img src="photos/1708_E_Main_St_Little_Chute_WI/IMG_0517.JPG" alt="Property 1"> 
+                    <h3 class="beds">2 Bedroom Apartment</h3>
+                    <p>1708 E Main St, Little Chute, WI</p>
+                    <p class="available">Currently Unavailable</p>
+                    <p class="price">$1,200,234/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=1708_E_Main_St_Little_Chute_WI">photos</a>
                 </div>
-                <div class="property-card">
-                    <img src="property-image-1.jpg" alt="Property 1"> 
-                    <h3>2 Bedroom Apartment</h3>
-                    <p>Downtown Area</p>
-                    <p class="price">$1200/month</p>
+
+                <div class="property-card" avail="no" bedroom="one">
+                    <img src="photos/1708_E_Main_St_Little_Chute_WI/IMG_0517.JPG" alt="Property 1"> 
+                    <h3 class="beds">2 Bedroom Apartment</h3>
+                    <p>1708 E Main St, Little Chute, WI</p>
+                    <p class="available">Currently Unavailable</p>
+                    <p class="price">$1,200,234/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=1708_E_Main_St_Little_Chute_WI">photos</a>
                 </div>
-                <div class="property-card">
-                    <img src="property-image-1.jpg" alt="Property 1"> 
-                    <h3>2 Bedroom Apartment</h3>
-                    <p>Downtown Area</p>
-                    <p class="price">$1200/month</p>
+
+                <div class="property-card" avail="no" bedroom="two">
+                    <img src="photos/1708_E_Main_St_Little_Chute_WI/IMG_0517.JPG" alt="Property 1"> 
+                    <h3 class="beds">2 Bedroom Apartment</h3>
+                    <p>1708 E Main St, Little Chute, WI</p>
+                    <p class="available">Currently Unavailable</p>
+                    <p class="price">$1,200,234/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=1708_E_Main_St_Little_Chute_WI">photos</a>
                 </div>
+
                 </div>
         </section>
 

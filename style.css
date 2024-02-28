@@ -6,11 +6,27 @@ body {
 }
 
 header {
-    background-color: #c5c7c4;
+    background-color: #669A6A;
     padding: 15px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+header nav ul li a {
+    text-decoration: none; 
+    display: inline-block; /* Allows setting width/height */
+    padding: 10px 20px;    /* Adjust padding as desired */
+    border: none;          /* Remove default link border */
+    margin: 5px;           /* Add some spacing between buttons */
+    border-radius: 5px;    /* Create rounded corners */
+    background-color: #979797; /* Example button color */
+    color: white;          /* Example text color */
+    cursor: pointer;       /* Indicate clickable element */
+}
+
+header nav ul li a:hover { 
+    background-color: #424242; /* Slightly darker hover color */
 }
 
 nav ul {
@@ -68,6 +84,13 @@ nav li {
     height: auto;
 }
 
+.property-card.js_available{
+    display: none;
+    border: 1px solid green;
+    padding: 15px;
+    text-align: center;
+}
+
 .property-card {
     display: none;
     border: 1px solid #ddd;
@@ -82,6 +105,14 @@ nav li {
 .property-card img {
     max-width: 100%;
     height: auto;
+}
+
+.property-card .available {
+    color: black;
+}
+.property-card.js_available .available { 
+   color: green; 
+   font-weight: bold;
 }
 
 .price {
