@@ -23,6 +23,7 @@ header nav ul li a {
     background-color: #979797; /* Example button color */
     color: white;          /* Example text color */
     cursor: pointer;       /* Indicate clickable element */
+    transition: background-color 0.3s ease; /* Add a transition effect */
 }
 
 header nav ul li a:hover { 
@@ -191,13 +192,25 @@ select {
     border: none;             /* Remove default border */
     border-radius: 5px;       /* Match button rounded corners */
     cursor: pointer;
-}
-
-/* Styling the dropdown arrow (If you want) */
-select::-ms-expand { 
-    display: none; /* Hide the default arrow in IE */
+    transition: background-color 0.3s ease; /* Add a transition effect */
 }
 
 select:hover {
     background-color: #3e413d; /* Match button hover color */
+} 
+
+.photo_button {
+    background-color: #9ca59d; /* Match button background */
+    color: white;
+    padding: 10px;            /* Similar padding to buttons */
+    margin: 10px 0;       
+    border: none;             /* Remove default border */
+    border-radius: 5px;       /* Match button rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a transition effect */
+    text-decoration: none;
 }
+
+.photo_button:hover {
+    background-color: #3e413d; /* Match button hover color */
+} 

@@ -32,4 +32,5 @@ propertyCards.forEach(card => {
     // Optional: change the text to 'Currently Unavailable' if avail is not 'yes'
     card.querySelector('.available').textContent = 'Currently Unavailable'; 
   }
+  card.classList.add('show'); // Show every card to start
 });
