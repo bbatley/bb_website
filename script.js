@@ -5,7 +5,7 @@ const imageDirectory = urlParams.get('imageDirectory');
 const addressDisplay = document.getElementById('address');
 
 switch(imageDirectory) {
-    case '1708_E_Main_St_Little_Chute_WI':
+    case '1708_E_Main_St':
         addressDisplay.textContent = '1708 E Main St, Little Chute, WI';
         images.push(`${imageDirectory}/IMG_0465.JPG`);
         images.push(`${imageDirectory}/IMG_0466.JPG`);
@@ -65,7 +65,7 @@ switch(imageDirectory) {
         images.push(`${imageDirectory}/IMG_0520.JPG`);
         images.push(`${imageDirectory}/IMG_0512.JPG`);
         break;
-    case '1710_E_Main_St_Little_Chute_WI':
+    case '1710_E_Main_St':
         addressDisplay.textContent = '1710 E Main St, Little Chute, WI';
         images.push(`${imageDirectory}/image.jpg`);
         images.push(`${imageDirectory}/image_50370561.JPG`);
@@ -87,7 +87,7 @@ switch(imageDirectory) {
         images.push(`${imageDirectory}/image_67234561.JPG`);
         break;
     case '2021_Autumn':
-        addressDisplay.textContent = '2021 Autumn';
+        addressDisplay.textContent = '2021 Autumn Ln, Kaukauna, WI 54130';
         images.push(`${imageDirectory}/image(1).jpg`);
         images.push(`${imageDirectory}/image(10).jpg`);
         images.push(`${imageDirectory}/image(11).jpg`);
@@ -112,7 +112,7 @@ switch(imageDirectory) {
         images.push(`${imageDirectory}/image.jpg`);
         break;
     case '1749_Marissa':
-        addressDisplay.textContent = '1749 Marissa';
+        addressDisplay.textContent = '1749 Marissa Ct, De Pere, WI 54115';
         images.push(`${imageDirectory}/20210228_115307.jpg`);
         images.push(`${imageDirectory}/20210228_115313.jpg`);
         images.push(`${imageDirectory}/20210228_115421.jpg`);
@@ -142,7 +142,7 @@ switch(imageDirectory) {
         images.push(`${imageDirectory}/PXL_20221028_222133080.jpg`);
         break;
     case '2023_Autumn':
-        addressDisplay.textContent = '2023 Autumn';
+        addressDisplay.textContent = '2023 Autumn Ln, Kaukauna, WI 54130';
         images.push(`${imageDirectory}/PXL_20230430_171641830.jpg`);
         images.push(`${imageDirectory}/PXL_20230430_171713360.jpg`);
         images.push(`${imageDirectory}/PXL_20230430_171729289.jpg`);
@@ -182,7 +182,7 @@ switch(imageDirectory) {
         images.push(`${imageDirectory}/PXL_20230430_201809666.jpg`);
         break;
     case '1751_Marissa':
-        addressDisplay.textContent = '1751 Marissa';
+        addressDisplay.textContent = '1751 Marissa Ct, De Pere, WI 54115';
         images.push(`${imageDirectory}/PXL_20221028_214857607.jpg`);
         images.push(`${imageDirectory}/PXL_20221028_214916096.jpg`);
         images.push(`${imageDirectory}/PXL_20221028_214936543.jpg`);
@@ -234,6 +234,217 @@ switch(imageDirectory) {
         images.push(`${imageDirectory}/PXL_20221029_190347621.jpg`);
         images.push(`${imageDirectory}/PXL_20221029_190403436.jpg`);
         images.push(`${imageDirectory}/PXL_20221029_190448879.jpg`);
+        break;
+
+    case '5335_Brookview':
+        addressDisplay.textContent = '5335 Brookview Dr, Appleton, WI 54913';
+        images.push(`${imageDirectory}/IMG_3605.jpeg`);
+        images.push(`${imageDirectory}/IMG_3606.jpeg`);
+        images.push(`${imageDirectory}/IMG_3607.jpeg`);
+        images.push(`${imageDirectory}/IMG_3608.jpeg`);
+        images.push(`${imageDirectory}/IMG_3609.jpeg`);
+        images.push(`${imageDirectory}/IMG_3610.jpeg`);
+        images.push(`${imageDirectory}/IMG_3611.jpeg`);
+        images.push(`${imageDirectory}/IMG_3612.jpeg`);
+        images.push(`${imageDirectory}/IMG_3613.jpeg`);
+        images.push(`${imageDirectory}/IMG_3614.jpeg`);
+        images.push(`${imageDirectory}/IMG_3615.jpeg`);
+        images.push(`${imageDirectory}/IMG_3616.jpeg`);
+        images.push(`${imageDirectory}/IMG_3617.jpeg`);
+        images.push(`${imageDirectory}/IMG_3618.jpeg`);
+        images.push(`${imageDirectory}/IMG_3619.jpeg`);
+        images.push(`${imageDirectory}/IMG_3620.jpeg`);
+        images.push(`${imageDirectory}/IMG_3621.jpeg`);
+        images.push(`${imageDirectory}/IMG_3622.jpeg`);
+        images.push(`${imageDirectory}/IMG_3623.jpeg`);
+        images.push(`${imageDirectory}/IMG_3624.jpeg`);
+        images.push(`${imageDirectory}/IMG_3625.jpeg`);
+        images.push(`${imageDirectory}/IMG_3626.jpeg`);
+        images.push(`${imageDirectory}/IMG_3627.jpeg`);
+        images.push(`${imageDirectory}/IMG_3628.jpeg`);
+        images.push(`${imageDirectory}/IMG_3629.jpeg`);
+        images.push(`${imageDirectory}/IMG_3630.jpeg`);
+        images.push(`${imageDirectory}/IMG_3631.jpeg`);
+        images.push(`${imageDirectory}/IMG_3632.jpeg`);
+        images.push(`${imageDirectory}/IMG_3633.jpeg`);
+        images.push(`${imageDirectory}/IMG_3634.jpeg`);
+        images.push(`${imageDirectory}/IMG_3635.jpeg`);
+        images.push(`${imageDirectory}/IMG_3636.jpeg`);
+        images.push(`${imageDirectory}/IMG_3637.jpeg`);
+        images.push(`${imageDirectory}/IMG_3638.jpeg`);
+        images.push(`${imageDirectory}/IMG_3639.jpeg`);
+        images.push(`${imageDirectory}/IMG_3640.jpeg`);
+        images.push(`${imageDirectory}/IMG_3641.jpeg`);
+        images.push(`${imageDirectory}/IMG_3642.jpeg`);
+        images.push(`${imageDirectory}/IMG_3643.jpeg`);
+        images.push(`${imageDirectory}/IMG_3644.jpeg`);
+        images.push(`${imageDirectory}/IMG_3645.jpeg`);
+        images.push(`${imageDirectory}/IMG_3646.jpeg`);
+        images.push(`${imageDirectory}/IMG_3647.jpeg`);
+        images.push(`${imageDirectory}/IMG_3648.jpeg`);
+        images.push(`${imageDirectory}/IMG_3649.jpeg`);
+        images.push(`${imageDirectory}/IMG_3650.jpeg`);
+        break;
+
+    case '500_E_Alice':
+        addressDisplay.textContent = '500 E. Alice St, Appleton, WI 54911';
+        images.push(`${imageDirectory}/Backyard-PXL_20211123_150844501.jpg`);
+        images.push(`${imageDirectory}/Basement 1-PXL_20211123_161445790.jpg`);
+        images.push(`${imageDirectory}/Basement 2-PXL_20211123_161432528.jpg`);
+        images.push(`${imageDirectory}/Basement Storage-PXL_20211123_161225932.jpg`);
+        images.push(`${imageDirectory}/Bath 1A-PXL_20211123_152830440.jpg`);
+        images.push(`${imageDirectory}/Bath 1B-PXL_20211123_152908906.jpg`);
+        images.push(`${imageDirectory}/Bath 2A-PXL_20211123_154701660.jpg`);
+        images.push(`${imageDirectory}/Bath 2B-PXL_20211123_155530218.jpg`);
+        images.push(`${imageDirectory}/Bed 1A-PXL_20211123_155358832.jpg`);
+        images.push(`${imageDirectory}/Bed 1B-PXL_20211123_155343241.jpg`);
+        images.push(`${imageDirectory}/Bed 1C-PXL_20211123_155444627.jpg`);
+        images.push(`${imageDirectory}/Bed 2-PXL_20211123_152200266.jpg`);
+        images.push(`${imageDirectory}/Bed 3-PXL_20211123_152434979.jpg`);
+        images.push(`${imageDirectory}/Dining-PXL_20211123_153856807.jpg`);
+        images.push(`${imageDirectory}/Front 1-PXL_20211123_150426767.jpg`);
+        images.push(`${imageDirectory}/Front 2-PXL_20211123_150727223.jpg`);
+        images.push(`${imageDirectory}/Front door inside-PXL_20211123_153347831 copy.jpg`);
+        images.push(`${imageDirectory}/Kitchen-PXL_20211123_154532829.jpg`);
+        images.push(`${imageDirectory}/Kitchen-PXL_20211123_154549962.jpg`);
+        images.push(`${imageDirectory}/Laundry.jpg`);
+        images.push(`${imageDirectory}/Living 1A-PXL_20211123_153333463.jpg`);
+        images.push(`${imageDirectory}/Living 1B-PXL_20211123_153413505.jpg`);
+        images.push(`${imageDirectory}/Living to Dining-PXL_20211123_155947668.jpg`);
+        images.push(`${imageDirectory}/Rear-PXL_20211123_150827737.jpg`);
+        images.push(`${imageDirectory}/IMG_3145.jpeg`);
+        images.push(`${imageDirectory}/IMG_3146.jpeg`);
+        images.push(`${imageDirectory}/IMG_3147.jpeg`);
+        images.push(`${imageDirectory}/IMG_3149.jpeg`);
+        images.push(`${imageDirectory}/IMG_3155.jpeg`);
+        images.push(`${imageDirectory}/IMG_3156.jpeg`);
+        images.push(`${imageDirectory}/IMG_3157.jpeg`);
+        images.push(`${imageDirectory}/IMG_3158.jpeg`);
+        images.push(`${imageDirectory}/IMG_3159.jpeg`);
+        images.push(`${imageDirectory}/IMG_3160.jpeg`);
+        images.push(`${imageDirectory}/IMG_3161.jpeg`);
+        images.push(`${imageDirectory}/IMG_3162.jpeg`);
+        images.push(`${imageDirectory}/IMG_3163.jpeg`);
+        images.push(`${imageDirectory}/IMG_3164.jpeg`);
+        images.push(`${imageDirectory}/IMG_3165.jpeg`);
+        images.push(`${imageDirectory}/IMG_3166.jpeg`);
+        images.push(`${imageDirectory}/IMG_3167.jpeg`);
+        images.push(`${imageDirectory}/IMG_3168.jpeg`);
+        images.push(`${imageDirectory}/IMG_3169.jpeg`);
+        images.push(`${imageDirectory}/IMG_3170.jpeg`);
+        images.push(`${imageDirectory}/IMG_3171.jpeg`);
+        images.push(`${imageDirectory}/IMG_3172.jpeg`);
+        images.push(`${imageDirectory}/IMG_3173.jpeg`);
+        images.push(`${imageDirectory}/IMG_3174.jpeg`);
+        images.push(`${imageDirectory}/IMG_3175.jpeg`);
+        images.push(`${imageDirectory}/IMG_3176.jpeg`);
+        images.push(`${imageDirectory}/IMG_3177.jpeg`);
+        images.push(`${imageDirectory}/IMG_3178.jpeg`);
+        images.push(`${imageDirectory}/IMG_3179.jpeg`);
+        images.push(`${imageDirectory}/IMG_3180.jpeg`);
+        images.push(`${imageDirectory}/IMG_3181.jpeg`);
+        images.push(`${imageDirectory}/IMG_3182.jpeg`);
+        images.push(`${imageDirectory}/IMG_3183.jpeg`);
+        images.push(`${imageDirectory}/IMG_3184.jpeg`);
+        images.push(`${imageDirectory}/IMG_3185.jpeg`);
+        images.push(`${imageDirectory}/IMG_3186.jpeg`);
+        images.push(`${imageDirectory}/IMG_3187.jpeg`);
+        images.push(`${imageDirectory}/IMG_3188.jpeg`);
+        images.push(`${imageDirectory}/IMG_3189.jpeg`);
+        images.push(`${imageDirectory}/IMG_3190.jpeg`);
+        images.push(`${imageDirectory}/IMG_3191.jpeg`);
+        images.push(`${imageDirectory}/IMG_3192.jpeg`);
+        images.push(`${imageDirectory}/IMG_3193.jpeg`);
+        images.push(`${imageDirectory}/IMG_3194.jpeg`);
+        images.push(`${imageDirectory}/IMG_3195.jpeg`);
+        images.push(`${imageDirectory}/IMG_3196.jpeg`);
+        images.push(`${imageDirectory}/IMG_3197.jpeg`);
+        images.push(`${imageDirectory}/IMG_3198.jpeg`);
+        images.push(`${imageDirectory}/IMG_3199.jpeg`);
+        images.push(`${imageDirectory}/IMG_3200.jpeg`);
+        images.push(`${imageDirectory}/IMG_3201.jpeg`);
+        images.push(`${imageDirectory}/IMG_3202.jpeg`);
+        images.push(`${imageDirectory}/IMG_3203.jpeg`);
+        images.push(`${imageDirectory}/IMG_3204.jpeg`);
+        break;
+
+    case '2711D_4th_St':
+        addressDisplay.textContent = '2711 W. 4th St, Apt. D, Appleton, WI 54914';
+        break;
+
+    case '2707D_4th_St':
+        addressDisplay.textContent = '2707 W. 4th St, Apt. D, Appleton, WI 54914';
+        images.push(`${imageDirectory}/image_50373377.JPG`);
+        images.push(`${imageDirectory}/image_50379777.JPG`);
+        images.push(`${imageDirectory}/image_50383105.JPG`);
+        images.push(`${imageDirectory}/image_50391553.JPG`);
+        images.push(`${imageDirectory}/image_50391809.JPG`);
+        images.push(`${imageDirectory}/image_50394369.JPG`);
+        images.push(`${imageDirectory}/image_50401793.JPG`);
+        images.push(`${imageDirectory}/image_50407425.JPG`);
+        images.push(`${imageDirectory}/image_50408705.JPG`);
+        images.push(`${imageDirectory}/image_50429185.JPG`);
+        images.push(`${imageDirectory}/image_50430209.JPG`);
+        images.push(`${imageDirectory}/image_50432257.JPG`);
+        images.push(`${imageDirectory}/image_67144961.JPG`);
+        images.push(`${imageDirectory}/image_67155713.JPG`);
+        images.push(`${imageDirectory}/image_67165953.JPG`);
+        images.push(`${imageDirectory}/image_67166721.JPG`);
+        images.push(`${imageDirectory}/image_67175425.JPG`);
+        images.push(`${imageDirectory}/image_67176961.JPG`);
+        images.push(`${imageDirectory}/image_67179777.JPG`);
+        images.push(`${imageDirectory}/image_67194625.JPG`);
+        images.push(`${imageDirectory}/image_67199489.JPG`);
+        images.push(`${imageDirectory}/image_67216641.JPG`);
+        images.push(`${imageDirectory}/IMG_3314.jpeg`);
+        images.push(`${imageDirectory}/IMG_3315.jpeg`);
+        images.push(`${imageDirectory}/IMG_3316.jpeg`);
+        images.push(`${imageDirectory}/IMG_3317.jpeg`);
+        images.push(`${imageDirectory}/IMG_3318.jpeg`);
+        images.push(`${imageDirectory}/IMG_3319.jpeg`);
+        images.push(`${imageDirectory}/IMG_3320.jpeg`);
+        images.push(`${imageDirectory}/IMG_3321.jpeg`);
+        images.push(`${imageDirectory}/IMG_3322.jpeg`);
+        images.push(`${imageDirectory}/IMG_3323.jpeg`);
+        images.push(`${imageDirectory}/IMG_3324.jpeg`);
+        images.push(`${imageDirectory}/IMG_3325.jpeg`);
+        images.push(`${imageDirectory}/IMG_3326.jpeg`);
+        images.push(`${imageDirectory}/IMG_3327.jpeg`);
+        images.push(`${imageDirectory}/IMG_3328.jpeg`);
+        images.push(`${imageDirectory}/IMG_3329.jpeg`);
+        images.push(`${imageDirectory}/IMG_3330.jpeg`);
+        images.push(`${imageDirectory}/IMG_3331.jpeg`);
+        images.push(`${imageDirectory}/IMG_3332.jpeg`);
+        images.push(`${imageDirectory}/IMG_3333.jpeg`);
+        images.push(`${imageDirectory}/IMG_3334.jpeg`);
+        images.push(`${imageDirectory}/IMG_3335.jpeg`);
+        images.push(`${imageDirectory}/IMG_3336.jpeg`);
+        images.push(`${imageDirectory}/IMG_3337.jpeg`);
+        images.push(`${imageDirectory}/IMG_3338.jpeg`);
+        images.push(`${imageDirectory}/IMG_3339.jpeg`);
+        images.push(`${imageDirectory}/IMG_3340.jpeg`);
+        images.push(`${imageDirectory}/IMG_3341.jpeg`);
+        break;
+
+    case '2715D_4th_St':
+        addressDisplay.textContent = '2715 W. 4th St, Apt. D, Appleton, WI 54914';
+        images.push(`${imageDirectory}/2715 W Fourth St, Appleton (Brian Batley) Back.jpg`);
+        images.push(`${imageDirectory}/2715 W Fourth St, Appleton (Brian Batley) Front.jpg`);
+        images.push(`${imageDirectory}/2715D W Fourth St, Appleton (Brian Batley) 0.5 Bath.jpg`);
+        images.push(`${imageDirectory}/image(1).jpg`);
+        images.push(`${imageDirectory}/image(10).jpg`);
+        images.push(`${imageDirectory}/image(11).jpg`);
+        images.push(`${imageDirectory}/image(12).jpg`);
+        images.push(`${imageDirectory}/image(13).jpg`);
+        images.push(`${imageDirectory}/image(2).jpg`);
+        images.push(`${imageDirectory}/image(3).jpg`);
+        images.push(`${imageDirectory}/image(4).jpg`);
+        images.push(`${imageDirectory}/image(5).jpg`);
+        images.push(`${imageDirectory}/image(6).jpg`);
+        images.push(`${imageDirectory}/image(7).jpg`);
+        images.push(`${imageDirectory}/image(8).jpg`);
+        images.push(`${imageDirectory}/image(9).jpg`);
+        images.push(`${imageDirectory}/image.jpg`);
         break;
 }
 
