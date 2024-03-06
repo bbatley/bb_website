@@ -108,9 +108,6 @@ nav li {
     height: auto;
 }
 
-.property-card .available {
-    color: black;
-}
 .property-card.js_available .available { 
    color: green; 
    font-weight: bold;
@@ -203,8 +200,6 @@ select:hover {
     background-color: #9ca59d; /* Match button background */
     color: white;
     padding: 10px;            /* Similar padding to buttons */
-    margin: 10px 0;       
-    border: none;             /* Remove default border */
     border-radius: 5px;       /* Match button rounded corners */
     cursor: pointer;
     transition: background-color 0.3s ease; /* Add a transition effect */
@@ -214,3 +209,30 @@ select:hover {
 .photo_button:hover {
     background-color: #3e413d; /* Match button hover color */
 } 
+
+h3.street {
+    margin-bottom: 0;  /* Removes the bottom margin on the first header */
+}
+
+h3.city {
+    margin-top: 0;  /* Removes the bottom margin on the first header */
+}
+
+span.beds {
+    font-weight: bold;
+}
+
+span.baths {
+    font-weight: bold;
+}
+
+p.available {
+    font-weight: bold;
+}
+p.price {
+    padding-bottom: 10px;
+}
+
+span.between {
+    padding-right: 0px;
+}

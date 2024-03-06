@@ -7,6 +7,7 @@ showAllButton.addEventListener('click', () => {
 });
 
 const bedroomDropdown = document.getElementById('bedroom_dropdown');
+const bathroomDropdown = document.getElementById('bathroom_dropdown');
 const availDropdown = document.getElementById('avail_dropdown');
 
 showSomeButton.addEventListener('click', () => {
@@ -14,8 +15,8 @@ showSomeButton.addEventListener('click', () => {
         // Example: Show only cards with even indexes
         if ((card.getAttribute('avail') === 'yes' && availDropdown.selectedIndex == 1) ||
                 (card.getAttribute('avail') === 'no' && availDropdown.selectedIndex == 0) ||
-                (card.getAttribute('bedroom') === 'one' && bedroomDropdown.selectedIndex == 2) ||
-                (card.getAttribute('bedroom') === 'two' && bedroomDropdown.selectedIndex == 1) ) {
+                (card.getAttribute('bedroom') !== String(bedroomDropdown.selectedIndex)) || 
+                (card.getAttribute('bath') !== String((bathroomDropdown.selectedIndex+1)/2)))  {
             card.classList.remove('show');
         } else {
             card.classList.add('show');
@@ -34,3 +35,14 @@ propertyCards.forEach(card => {
   }
   card.classList.add('show'); // Show every card to start
 });
+
+
+propertyCards.forEach(card => {
+  card.querySelector('.beds').textContent = card.getAttribute('bedroom') + ' Bed, ';
+});
+
+propertyCards.forEach(card => {
+    card.querySelector('.baths').textContent = card.getAttribute('bath') + ' Bath';
+});
+
+card.classList.add('show'); // Show every card to start

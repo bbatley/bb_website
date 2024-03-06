@@ -31,72 +31,437 @@
             </select>
             <select id="bedroom_dropdown">
                 <option value="all-sizes">All Sizes</option>
-                <option value="1-bedroom">One Bedroom</option>
-                <option value="2-bedroom">Two Bedroom</option>
+                <option value="1-bedroom">1 Bedroom</option>
+                <option value="2-bedroom">2 Bedroom</option>
+                <option value="3-bedroom">3 Bedroom</option>
+                <option value="4-bedroom">4 Bedroom</option>
             </select>
-            <select id="type-dropdown">
-                <option value="all-types">All Types</option>
-                <option value="apartments">Apartments</option>
-                <option value="condos">Condos</option>
-                <option value="houses">Houses</option>
+            <select id="bathroom_dropdown">
+                <option value="all-sizes">All Types</option>
+                <option value="1 Bath">1 Bath</option>
+                <option value="1.5 Bath">1.5 Bath</option>
+                <option value="2 Bath">2 Bath</option>
+                <option value="2.5 Bath">2.5 Bath</option>
             </select>
             <button id="showAll">Show All</button>
             <button id="showSome">Filter</button> 
 
             <div class="listings-grid">
-
-                <div class="property-card" avail="yes" bedroom="two">
-                    <img src="photos/1708_E_Main_St_Little_Chute_WI/IMG_0517.JPG" alt="Property 1"> 
-                    <h3 class="beds">2 Bedroom Apartment</h3>
-                    <p>1708 E Main St, Little Chute, WI</p>
+                
+                <div class="property-card" avail="no" bedroom=3 bath=1>
+                    <img src="photos/" alt="Property 1"> 
+                    <h3 class="street">903 Spring Street</h3>
+                    <h3 class="city">Ann Arbor, MI 48103</h3>
+                    <span class="beds"></span>
+                    <span class="baths"></span>
                     <p class="available">Currently Unavailable</p>
-                    <p class="price">$1,200,234/month</p>
-                    <a href="photos/home_photos.html?imageDirectory=1708_E_Main_St_Little_Chute_WI" class="photo_button">photos</a>
+                    <p class="price">$--/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=" class="photo_button">Photos</a>
+                    <span class="between"></span>
+                    <a href="info.html?property=" class="photo_button">Info</a>
                 </div>
 
-                <div class="property-card" avail="yes" bedroom="two">
-                    <img src="photos/2021_Autumn/image.jpg" alt="Property 1"> 
-                    <h3 class="beds">2 Bedroom Apartment</h3>
-                    <p>2021 Autumn</p>
+                <div class="property-card" avail="no" bedroom=2 bath=1.5>
+                    <img src="photos/" alt="Property 1"> 
+                    <h3 class="street">102 Green Way Dr</h3>
+                    <h3 class="city">Combined Locks, WI 54113</h3>
+                    <span class="beds"></span>
+                    <span class="baths"></span>
                     <p class="available">Currently Unavailable</p>
-                    <p class="price">$1,200,234/month</p>
-                    <a href="photos/home_photos.html?imageDirectory=2021_Autumn" class="photo_button">photos</a>
+                    <p class="price">$--/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=" class="photo_button">Photos</a>
+                    <span class="between"></span>
+                    <a href="info.html?property=" class="photo_button">Info</a>
                 </div>
 
-                <div class="property-card" avail="no" bedroom="one">
-                    <img src="photos/1710_E_Main_St_Little_Chute_WI/image_50726401.JPG" alt="Property 1"> 
-                    <h3 class="beds">2 Bedroom Apartment</h3>
-                    <p>1710 E Main St, Little Chute, WI</p>
+                <div class="property-card" avail="no" bedroom=2 bath=1.5>
+                    <img src="photos/" alt="Property 1"> 
+                    <h3 class="street">104 Green Way Dr</h3>
+                    <h3 class="city">Combined Locks, WI 54113</h3>
+                    <span class="beds"></span>
+                    <span class="baths"></span>
                     <p class="available">Currently Unavailable</p>
-                    <p class="price">$1,200,234/month</p>
-                    <a href="photos/home_photos.html?imageDirectory=1710_E_Main_St_Little_Chute_WI" class="photo_button">photos</a>
+                    <p class="price">$--/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=" class="photo_button">Photos</a>
+                    <span class="between"></span>
+                    <a href="info.html?property=" class="photo_button">Info</a>
                 </div>
 
-                <div class="property-card" avail="no" bedroom="two">
+                <div class="property-card" avail="no" bedroom=3 bath=2.5>
+                    <img src="photos/" alt="Property 1"> 
+                    <h3 class="street">5335 Brookview Dr</h3>
+                    <h3 class="city">Appleton, WI 54913</h3>
+                    <span class="beds"></span>
+                    <span class="baths"></span>
+                    <p class="available">Currently Unavailable</p>
+                    <p class="price">$--/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=" class="photo_button">Photos</a>
+                    <span class="between"></span>
+                    <a href="info.html?property=" class="photo_button">Info</a>
+                </div>
+
+                <div class="property-card" avail="no" bedroom=3 bath=2.5>
+                    <img src="photos/" alt="Property 1"> 
+                    <h3 class="street">5337 Brookview Dr</h3>
+                    <h3 class="city">Appleton, WI 54913</h3>
+                    <span class="beds"></span>
+                    <span class="baths"></span>
+                    <p class="available">Currently Unavailable</p>
+                    <p class="price">$--/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=" class="photo_button">Photos</a>
+                    <span class="between"></span>
+                    <a href="info.html?property=" class="photo_button">Info</a>
+                </div>
+
+                <div class="property-card" avail="no" bedroom=3 bath=2>
+                    <img src="photos/" alt="Property 1"> 
+                    <h3 class="street">N1841 Reimer Ct</h3>
+                    <h3 class="city">Greenville, WI 54942</h3>
+                    <span class="beds"></span>
+                    <span class="baths"></span>
+                    <p class="available">Currently Unavailable</p>
+                    <p class="price">$--/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=" class="photo_button">Photos</a>
+                    <span class="between"></span>
+                    <a href="info.html?property=" class="photo_button">Info</a>
+                </div>
+
+                <div class="property-card" avail="no" bedroom=3 bath=2>
+                    <img src="photos/" alt="Property 1"> 
+                    <h3 class="street">N1843 Reimer Ct</h3>
+                    <h3 class="city">Greenville, WI 54942</h3>
+                    <span class="beds"></span>
+                    <span class="baths"></span>
+                    <p class="available">Currently Unavailable</p>
+                    <p class="price">$--/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=" class="photo_button">Photos</a>
+                    <span class="between"></span>
+                    <a href="info.html?property=" class="photo_button">Info</a>
+                </div>
+
+                <div class="property-card" avail="no" bedroom=3 bath=2>
                     <img src="photos/1749_Marissa/PXL_20220917_151914847.jpg" alt="Property 1"> 
-                    <h3 class="beds">2 Bedroom Apartment</h3>
-                    <p>1749 Marissa</p>
+                    <h3 class="street">1749 Marissa Ct</h3>
+                    <h3 class="city">De Pere, WI 54115</h3>
+                    <span class="beds"></span>
+                    <span class="baths"></span>
                     <p class="available">Currently Unavailable</p>
-                    <p class="price">$1,200,234/month</p>
-                    <a href="photos/home_photos.html?imageDirectory=1749_Marissa" class="photo_button">photos</a>
+                    <p class="price">$--/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=1749_Marissa" class="photo_button">Photos</a>
+                    <span class="between"></span>
+                    <a href="info.html?property=" class="photo_button">Info</a>
                 </div>
 
-                <div class="property-card" avail="no" bedroom="two">
-                    <img src="photos/2023_Autumn/PXL_20230430_194323176.jpg" alt="Property 1"> 
-                    <h3 class="beds">2 Bedroom Apartment</h3>
-                    <p>2023 Autumn</p>
-                    <p class="available">Currently Unavailable</p>
-                    <p class="price">$1,200,234/month</p>
-                    <a href="photos/home_photos.html?imageDirectory=2023_Autumn" class="photo_button">photos</a>
-                </div>
-
-                <div class="property-card" avail="no" bedroom="two">
+                <div class="property-card" avail="no" bedroom=3 bath=2>
                     <img src="photos/1751_Marissa/PXL_20221028_222133080.jpg" alt="Property 1"> 
-                    <h3 class="beds">2 Bedroom Apartment</h3>
-                    <p>1751 Marissa</p>
+                    <h3 class="street">1751 Marissa Ct</h3>
+                    <h3 class="city">De Pere, WI 54115</h3>
+                    <span class="beds"></span>
+                    <span class="baths"></span>
                     <p class="available">Currently Unavailable</p>
-                    <p class="price">$1,200,234/month</p>
-                    <a href="photos/home_photos.html?imageDirectory=1751_Marissa" class="photo_button">photos</a>
+                    <p class="price">$--/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=1751_Marissa" class="photo_button">Photos</a>
+                    <span class="between"></span>
+                    <a href="info.html?property=" class="photo_button">Info</a>
+                </div>
+
+                <div class="property-card" avail="no" bedroom=3 bath=1.5>
+                    <img src="photos/" alt="Property 1"> 
+                    <h3 class="street">2707 W. 4th St, Apt. A</h3>
+                    <h3 class="city">Appleton, WI 54914</h3>
+                    <span class="beds"></span>
+                    <span class="baths"></span>
+                    <p class="available">Currently Unavailable</p>
+                    <p class="price">$--/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=" class="photo_button">Photos</a>
+                    <span class="between"></span>
+                    <a href="info.html?property=" class="photo_button">Info</a>
+                </div>
+
+                <div class="property-card" avail="no" bedroom=3 bath=1.5>
+                    <img src="photos/" alt="Property 1"> 
+                    <h3 class="street">2707 W. 4th St, Apt. B</h3>
+                    <h3 class="city">Appleton, WI 54914</h3>
+                    <span class="beds"></span>
+                    <span class="baths"></span>
+                    <p class="available">Currently Unavailable</p>
+                    <p class="price">$--/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=" class="photo_button">Photos</a>
+                    <span class="between"></span>
+                    <a href="info.html?property=" class="photo_button">Info</a>
+                </div>
+
+                <div class="property-card" avail="no" bedroom=3 bath=1.5>
+                    <img src="photos/" alt="Property 1"> 
+                    <h3 class="street">2707 W. 4th St, Apt. C</h3>
+                    <h3 class="city">Appleton, WI 54914</h3>
+                    <span class="beds"></span>
+                    <span class="baths"></span>
+                    <p class="available">Currently Unavailable</p>
+                    <p class="price">$--/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=" class="photo_button">Photos</a>
+                    <span class="between"></span>
+                    <a href="info.html?property=" class="photo_button">Info</a>
+                </div>
+
+                <div class="property-card" avail="no" bedroom=3 bath=1.5>
+                    <img src="photos/" alt="Property 1"> 
+                    <h3 class="street">2707 W. 4th St, Apt. D</h3>
+                    <h3 class="city">Appleton, WI 54914</h3>
+                    <span class="beds"></span>
+                    <span class="baths"></span>
+                    <p class="available">Currently Unavailable</p>
+                    <p class="price">$--/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=" class="photo_button">Photos</a>
+                    <span class="between"></span>
+                    <a href="info.html?property=" class="photo_button">Info</a>
+                </div>
+
+                <div class="property-card" avail="no" bedroom=3 bath=1.5>
+                    <img src="photos/" alt="Property 1"> 
+                    <h3 class="street">2711 W. 4th St, Apt. A</h3>
+                    <h3 class="city">Appleton, WI 54914</h3>
+                    <span class="beds"></span>
+                    <span class="baths"></span>
+                    <p class="available">Currently Unavailable</p>
+                    <p class="price">$--/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=" class="photo_button">Photos</a>
+                    <span class="between"></span>
+                    <a href="info.html?property=" class="photo_button">Info</a>
+                </div>
+
+                <div class="property-card" avail="no" bedroom=3 bath=1.5>
+                    <img src="photos/" alt="Property 1"> 
+                    <h3 class="street">2711 W. 4th St, Apt. B</h3>
+                    <h3 class="city">Appleton, WI 54914</h3>
+                    <span class="beds"></span>
+                    <span class="baths"></span>
+                    <p class="available">Currently Unavailable</p>
+                    <p class="price">$--/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=" class="photo_button">Photos</a>
+                    <span class="between"></span>
+                    <a href="info.html?property=" class="photo_button">Info</a>
+                </div>
+
+                <div class="property-card" avail="no" bedroom=3 bath=1.5>
+                    <img src="photos/" alt="Property 1"> 
+                    <h3 class="street">2711 W. 4th St, Apt. C</h3>
+                    <h3 class="city">Appleton, WI 54914</h3>
+                    <span class="beds"></span>
+                    <span class="baths"></span>
+                    <p class="available">Currently Unavailable</p>
+                    <p class="price">$--/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=" class="photo_button">Photos</a>
+                    <span class="between"></span>
+                    <a href="info.html?property=" class="photo_button">Info</a>
+                </div>
+
+                <div class="property-card" avail="no" bedroom=3 bath=1.5>
+                    <img src="photos/" alt="Property 1"> 
+                    <h3 class="street">2711 W. 4th St, Apt. D</h3>
+                    <h3 class="city">Appleton, WI 54914</h3>
+                    <span class="beds"></span>
+                    <span class="baths"></span>
+                    <p class="available">Currently Unavailable</p>
+                    <p class="price">$--/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=" class="photo_button">Photos</a>
+                    <span class="between"></span>
+                    <a href="info.html?property=" class="photo_button">Info</a>
+                </div>
+
+                <div class="property-card" avail="no" bedroom=3 bath=1.5>
+                    <img src="photos/" alt="Property 1"> 
+                    <h3 class="street">2715 W. 4th St, Apt. A</h3>
+                    <h3 class="city">Appleton, WI 54914</h3>
+                    <span class="beds"></span>
+                    <span class="baths"></span>
+                    <p class="available">Currently Unavailable</p>
+                    <p class="price">$--/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=" class="photo_button">Photos</a>
+                    <span class="between"></span>
+                    <a href="info.html?property=" class="photo_button">Info</a>
+                </div>
+
+                <div class="property-card" avail="no" bedroom=3 bath=1.5>
+                    <img src="photos/" alt="Property 1"> 
+                    <h3 class="street">2715 W. 4th St, Apt. B</h3>
+                    <h3 class="city">Appleton, WI 54914</h3>
+                    <span class="beds"></span>
+                    <span class="baths"></span>
+                    <p class="available">Currently Unavailable</p>
+                    <p class="price">$--/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=" class="photo_button">Photos</a>
+                    <span class="between"></span>
+                    <a href="info.html?property=" class="photo_button">Info</a>
+                </div>
+
+                <div class="property-card" avail="no" bedroom=3 bath=1.5>
+                    <img src="photos/" alt="Property 1"> 
+                    <h3 class="street">2715 W. 4th St, Apt. C</h3>
+                    <h3 class="city">Appleton, WI 54914</h3>
+                    <span class="beds"></span>
+                    <span class="baths"></span>
+                    <p class="available">Currently Unavailable</p>
+                    <p class="price">$--/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=" class="photo_button">Photos</a>
+                    <span class="between"></span>
+                    <a href="info.html?property=" class="photo_button">Info</a>
+                </div>
+
+                <div class="property-card" avail="no" bedroom=3 bath=1.5>
+                    <img src="photos/" alt="Property 1"> 
+                    <h3 class="street">2715 W. 4th St, Apt. D</h3>
+                    <h3 class="city">Appleton, WI 54914</h3>
+                    <span class="beds"></span>
+                    <span class="baths"></span>
+                    <p class="available">Currently Unavailable</p>
+                    <p class="price">$--/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=" class="photo_button">Photos</a>
+                    <span class="between"></span>
+                    <a href="info.html?property=" class="photo_button">Info</a>
+                </div>
+
+                <div class="property-card" avail="no" bedroom=3 bath=2>
+                    <img src="photos/" alt="Property 1"> 
+                    <h3 class="street">500 E. Alice St</h3>
+                    <h3 class="city">Appleton, WI 54911</h3>
+                    <span class="beds"></span>
+                    <span class="baths"></span>
+                    <p class="available">Currently Unavailable</p>
+                    <p class="price">$--/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=" class="photo_button">Photos</a>
+                    <span class="between"></span>
+                    <a href="info.html?property=" class="photo_button">Info</a>
+                </div>
+
+                <div class="property-card" avail="no" bedroom=2 bath=2>
+                    <img src="photos/1708_E_Main_St_Little_Chute_WI/IMG_0517.JPG" alt="Property 1"> 
+                    <h3 class="street">1708 E. Main St</h3>
+                    <h3 class="city">Little Chute, WI 54140</h3>
+                    <span class="beds"></span>
+                    <span class="baths"></span>
+                    <p class="available">Currently Unavailable</p>
+                    <p class="price">$--/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=1708_E_Main_St_Little_Chute_WI" class="photo_button">Photos</a>
+                    <span class="between"></span>
+                    <a href="info.html?property=" class="photo_button">Info</a>
+                </div>
+
+                <div class="property-card" avail="no" bedroom=2 bath=2>
+                    <img src="photos/1710_E_Main_St_Little_Chute_WI/image_50726401.JPG" alt="Property 1"> 
+                    <h3 class="street">1710 E. Main St</h3>
+                    <h3 class="city">Little Chute, WI 54140</h3>
+                    <span class="beds"></span>
+                    <span class="baths"></span>
+                    <p class="available">Currently Unavailable</p>
+                    <p class="price">$--/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=1710_E_Main_St_Little_Chute_WI" class="photo_button">Photos</a>
+                    <span class="between"></span>
+                    <a href="info.html?property=" class="photo_button">Info</a>
+                </div>
+
+                <div class="property-card" avail="no" bedroom=2 bath=2>
+                    <img src="photos/" alt="Property 1"> 
+                    <h3 class="street">1716 E. Main St</h3>
+                    <h3 class="city">Little Chute, WI 54140</h3>
+                    <span class="beds"></span>
+                    <span class="baths"></span>
+                    <p class="available">Currently Unavailable</p>
+                    <p class="price">$--/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=" class="photo_button">Photos</a>
+                    <span class="between"></span>
+                    <a href="info.html?property=" class="photo_button">Info</a>
+                </div>
+
+                <div class="property-card" avail="no" bedroom=2 bath=2>
+                    <img src="photos/" alt="Property 1"> 
+                    <h3 class="street">1718 E. Main St</h3>
+                    <h3 class="city">Little Chute, WI 54140</h3>
+                    <span class="beds"></span>
+                    <span class="baths"></span>
+                    <p class="available">Currently Unavailable</p>
+                    <p class="price">$--/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=" class="photo_button">Photos</a>
+                    <span class="between"></span>
+                    <a href="info.html?property=" class="photo_button">Info</a>
+                </div>
+
+                <div class="property-card" avail="no" bedroom=4 bath=2>
+                    <img src="photos/" alt="Property 1"> 
+                    <h3 class="street">1783 Burgoyne Ct</h3>
+                    <h3 class="city">De Pere, WI 54115</h3>
+                    <span class="beds"></span>
+                    <span class="baths"></span>
+                    <p class="available">Currently Unavailable</p>
+                    <p class="price">$--/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=" class="photo_button">Photos</a>
+                    <span class="between"></span>
+                    <a href="info.html?property=" class="photo_button">Info</a>
+                </div>
+
+                <div class="property-card" avail="no" bedroom=4 bath=2>
+                    <img src="photos/" alt="Property 1"> 
+                    <h3 class="street">1785 Burgoyne Ct</h3>
+                    <h3 class="city">De Pere, WI 54115</h3>
+                    <span class="beds"></span>
+                    <span class="baths"></span>
+                    <p class="available">Currently Unavailable</p>
+                    <p class="price">$--/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=" class="photo_button">Photos</a>
+                    <span class="between"></span>
+                    <a href="info.html?property=" class="photo_button">Info</a>
+                </div>
+
+                <div class="property-card" avail="no" bedroom=2 bath=1>
+                    <img src="photos/2021_Autumn/image.jpg" alt="Property 1"> 
+                    <h3 class="street">2021 Autumn Ln</h3>
+                    <h3 class="city">Kaukauna, WI 54130</h3>
+                    <span class="beds"></span>
+                    <span class="baths"></span>
+                    <p class="available">Currently Unavailable</p>
+                    <p class="price">$--/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=2021_Autumn" class="photo_button">Photos</a>
+                    <span class="between"></span>
+                    <a href="info.html?property=" class="photo_button">Info</a>
+                </div>
+
+                <div class="property-card" avail="no" bedroom=2 bath=1>
+                    <img src="photos/2023_Autumn/PXL_20230430_194323176.jpg" alt="Property 1"> 
+                    <h3 class="street">2023 Autumn Ln</h3>
+                    <h3 class="city">Kaukauna, WI 54130</h3>
+                    <span class="beds"></span>
+                    <span class="baths"></span>
+                    <p class="available">Currently Unavailable</p>
+                    <p class="price">$--/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=2023_Autumn" class="photo_button">Photos</a>
+                    <span class="between"></span>
+                    <a href="info.html?property=" class="photo_button">Info</a>
+                </div>
+
+                <div class="property-card" avail="no" bedroom=3 bath=1.5>
+                    <img src="photos/" alt="Property 1"> 
+                    <h3 class="street">2701 Haas Rd</h3>
+                    <h3 class="city">Kaukauna, WI 54130</h3>
+                    <span class="beds"></span>
+                    <span class="baths"></span>
+                    <p class="available">Currently Unavailable</p>
+                    <p class="price">$--/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=" class="photo_button">Photos</a>
+                    <span class="between"></span>
+                    <a href="info.html?property=" class="photo_button">Info</a>
+                </div>
+
+                <div class="property-card" avail="no" bedroom=3 bath=1.5>
+                    <img src="photos/" alt="Property 1"> 
+                    <h3 class="street">2703 Haas Rd</h3>
+                    <h3 class="city">Kaukauna, WI 54130</h3>
+                    <span class="beds"></span>
+                    <span class="baths"></span>
+                    <p class="available">Currently Unavailable</p>
+                    <p class="price">$--/month</p>
+                    <a href="photos/home_photos.html?imageDirectory=" class="photo_button">Photos</a>
+                    <span class="between"></span>
+                    <a href="info.html?property=" class="photo_button">Info</a>
                 </div>
 
                 </div>
