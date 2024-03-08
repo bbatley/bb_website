@@ -1,3 +1,4 @@
+
 /* General Styling */
 body {
     font-family: 'Arial', sans-serif;
@@ -230,3 +231,85 @@ p.price {
 span.between {
     padding-right: 0px;
 }
+
+  /* Swiper Style Start */
+  /* body {
+    position: relative;
+    height: 100%;
+  } */
+
+  /* body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  } */
+
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* body {
+    background: #000;
+    color: #000;
+  } */
+
+  .swiper {
+    width: 25%;
+    height: 25%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .swiper-slide {
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* .myswiper2 {
+    height: 25%;
+    width: 25%;
+  } */
+
+  /* .myswiper {
+    height: 40%;
+    box-sizing: border-box;
+    padding: 10px 0;
+  } */
+
+  /* .myswiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4; 
+  } */
+
+  /* .mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+  } */
+
+  /* .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
+
+  .room {
+    border: 1px solid green;
+  }
