@@ -1,23 +1,11 @@
 import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
 
 const images = [];
-const images_basement = [];
-const images_bathroom_1 = [];
-const images_bathroom_2 = [];
-const images_bathroom_3 = [];
-const images_bedroom_1 = [];
-const images_bedroom_2 = [];
-const images_bedroom_3 = [];
-const images_bedroom_4 = [];
-const images_dining = [];
-const images_garage = [];
-const images_kitchen = [];
-const images_living = [];
-const images_other = [];
-const images_outside = [];
 const urlParams = new URLSearchParams(window.location.search);
 const imageDirectory = urlParams.get('imageDirectory');
+const room = urlParams.get('room');
 const addressDisplay = document.getElementById('address');
+const roomDisplay = document.getElementById('room_kind');
 
 switch(imageDirectory) {
     case '1708_E_Main_St':
@@ -303,6 +291,10 @@ switch(imageDirectory) {
 
     case '500_E_Alice':
         // addressDisplay.textContent = '500 E. Alice St, Appleton, WI 54911';
+        images.push(`${imageDirectory}/living/IMG_3146.jpeg`);
+        images.push(`${imageDirectory}/living/IMG_3155.jpeg`);
+        images.push(`${imageDirectory}/living/IMG_3157.jpeg`);
+        images.push(`${imageDirectory}/living/IMG_3158.jpeg`);
         images.push(`${imageDirectory}/Backyard-PXL_20211123_150844501.jpg`);
         images.push(`${imageDirectory}/Basement 1-PXL_20211123_161445790.jpg`);
         images.push(`${imageDirectory}/Basement 2-PXL_20211123_161432528.jpg`);
@@ -328,13 +320,13 @@ switch(imageDirectory) {
         images.push(`${imageDirectory}/Living to Dining-PXL_20211123_155947668.jpg`);
         images.push(`${imageDirectory}/Rear-PXL_20211123_150827737.jpg`);
         images.push(`${imageDirectory}/IMG_3145.jpeg`);
-        images.push(`${imageDirectory}/IMG_3146.jpeg`);
+        // images.push(`${imageDirectory}/IMG_3146.jpeg`);
         images.push(`${imageDirectory}/IMG_3147.jpeg`);
         images.push(`${imageDirectory}/IMG_3149.jpeg`);
-        images.push(`${imageDirectory}/IMG_3155.jpeg`);
+        // images.push(`${imageDirectory}/IMG_3155.jpeg`);
         images.push(`${imageDirectory}/IMG_3156.jpeg`);
-        images.push(`${imageDirectory}/IMG_3157.jpeg`);
-        images.push(`${imageDirectory}/IMG_3158.jpeg`);
+        // images.push(`${imageDirectory}/IMG_3157.jpeg`);
+        // images.push(`${imageDirectory}/IMG_3158.jpeg`);
         images.push(`${imageDirectory}/IMG_3159.jpeg`);
         images.push(`${imageDirectory}/IMG_3160.jpeg`);
         images.push(`${imageDirectory}/IMG_3161.jpeg`);
@@ -389,6 +381,66 @@ switch(imageDirectory) {
 
     case '2707D_4th_St':
         addressDisplay.textContent = '2707 W. 4th St, Apt. D, Appleton, WI 54914';
+        const link = document.querySelector('a[rmknd="Basement"]');
+        link.style.display = 'none'; 
+        switch(room) {
+            case 'All':
+        images.push(`${imageDirectory}/IMG_3318.jpeg`);
+        images.push(`${imageDirectory}/IMG_3319.jpeg`);
+        images.push(`${imageDirectory}/IMG_3320.jpeg`);
+        images.push(`${imageDirectory}/IMG_3321.jpeg`);
+        images.push(`${imageDirectory}/IMG_3322.jpeg`);
+        images.push(`${imageDirectory}/IMG_3323.jpeg`);
+        images.push(`${imageDirectory}/IMG_3324.jpeg`);
+        images.push(`${imageDirectory}/IMG_3325.jpeg`);
+                break;
+            case 'Living':
+                roomDisplay.textContent = "Living Room";
+        images.push(`${imageDirectory}/image_50373377.JPG`);
+        images.push(`${imageDirectory}/image_50379777.JPG`);
+        images.push(`${imageDirectory}/image_50383105.JPG`);
+        images.push(`${imageDirectory}/image_50391553.JPG`);
+                break;
+            case 'Dining':
+        images.push(`${imageDirectory}/image_50429185.JPG`);
+        images.push(`${imageDirectory}/image_50430209.JPG`);
+        images.push(`${imageDirectory}/image_50432257.JPG`);
+        images.push(`${imageDirectory}/image_67144961.JPG`);
+                break;
+            case 'Kitchen':
+        images.push(`${imageDirectory}/IMG_3321.jpeg`);
+        images.push(`${imageDirectory}/IMG_3322.jpeg`);
+        images.push(`${imageDirectory}/IMG_3323.jpeg`);
+        images.push(`${imageDirectory}/IMG_3324.jpeg`);
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bedroom_1':
+                break;
+            case 'Bedroom_2':
+                break;
+            case 'Bedroom_3':
+                break;
+            case 'Bedroom_4':
+                break;
+            case 'Bathroom_1':
+                break;
+            case 'Bathroom_2':
+                break;
+            case 'Bathroom_3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
         images.push(`${imageDirectory}/image_50373377.JPG`);
         images.push(`${imageDirectory}/image_50379777.JPG`);
         images.push(`${imageDirectory}/image_50383105.JPG`);
@@ -464,9 +516,16 @@ switch(imageDirectory) {
 }
 
 
+    function adjustSlideWidth(slide, imgWidth, imgHeight) {
+        if (imgWidth < imgHeight) {
+            slide.style.width = '20%'; // Example width for vertical images
+        } else {
+            slide.style.width = '35%'; // Example width for horizontal images
+        }
+    }
 
-    const swiperWrapper = document.querySelector('.swiper-wrapper');
-    const thumbSwiperWrapper = document.querySelector('.mySwiper .swiper-wrapper'); // Target thumbnail
+    const KitchenswiperWrapper = document.querySelector('.mySwiperKitchen2 .swiper-wrapper');
+    const KitchenthumbSwiperWrapper = document.querySelector('.mySwiperKitchen .swiper-wrapper'); // Target thumbnail
 
 images.forEach(imgSrc => {
     // Create slides for the main slider
@@ -475,7 +534,7 @@ images.forEach(imgSrc => {
     const image = document.createElement('img');
     image.src = imgSrc;
     slide.appendChild(image);
-    swiperWrapper.appendChild(slide); 
+    KitchenswiperWrapper.appendChild(slide); 
 
     // Create slides for the thumbnail slider
     const thumbSlide = document.createElement('div');
@@ -483,19 +542,22 @@ images.forEach(imgSrc => {
     const thumbImage = document.createElement('img');
     thumbImage.src = imgSrc;
     thumbSlide.appendChild(thumbImage);
-    thumbSwiperWrapper.appendChild(thumbSlide); 
+    KitchenthumbSwiperWrapper.appendChild(thumbSlide); 
 });
 
-    var swiper3 = new Swiper(".mySwiper", { // This is the container under the images
+    var swiper3 = new Swiper(".mySwiperKitchen", { // This is the container under the images
       loop: true,
       spaceBetween: 10,
-      slidesPerView: 4,
+      slidesPerView: 10,
       freeMode: true,
       watchSlidesProgress: true,
     });
-    var swiper2 = new Swiper(".mySwiper2", {
-      loop: true,
-      spaceBetween: 10,
+
+    var swiper2 = new Swiper(".mySwiperKitchen2", {
+      slidesPerView: "auto",
+      centeredSlides: true,
+      spaceBetween: 30,
+    //   loop: true,
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
@@ -503,4 +565,30 @@ images.forEach(imgSrc => {
       thumbs: {
         swiper: swiper3,
       },
+
+      on: {
+  },
     });
+
+      const slides = swiper2.slides;
+      slides.forEach(slide => {
+        const img = slide.querySelector('img');
+        if (img.complete) {
+            adjustSlideWidth(slide, img.naturalWidth, img.naturalHeight);
+        } else {
+            // Image not loaded yet
+            img.addEventListener('load', () => {
+                adjustSlideWidth(slide, img.naturalWidth, img.naturalHeight); 
+            });
+        }
+      });
+
+    const roomButtons = document.querySelectorAll('.room_button');
+    roomButtons.forEach(button => {
+        const url = new URL(button.href);  // Create a URL object
+        const searchParams = url.searchParams;
+     
+        searchParams.set('imageDirectory', imageDirectory); 
+     
+        button.href = url.toString(); // Update the 'href' 
+     });
