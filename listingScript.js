@@ -15,8 +15,8 @@ showSomeButton.addEventListener('click', () => {
         // Example: Show only cards with even indexes
         if ((card.getAttribute('avail') === 'yes' && availDropdown.selectedIndex == 1) ||
                 (card.getAttribute('avail') === 'no' && availDropdown.selectedIndex == 0) ||
-                (card.getAttribute('bedroom') !== String(bedroomDropdown.selectedIndex)) || 
-                (card.getAttribute('bath') !== String((bathroomDropdown.selectedIndex+1)/2)))  {
+                (bedroomDropdown.selectedIndex != 0 && card.getAttribute('bedroom') !== String(bedroomDropdown.selectedIndex)) || 
+                (bathroomDropdown.selectedIndex != 0 && card.getAttribute('bath') !== String((bathroomDropdown.selectedIndex+1)/2)))  {
             card.classList.remove('show');
         } else {
             card.classList.add('show');
@@ -45,4 +45,6 @@ propertyCards.forEach(card => {
     card.querySelector('.baths').textContent = card.getAttribute('bath') + ' Bath';
 });
 
-card.classList.add('show'); // Show every card to start
+propertyCards.forEach(card => {
+  card.classList.add('show'); // Show every card to start
+});

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rental Properties</title>
-    <link rel="stylesheet" href="../photo_style_new.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     <header>
@@ -31,23 +31,26 @@
 
         <span class="room">
         <h1 id="address"></h1>
-            <a href="home_photos.html?imageDirectory=PLACEHOLDER&room=All" class="room_button" rmknd="All">All Photos</a> 
-            <a href="home_photos.html?imageDirectory=PLACEHOLDER&room=Living" class="room_button" rmknd="Living">Living Room</a>
-            <a href="home_photos.html?imageDirectory=PLACEHOLDER&room=Dining" class="room_button" rmknd="Dining">Dining Room</a>
-            <a href="home_photos.html?imageDirectory=PLACEHOLDER&room=Kitchen" class="room_button" rmknd="Kitchen">Kitchen</a>
-            <a href="home_photos.html?imageDirectory=PLACEHOLDER&room=Outside" class="room_button" rmknd="Outside">Outside</a>
-            <a href="home_photos.html?imageDirectory=PLACEHOLDER&room=Basement" class="room_button" rmknd="Basement">Basement</a>
-            <a href="home_photos.html?imageDirectory=PLACEHOLDER&room=Bed1" class="room_button" rmknd="Bed1">Bedroom 1</a>
-            <a href="home_photos.html?imageDirectory=PLACEHOLDER&room=Bed2" class="room_button" rmknd="Bed2">Bedroom 2</a>
-            <a href="home_photos.html?imageDirectory=PLACEHOLDER&room=Bed3" class="room_button" rmknd="Bed3">Bedroom 3</a>
-            <a href="home_photos.html?imageDirectory=PLACEHOLDER&room=Bed4" class="room_button" rmknd="Bed4">Bedroom 4</a>
-            <a href="home_photos.html?imageDirectory=PLACEHOLDER&room=Bath1" class="room_button" rmknd="Bath1">Bathroom 1</a>
-            <a href="home_photos.html?imageDirectory=PLACEHOLDER&room=Bath2" class="room_button" rmknd="Bath2">Bathroom 2</a>
-            <a href="home_photos.html?imageDirectory=PLACEHOLDER&room=Bath3" class="room_button" rmknd="Bath3">Bathroom 3</a>
-            <a href="home_photos.html?imageDirectory=PLACEHOLDER&room=Garage" class="room_button" rmknd="Garage">Garage</a>
-            <a href="home_photos.html?imageDirectory=PLACEHOLDER&room=Laundry" class="room_button" rmknd="Laundry">Laundry</a>
-            <a href="home_photos.html?imageDirectory=PLACEHOLDER&room=Office/Den" class="room_button" rmknd="Office/Den">Office/Den</a>
-            <a href="home_photos.html?imageDirectory=PLACEHOLDER&room=Other" class="room_button" rmknd="Other">Other</a>
+        <select id="room_dropdown">
+            <option href="home_photos.html?imageDirectory=PLACEHOLDER&room=All" class="room_button" rmknd="All" selected>All Photos</option> 
+            <option href="home_photos.html?imageDirectory=PLACEHOLDER&room=Living" class="room_button" rmknd="Living">Living Room</option>
+            <option href="home_photos.html?imageDirectory=PLACEHOLDER&room=Dining" class="room_button" rmknd="Dining">Dining Room</option>
+            <option href="home_photos.html?imageDirectory=PLACEHOLDER&room=Kitchen" class="room_button" rmknd="Kitchen">Kitchen</option>
+            <option href="home_photos.html?imageDirectory=PLACEHOLDER&room=Outside" class="room_button" rmknd="Outside">Outside</option>
+            <option href="home_photos.html?imageDirectory=PLACEHOLDER&room=Basement" class="room_button" rmknd="Basement">Basement</option>
+            <option href="home_photos.html?imageDirectory=PLACEHOLDER&room=Bed1" class="room_button" rmknd="Bed1">Bedroom 1</option>
+            <option href="home_photos.html?imageDirectory=PLACEHOLDER&room=Bed2" class="room_button" rmknd="Bed2">Bedroom 2</option>
+            <option href="home_photos.html?imageDirectory=PLACEHOLDER&room=Bed3" class="room_button" rmknd="Bed3">Bedroom 3</option>
+            <option href="home_photos.html?imageDirectory=PLACEHOLDER&room=Bed4" class="room_button" rmknd="Bed4">Bedroom 4</option>
+            <option href="home_photos.html?imageDirectory=PLACEHOLDER&room=Bath1" class="room_button" rmknd="Bath1">Bathroom 1</option>
+            <option href="home_photos.html?imageDirectory=PLACEHOLDER&room=Bath2" class="room_button" rmknd="Bath2">Bathroom 2</option>
+            <option href="home_photos.html?imageDirectory=PLACEHOLDER&room=Bath3" class="room_button" rmknd="Bath3">Bathroom 3</option>
+            <option href="home_photos.html?imageDirectory=PLACEHOLDER&room=Garage" class="room_button" rmknd="Garage">Garage</option>
+            <option href="home_photos.html?imageDirectory=PLACEHOLDER&room=Laundry" class="room_button" rmknd="Laundry">Laundry</option>
+            <option href="home_photos.html?imageDirectory=PLACEHOLDER&room=Office/Den" class="room_button" rmknd="Office/Den">Office/Den</option>
+            <option href="home_photos.html?imageDirectory=PLACEHOLDER&room=Other" class="room_button" rmknd="Other">Other</option>
+        </select>
+
         <div class="buffer"></div>
         <div style="--swiper-navigation-color: #669A6A; --swiper-pagination-color: #fff" class="swiper mySwiperKitchen2">
             <div class="swiper-wrapper">

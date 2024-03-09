@@ -49,7 +49,7 @@ def calc_file_names(output_filename, directory_name, case, addr, out_listing_fil
         outfile.write("        addressDisplay.textContent = '" + addr + "';\n")
         for room in rooms:
             if (os.path.exists(directory_name + room)) and (os.listdir(directory_name + room)):
-                outfile.write("        link = document.querySelector('a[rmknd=\"" + room + "\"]');\n")
+                outfile.write("        link = document.querySelector('option[rmknd=\"" + room + "\"]');\n")
                 outfile.write("        link.style.display = 'inline'\n")
 
         outfile.write("        switch(room){\n")
@@ -106,9 +106,9 @@ if __name__ == "__main__":
     copy_lines_before_marker(input_filename, output_filename) 
 
     with open(output_filename, 'a') as outfile:
-        outfile.write("var link = document.querySelector('a[rmknd=\"Basement\"]');\n")
+        outfile.write("var link = document.querySelector('option[rmknd=\"Basement\"]');\n")
         for room in rooms:
-            outfile.write("link = document.querySelector('a[rmknd=\""+ room +"\"]');\n")
+            outfile.write("link = document.querySelector('option[rmknd=\""+ room +"\"]');\n")
             outfile.write("link.style.display = 'none';\n")
 
         outfile.write("switch(imageDirectory) {\n")

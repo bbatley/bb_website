@@ -8,67 +8,67 @@ const addressDisplay = document.getElementById('address');
 
 // **DONT REMOVE LINE** START4231
 
-var link = document.querySelector('a[rmknd="Basement"]');
-link = document.querySelector('a[rmknd="Living"]');
+var link = document.querySelector('option[rmknd="Basement"]');
+link = document.querySelector('option[rmknd="Living"]');
 link.style.display = 'none';
-link = document.querySelector('a[rmknd="Dining"]');
+link = document.querySelector('option[rmknd="Dining"]');
 link.style.display = 'none';
-link = document.querySelector('a[rmknd="Kitchen"]');
+link = document.querySelector('option[rmknd="Kitchen"]');
 link.style.display = 'none';
-link = document.querySelector('a[rmknd="Outside"]');
+link = document.querySelector('option[rmknd="Outside"]');
 link.style.display = 'none';
-link = document.querySelector('a[rmknd="Basement"]');
+link = document.querySelector('option[rmknd="Basement"]');
 link.style.display = 'none';
-link = document.querySelector('a[rmknd="Bed1"]');
+link = document.querySelector('option[rmknd="Bed1"]');
 link.style.display = 'none';
-link = document.querySelector('a[rmknd="Bed2"]');
+link = document.querySelector('option[rmknd="Bed2"]');
 link.style.display = 'none';
-link = document.querySelector('a[rmknd="Bed3"]');
+link = document.querySelector('option[rmknd="Bed3"]');
 link.style.display = 'none';
-link = document.querySelector('a[rmknd="Bed4"]');
+link = document.querySelector('option[rmknd="Bed4"]');
 link.style.display = 'none';
-link = document.querySelector('a[rmknd="Bath1"]');
+link = document.querySelector('option[rmknd="Bath1"]');
 link.style.display = 'none';
-link = document.querySelector('a[rmknd="Bath2"]');
+link = document.querySelector('option[rmknd="Bath2"]');
 link.style.display = 'none';
-link = document.querySelector('a[rmknd="Bath3"]');
+link = document.querySelector('option[rmknd="Bath3"]');
 link.style.display = 'none';
-link = document.querySelector('a[rmknd="Garage"]');
+link = document.querySelector('option[rmknd="Garage"]');
 link.style.display = 'none';
-link = document.querySelector('a[rmknd="Laundry"]');
+link = document.querySelector('option[rmknd="Laundry"]');
 link.style.display = 'none';
-link = document.querySelector('a[rmknd="Office/Den"]');
+link = document.querySelector('option[rmknd="Office/Den"]');
 link.style.display = 'none';
-link = document.querySelector('a[rmknd="Other"]');
+link = document.querySelector('option[rmknd="Other"]');
 link.style.display = 'none';
 switch(imageDirectory) {
     case("1751 Marissa"):
         addressDisplay.textContent = '1751 Marissa Ct, De Pere, WI 54115';
-        link = document.querySelector('a[rmknd="Living"]');
+        link = document.querySelector('option[rmknd="Living"]');
         link.style.display = 'inline'
-        link = document.querySelector('a[rmknd="Dining"]');
+        link = document.querySelector('option[rmknd="Dining"]');
         link.style.display = 'inline'
-        link = document.querySelector('a[rmknd="Kitchen"]');
+        link = document.querySelector('option[rmknd="Kitchen"]');
         link.style.display = 'inline'
-        link = document.querySelector('a[rmknd="Outside"]');
+        link = document.querySelector('option[rmknd="Outside"]');
         link.style.display = 'inline'
-        link = document.querySelector('a[rmknd="Basement"]');
+        link = document.querySelector('option[rmknd="Basement"]');
         link.style.display = 'inline'
-        link = document.querySelector('a[rmknd="Bed1"]');
+        link = document.querySelector('option[rmknd="Bed1"]');
         link.style.display = 'inline'
-        link = document.querySelector('a[rmknd="Bed2"]');
+        link = document.querySelector('option[rmknd="Bed2"]');
         link.style.display = 'inline'
-        link = document.querySelector('a[rmknd="Bed3"]');
+        link = document.querySelector('option[rmknd="Bed3"]');
         link.style.display = 'inline'
-        link = document.querySelector('a[rmknd="Bath1"]');
+        link = document.querySelector('option[rmknd="Bath1"]');
         link.style.display = 'inline'
-        link = document.querySelector('a[rmknd="Bath2"]');
+        link = document.querySelector('option[rmknd="Bath2"]');
         link.style.display = 'inline'
-        link = document.querySelector('a[rmknd="Garage"]');
+        link = document.querySelector('option[rmknd="Garage"]');
         link.style.display = 'inline'
-        link = document.querySelector('a[rmknd="Laundry"]');
+        link = document.querySelector('option[rmknd="Laundry"]');
         link.style.display = 'inline'
-        link = document.querySelector('a[rmknd="Other"]');
+        link = document.querySelector('option[rmknd="Other"]');
         link.style.display = 'inline'
         switch(room){
             case 'All':
@@ -231,25 +231,25 @@ switch(imageDirectory) {
         break;
     case("2715D 4th"):
         addressDisplay.textContent = '2715 W. 4th St, Apt. D, Appleton, WI 54914';
-        link = document.querySelector('a[rmknd="Living"]');
+        link = document.querySelector('option[rmknd="Living"]');
         link.style.display = 'inline'
-        link = document.querySelector('a[rmknd="Kitchen"]');
+        link = document.querySelector('option[rmknd="Kitchen"]');
         link.style.display = 'inline'
-        link = document.querySelector('a[rmknd="Outside"]');
+        link = document.querySelector('option[rmknd="Outside"]');
         link.style.display = 'inline'
-        link = document.querySelector('a[rmknd="Basement"]');
+        link = document.querySelector('option[rmknd="Basement"]');
         link.style.display = 'inline'
-        link = document.querySelector('a[rmknd="Bed1"]');
+        link = document.querySelector('option[rmknd="Bed1"]');
         link.style.display = 'inline'
-        link = document.querySelector('a[rmknd="Bed2"]');
+        link = document.querySelector('option[rmknd="Bed2"]');
         link.style.display = 'inline'
-        link = document.querySelector('a[rmknd="Bed3"]');
+        link = document.querySelector('option[rmknd="Bed3"]');
         link.style.display = 'inline'
-        link = document.querySelector('a[rmknd="Bath1"]');
+        link = document.querySelector('option[rmknd="Bath1"]');
         link.style.display = 'inline'
-        link = document.querySelector('a[rmknd="Laundry"]');
+        link = document.querySelector('option[rmknd="Laundry"]');
         link.style.display = 'inline'
-        link = document.querySelector('a[rmknd="Other"]');
+        link = document.querySelector('option[rmknd="Other"]');
         link.style.display = 'inline'
         switch(room){
             case 'All':
@@ -393,12 +393,42 @@ slides.forEach(slide => {
     }
 });
 
-const roomButtons = document.querySelectorAll('.room_button');
-roomButtons.forEach(button => {
-    const url = new URL(button.href);  // Create a URL object
-    const searchParams = url.searchParams;
+// const roomButtons = document.querySelectorAll('.room_button');
+// roomButtons.forEach(button => {
+//     const url = new URL(button.href);  // Create a URL object
+//     const searchParams = url.searchParams;
  
-    searchParams.set('imageDirectory', imageDirectory); 
+//     searchParams.set('imageDirectory', imageDirectory); 
  
-    button.href = url.toString(); // Update the 'href' 
- });
+//     button.href = url.toString(); // Update the 'href' 
+//  });
+
+ const dropdown = document.getElementById('room_dropdown');
+
+ const roomSelect = document.getElementById('room_dropdown');
+
+ function saveSelectedOption() {
+    const selectedValue = roomSelect.value;
+    localStorage.setItem('selectedRoom', selectedValue);
+  }
+
+function loadSelectedOption() {
+    const storedValue = localStorage.getItem('selectedRoom');
+    if (storedValue) {
+      roomSelect.value = storedValue;
+    }
+}
+
+dropdown.addEventListener('change', function() {
+    let selectedOption = this.options[this.selectedIndex];
+    let originalHref = selectedOption.getAttribute('href');
+
+    // Replace the PLACEHOLDER with the value from 'imageDirectory'
+    let modifiedHref = originalHref.replace('PLACEHOLDER', imageDirectory); 
+
+    saveSelectedOption();
+    // Redirect to the modified URL
+    window.location.href = modifiedHref;
+});
+
+window.addEventListener('load', loadSelectedOption);

@@ -1,2 +1,7 @@
-*TODO: Create a script that will update home_photos with new images in the directories automatically
-Will read in photos in directories and output them. Print rest of file afterwords
+Create map on homepage
+Create Tab for rental agreement
+
+JavaScript must enable / Diable photo button in listings.html as well as on the photo page instead of commenting it out
+
+
+Resize images to fit better
