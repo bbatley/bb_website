@@ -229,14 +229,111 @@ switch(imageDirectory) {
                 break;
         }
         break;
+    case("2715D 4th"):
+        addressDisplay.textContent = '2715 W. 4th St, Apt. D, Appleton, WI 54914';
+        link = document.querySelector('a[rmknd="Living"]');
+        link.style.display = 'inline'
+        link = document.querySelector('a[rmknd="Kitchen"]');
+        link.style.display = 'inline'
+        link = document.querySelector('a[rmknd="Outside"]');
+        link.style.display = 'inline'
+        link = document.querySelector('a[rmknd="Basement"]');
+        link.style.display = 'inline'
+        link = document.querySelector('a[rmknd="Bed1"]');
+        link.style.display = 'inline'
+        link = document.querySelector('a[rmknd="Bed2"]');
+        link.style.display = 'inline'
+        link = document.querySelector('a[rmknd="Bed3"]');
+        link.style.display = 'inline'
+        link = document.querySelector('a[rmknd="Bath1"]');
+        link.style.display = 'inline'
+        link = document.querySelector('a[rmknd="Laundry"]');
+        link.style.display = 'inline'
+        link = document.querySelector('a[rmknd="Other"]');
+        link.style.display = 'inline'
+        switch(room){
+            case 'All':
+                images.push(`${imageDirectory}/Living/image(1).jpg`);
+                images.push(`${imageDirectory}/Living/image(2).jpg`);
+                images.push(`${imageDirectory}/Kitchen/image.jpg`);
+                images.push(`${imageDirectory}/Outside/2715 W Fourth St, Appleton (Brian Batley) Front.tiff`);
+                images.push(`${imageDirectory}/Outside/2715 W Fourth St, Appleton (Brian Batley) Back.tiff`);
+                images.push(`${imageDirectory}/Basement/image(10).jpg`);
+                images.push(`${imageDirectory}/Basement/image(11).jpg`);
+                images.push(`${imageDirectory}/Bed1/image(6).jpg`);
+                images.push(`${imageDirectory}/Bed1/image(5).jpg`);
+                images.push(`${imageDirectory}/Bed2/image(9).jpg`);
+                images.push(`${imageDirectory}/Bed2/image(8).jpg`);
+                images.push(`${imageDirectory}/Bed3/image(7).jpg`);
+                images.push(`${imageDirectory}/Bath1/image(4).jpg`);
+                images.push(`${imageDirectory}/Bath1/image(3).jpg`);
+                images.push(`${imageDirectory}/Bath1/2715D W Fourth St, Appleton (Brian Batley) 0.5 Bath.tiff`);
+                images.push(`${imageDirectory}/Laundry/image(12).jpg`);
+                images.push(`${imageDirectory}/Other/image(13).jpg`);
+                break;
+            case 'Living':
+                images.push(`${imageDirectory}/Living/image(1).jpg`);
+                images.push(`${imageDirectory}/Living/image(2).jpg`);
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                images.push(`${imageDirectory}/Kitchen/image.jpg`);
+                break;
+            case 'Outside':
+                images.push(`${imageDirectory}/Outside/2715 W Fourth St, Appleton (Brian Batley) Front.tiff`);
+                images.push(`${imageDirectory}/Outside/2715 W Fourth St, Appleton (Brian Batley) Back.tiff`);
+                break;
+            case 'Basement':
+                images.push(`${imageDirectory}/Basement/image(10).jpg`);
+                images.push(`${imageDirectory}/Basement/image(11).jpg`);
+                break;
+            case 'Bed1':
+                images.push(`${imageDirectory}/Bed1/image(6).jpg`);
+                images.push(`${imageDirectory}/Bed1/image(5).jpg`);
+                break;
+            case 'Bed2':
+                images.push(`${imageDirectory}/Bed2/image(9).jpg`);
+                images.push(`${imageDirectory}/Bed2/image(8).jpg`);
+                break;
+            case 'Bed3':
+                images.push(`${imageDirectory}/Bed3/image(7).jpg`);
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                images.push(`${imageDirectory}/Bath1/image(4).jpg`);
+                images.push(`${imageDirectory}/Bath1/image(3).jpg`);
+                images.push(`${imageDirectory}/Bath1/2715D W Fourth St, Appleton (Brian Batley) 0.5 Bath.tiff`);
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                images.push(`${imageDirectory}/Laundry/image(12).jpg`);
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                images.push(`${imageDirectory}/Other/image(13).jpg`);
+                break;
+        }
+        break;
 }
 // **DONT REMOVE LINE** END4231
 
 function adjustSlideWidth(slide, imgWidth, imgHeight) {
-    if (imgWidth < imgHeight) {
-        slide.style.width = '20%'; // Example width for vertical images
-    } else {
-        slide.style.width = '35%'; // Example width for horizontal images
+    if (imgWidth / imgHeight < .6) { // .5625 ratio 9:16
+        slide.style.width = '12.6%'; // Example width for horizontal images
+    } else if(imgWidth / imgHeight < .8) { // .75 ratio 3:4
+        slide.style.width = '28%'; // Example width for horizontal images
+    } else if(imgWidth / imgHeight < 1.5) { // 1.333 ratio 4:3
+        slide.style.width = '50%'; // Example width for vertical images
+    } else { // 1.7817 ratio 16:9
+        slide.style.width = '40%'; // Example width for horizontal images
     }
 }
 

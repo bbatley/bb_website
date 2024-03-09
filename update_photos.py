@@ -85,18 +85,19 @@ def calc_file_names(output_filename, directory_name, case, addr, out_listing_fil
             if not os.path.isdir(directory_name + file):
                 new_image_name = directory_name + file + "\""
 
-        pattern = reg_pattern + r'(.*?)(\")'
-        with open(out_listing_file, 'r') as file:
-            file_contents = file.read()
+        if new_image_name != "":
+            pattern = reg_pattern + r'(.*?)(\")'
+            with open(out_listing_file, 'r') as file:
+                file_contents = file.read()
 
-        updated_contents = re.sub(
-            pattern, 
-            new_image_name, 
-            file_contents
-        )
+            updated_contents = re.sub(
+                pattern, 
+                new_image_name, 
+                file_contents
+            )
 
-        with open(out_listing_file, 'w') as file:
-            file.write(updated_contents)
+            with open(out_listing_file, 'w') as file:
+                file.write(updated_contents)
 
 if __name__ == "__main__":
     # Example usage:
@@ -112,7 +113,9 @@ if __name__ == "__main__":
 
         outfile.write("switch(imageDirectory) {\n")
 
+    #TODO: Here add all the homes
     calc_file_names(output_filename, "photos/1751 Marissa/", "1751 Marissa", "1751 Marissa Ct, De Pere, WI 54115", "listings.html")
+    calc_file_names(output_filename, "photos/2715D 4th/", "2715D 4th", "2715 W. 4th St, Apt. D, Appleton, WI 54914", "listings.html")
 
     with open(output_filename, 'a') as outfile:
         outfile.write("}\n")
