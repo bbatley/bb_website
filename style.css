@@ -113,7 +113,6 @@ nav li {
 }
 
 .property-card {
-    max-width: 40vw;
     display: none;
     border: 1px solid #ddd;
     padding: 15px;
