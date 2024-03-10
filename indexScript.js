@@ -2,29 +2,6 @@ const propertyCards = document.querySelectorAll('.property-card');
 const showAllButton = document.getElementById('showAll');
 const showSomeButton = document.getElementById('showSome');
 
-showAllButton.addEventListener('click', () => {
-    propertyCards.forEach(card => card.classList.add('show'));
-});
-
-const bedroomDropdown = document.getElementById('bedroom_dropdown');
-const bathroomDropdown = document.getElementById('bathroom_dropdown');
-const availDropdown = document.getElementById('avail_dropdown');
-
-showSomeButton.addEventListener('click', () => {
-    propertyCards.forEach((card, index) => {
-        // Example: Show only cards with even indexes
-        if ((card.getAttribute('avail') === 'yes' && availDropdown.selectedIndex == 1) ||
-                (card.getAttribute('avail') === 'no' && availDropdown.selectedIndex == 0) ||
-                (bedroomDropdown.selectedIndex != 0 && card.getAttribute('bedroom') !== String(bedroomDropdown.selectedIndex)) || 
-                (bathroomDropdown.selectedIndex != 0 && card.getAttribute('bath') !== String((bathroomDropdown.selectedIndex+1)/2)))  {
-            card.classList.remove('show');
-        } else {
-            card.classList.add('show');
-        }
-    });
-});
-
-
 propertyCards.forEach(card => {
   if (card.getAttribute('avail') === 'yes') {
     card.classList.add('js_available'); // Add 'available' class to the card
@@ -35,7 +12,6 @@ propertyCards.forEach(card => {
     const photoButtons = card.querySelectorAll('.photo_button');
     photoButtons[0].style.display = 'none';
   }
-  card.classList.add('show'); // Show every card to start
 });
 
 
@@ -48,8 +24,8 @@ propertyCards.forEach(card => {
 });
 
 propertyCards.forEach(card => {
-  card.classList.add('show'); // Show every card to start
-});
+  card.getAttribute('avail') === 'yes' || card.getAttribute('featured') === 'yes' ? card.classList.add('show') : card.classList.remove('show');
+})
 
 // **DONT REMOVE LINE** START4231
 

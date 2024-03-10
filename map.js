@@ -1,9 +1,5 @@
 var map = L.map('apartment-map').setView([44.335798, -88.3348368], 10.50);
 
-// Add map tiles (from OpenStreetMap)
-// L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-//     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-// }).addTo(map);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
 // Sample Apartment Data (you would likely fetch this from somewhere)
