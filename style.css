@@ -288,3 +288,6 @@ span.between {
 .room_button:hover {
     background-color: #3e413d; /* Match button hover color */
 } 
+.leaflet-control-attribution {
+    display: none;
+}

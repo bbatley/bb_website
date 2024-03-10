@@ -58,7 +58,7 @@ def copy_lines_after_marker(input_filename, output_filename, marker="START4231")
                 outfile.write(line)  # Copy the line to the output file
 
 
-def copy_lines_before_marker(input_filename, output_filename, marker="START4231"):
+def copy_lines_before_marker(input_filename, output_filename, marker="START4231", rmln = True):
     """
     Copies lines from the start of an input file up to a marker line into a new file.
 
@@ -75,7 +75,10 @@ def copy_lines_before_marker(input_filename, output_filename, marker="START4231"
                 break  # Stop copying
             outfile.write(line)  # Copy the line to the output file
 
-        outfile.write("// **DONT REMOVE LINE** START4231\n\n")
+        if rmln:
+            outfile.write("// **DONT REMOVE LINE** START4231\n\n")
+        else:
+            outfile.write("        <!-- **DONT REMOVE LINE** START4231 -->\n\n")
 
 def calc_file_names(output_filename, case, addr, out_listing_file):
     directory_name = "photos/" + case + "/"
@@ -154,6 +157,21 @@ def remove_buttons(output_filename, dir):
             outfile.write("link = document.querySelector('a[tp=\"" + dir + "\"]');\n")
             outfile.write("link.style.display = 'none';\n")
 
+def copy_lines_between_markers(input_filename, output_filename, marker="START4231", end_marker="END4231"):
+    marker_pattern = re.compile(r'.*' + marker + r'.*')
+    end_marker_pattern = re.compile(r'.*' + end_marker + r'.*')
+    markFound = False
+    with open(input_filename, 'r') as infile, open(output_filename, 'a') as outfile:
+        for line in infile:
+            if marker_pattern.match(line):  # Check if we've reached the marker
+                markFound = True
+            elif end_marker_pattern.match(line):
+                outfile.write("\n        <!-- **DONT REMOVE LINE** END4231 -->\n")
+                return
+            elif markFound == True:
+                outfile.write(line)  # Copy the line to the output file
+        
+
 
 if __name__ == "__main__":
     # Example usage:
@@ -182,14 +200,33 @@ if __name__ == "__main__":
     os.replace(output_filename, input_filename)
     
 
-    # Update listing script to remove photo buttons
+    # Update listing and index script to remove photo buttons
 
     input_filename = "listingScript.js"
     copy_lines_before_marker(input_filename, output_filename) 
     with open(output_filename, 'a') as outfile:
         outfile.write("var link = document.querySelector('a[tp=\"tmp\"]');\n")
-
     for dir, addr in directory_names.items():
         remove_buttons(output_filename, dir)
+    os.replace(output_filename, input_filename)
 
+    input_filename = "indexScript.js"
+    copy_lines_before_marker(input_filename, output_filename) 
+    with open(output_filename, 'a') as outfile:
+        outfile.write("var link = document.querySelector('a[tp=\"tmp\"]');\n")
+    for dir, addr in directory_names.items():
+        remove_buttons(output_filename, dir)
+    os.replace(output_filename, input_filename)
+
+
+    # Copy listings to featured properties
+    input_filename = "index.html"
+    output_filename = "tmp.html"
+    copy_lines_before_marker(input_filename, output_filename, rmln=False) 
+
+    copy_lines_between_markers("listings.html", output_filename, "START4231", "END4231")
+
+    input_filename = "index.html"
+    copy_lines_after_marker(input_filename, output_filename, "END4231")
+    
     os.replace(output_filename, input_filename)
