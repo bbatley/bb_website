@@ -1,4 +1,4 @@
-var map = L.map('apartment-map').setView([44.275798, -88.4348368], 11);
+var map = L.map('apartment-map').setView([44.335798, -88.3348368], 10.50);
 
 // Add map tiles (from OpenStreetMap)
 // L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
