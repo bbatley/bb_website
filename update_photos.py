@@ -129,7 +129,9 @@ def calc_file_names(output_filename, case, addr, out_listing_file):
         new_image_name = ""
         for file in os.listdir(directory_name):
             if not os.path.isdir(directory_name + file):
-                new_image_name = directory_name + file + "\""
+                if not  file == '.DS_Store':
+                    new_image_name = directory_name + file + "\""
+
 
         if new_image_name != "":
             pattern = reg_pattern + r'(.*?)(\")'

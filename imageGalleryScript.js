@@ -51,6 +51,594 @@ link.style.display = 'none';
 link = document.querySelector('option[rmknd="Other"]');
 link.style.display = 'none';
 switch(imageDirectory) {
+    case("903 Spring"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("102 Green Way"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("104 Green Way"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("5335 Brookview"):
+        addressDisplay.textContent = '';
+        link = document.querySelector('option[rmknd="Living"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Dining"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Kitchen"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Outside"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Basement"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bed1"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bed2"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bed3"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bath1"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bath2"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bath3"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Garage"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Laundry"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Other"]');
+        link.style.display = 'inline'
+        switch(room){
+            case 'All':
+                images.push(`${imageDirectory}/Living/IMG_3649.heic.jpg`);
+                images.push(`${imageDirectory}/Living/IMG_3611.heic.jpg`);
+                images.push(`${imageDirectory}/Living/IMG_3614.heic.jpg`);
+                images.push(`${imageDirectory}/Living/IMG_3612.heic.jpg`);
+                images.push(`${imageDirectory}/Living/IMG_3613.heic.jpg`);
+                images.push(`${imageDirectory}/Dining/IMG_3616.heic.jpg`);
+                images.push(`${imageDirectory}/Dining/IMG_3617.heic.jpg`);
+                images.push(`${imageDirectory}/Dining/IMG_3615.heic.jpg`);
+                images.push(`${imageDirectory}/Kitchen/IMG_3638.heic.jpg`);
+                images.push(`${imageDirectory}/Outside/IMG_3606.heic.jpg`);
+                images.push(`${imageDirectory}/Outside/IMG_3607.heic.jpg`);
+                images.push(`${imageDirectory}/Outside/IMG_3608.heic.jpg`);
+                images.push(`${imageDirectory}/Outside/IMG_3609.heic.jpg`);
+                images.push(`${imageDirectory}/Outside/IMG_3605.heic.jpg`);
+                images.push(`${imageDirectory}/Outside/IMG_3618.heic.jpg`);
+                images.push(`${imageDirectory}/Outside/IMG_3619.heic.jpg`);
+                images.push(`${imageDirectory}/Outside/IMG_3650.heic.jpg`);
+                images.push(`${imageDirectory}/Basement/IMG_3635.heic.jpg`);
+                images.push(`${imageDirectory}/Basement/IMG_3634.heic.jpg`);
+                images.push(`${imageDirectory}/Basement/IMG_3628.heic.jpg`);
+                images.push(`${imageDirectory}/Basement/IMG_3629.heic.jpg`);
+                images.push(`${imageDirectory}/Basement/IMG_3632.heic.jpg`);
+                images.push(`${imageDirectory}/Basement/IMG_3633.heic.jpg`);
+                images.push(`${imageDirectory}/Basement/IMG_3637.heic.jpg`);
+                images.push(`${imageDirectory}/Basement/IMG_3631.heic.jpg`);
+                images.push(`${imageDirectory}/Bed1/IMG_3641.heic.jpg`);
+                images.push(`${imageDirectory}/Bed1/IMG_3640.heic.jpg`);
+                images.push(`${imageDirectory}/Bed2/IMG_3645.heic.jpg`);
+                images.push(`${imageDirectory}/Bed2/IMG_3644.heic.jpg`);
+                images.push(`${imageDirectory}/Bed3/IMG_3646.heic.jpg`);
+                images.push(`${imageDirectory}/Bed3/IMG_3647.heic.jpg`);
+                images.push(`${imageDirectory}/Bath1/IMG_3642.heic.jpg`);
+                images.push(`${imageDirectory}/Bath1/IMG_3643.heic.jpg`);
+                images.push(`${imageDirectory}/Bath2/IMG_3620.heic.jpg`);
+                images.push(`${imageDirectory}/Bath3/IMG_3625.heic.jpg`);
+                images.push(`${imageDirectory}/Bath3/IMG_3626.heic.jpg`);
+                images.push(`${imageDirectory}/Bath3/IMG_3627.heic.jpg`);
+                images.push(`${imageDirectory}/Garage/IMG_3623.heic.jpg`);
+                images.push(`${imageDirectory}/Garage/IMG_3624.heic.jpg`);
+                images.push(`${imageDirectory}/Laundry/IMG_3621.heic.jpg`);
+                images.push(`${imageDirectory}/Other/IMG_3648.heic.jpg`);
+                images.push(`${imageDirectory}/Other/IMG_3622.heic.jpg`);
+                images.push(`${imageDirectory}/Other/IMG_3639.heic.jpg`);
+                break;
+            case 'Living':
+                images.push(`${imageDirectory}/Living/IMG_3649.heic.jpg`);
+                images.push(`${imageDirectory}/Living/IMG_3611.heic.jpg`);
+                images.push(`${imageDirectory}/Living/IMG_3614.heic.jpg`);
+                images.push(`${imageDirectory}/Living/IMG_3612.heic.jpg`);
+                images.push(`${imageDirectory}/Living/IMG_3613.heic.jpg`);
+                break;
+            case 'Dining':
+                images.push(`${imageDirectory}/Dining/IMG_3616.heic.jpg`);
+                images.push(`${imageDirectory}/Dining/IMG_3617.heic.jpg`);
+                images.push(`${imageDirectory}/Dining/IMG_3615.heic.jpg`);
+                break;
+            case 'Kitchen':
+                images.push(`${imageDirectory}/Kitchen/IMG_3638.heic.jpg`);
+                break;
+            case 'Outside':
+                images.push(`${imageDirectory}/Outside/IMG_3606.heic.jpg`);
+                images.push(`${imageDirectory}/Outside/IMG_3607.heic.jpg`);
+                images.push(`${imageDirectory}/Outside/IMG_3608.heic.jpg`);
+                images.push(`${imageDirectory}/Outside/IMG_3609.heic.jpg`);
+                images.push(`${imageDirectory}/Outside/IMG_3605.heic.jpg`);
+                images.push(`${imageDirectory}/Outside/IMG_3618.heic.jpg`);
+                images.push(`${imageDirectory}/Outside/IMG_3619.heic.jpg`);
+                images.push(`${imageDirectory}/Outside/IMG_3650.heic.jpg`);
+                break;
+            case 'Basement':
+                images.push(`${imageDirectory}/Basement/IMG_3635.heic.jpg`);
+                images.push(`${imageDirectory}/Basement/IMG_3634.heic.jpg`);
+                images.push(`${imageDirectory}/Basement/IMG_3628.heic.jpg`);
+                images.push(`${imageDirectory}/Basement/IMG_3629.heic.jpg`);
+                images.push(`${imageDirectory}/Basement/IMG_3632.heic.jpg`);
+                images.push(`${imageDirectory}/Basement/IMG_3633.heic.jpg`);
+                images.push(`${imageDirectory}/Basement/IMG_3637.heic.jpg`);
+                images.push(`${imageDirectory}/Basement/IMG_3631.heic.jpg`);
+                break;
+            case 'Bed1':
+                images.push(`${imageDirectory}/Bed1/IMG_3641.heic.jpg`);
+                images.push(`${imageDirectory}/Bed1/IMG_3640.heic.jpg`);
+                break;
+            case 'Bed2':
+                images.push(`${imageDirectory}/Bed2/IMG_3645.heic.jpg`);
+                images.push(`${imageDirectory}/Bed2/IMG_3644.heic.jpg`);
+                break;
+            case 'Bed3':
+                images.push(`${imageDirectory}/Bed3/IMG_3646.heic.jpg`);
+                images.push(`${imageDirectory}/Bed3/IMG_3647.heic.jpg`);
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                images.push(`${imageDirectory}/Bath1/IMG_3642.heic.jpg`);
+                images.push(`${imageDirectory}/Bath1/IMG_3643.heic.jpg`);
+                break;
+            case 'Bath2':
+                images.push(`${imageDirectory}/Bath2/IMG_3620.heic.jpg`);
+                break;
+            case 'Bath3':
+                images.push(`${imageDirectory}/Bath3/IMG_3625.heic.jpg`);
+                images.push(`${imageDirectory}/Bath3/IMG_3626.heic.jpg`);
+                images.push(`${imageDirectory}/Bath3/IMG_3627.heic.jpg`);
+                break;
+            case 'Garage':
+                images.push(`${imageDirectory}/Garage/IMG_3623.heic.jpg`);
+                images.push(`${imageDirectory}/Garage/IMG_3624.heic.jpg`);
+                break;
+            case 'Laundry':
+                images.push(`${imageDirectory}/Laundry/IMG_3621.heic.jpg`);
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                images.push(`${imageDirectory}/Other/IMG_3648.heic.jpg`);
+                images.push(`${imageDirectory}/Other/IMG_3622.heic.jpg`);
+                images.push(`${imageDirectory}/Other/IMG_3639.heic.jpg`);
+                break;
+        }
+        break;
+    case("5337 Brookview"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("N1841 Reimer"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("N1843 Reimer"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("1749 Marissa"):
+        addressDisplay.textContent = '';
+        link = document.querySelector('option[rmknd="Living"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Dining"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Kitchen"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Outside"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Basement"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bed1"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bed2"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bed3"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bath1"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bath2"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Garage"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Laundry"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Other"]');
+        link.style.display = 'inline'
+        switch(room){
+            case 'All':
+                images.push(`${imageDirectory}/Living/PXL_20210228_161326530.jpg`);
+                images.push(`${imageDirectory}/Living/20210227_161435.jpg`);
+                images.push(`${imageDirectory}/Living/20210227_161353.jpg`);
+                images.push(`${imageDirectory}/Living/20210227_161308.jpg`);
+                images.push(`${imageDirectory}/Living/PXL_20210228_161402519.jpg`);
+                images.push(`${imageDirectory}/Living/PXL_20210228_162623904.jpg`);
+                images.push(`${imageDirectory}/Living/20210227_161405.jpg`);
+                images.push(`${imageDirectory}/Dining/PXL_20210228_160443085.jpg`);
+                images.push(`${imageDirectory}/Dining/20210227_173133.jpg`);
+                images.push(`${imageDirectory}/Dining/20210227_173130.jpg`);
+                images.push(`${imageDirectory}/Dining/20210227_173149.jpg`);
+                images.push(`${imageDirectory}/Dining/PXL_20210228_161303583.jpg`);
+                images.push(`${imageDirectory}/Kitchen/PXL_20210228_161226022.jpg`);
+                images.push(`${imageDirectory}/Kitchen/20210227_173707.jpg`);
+                images.push(`${imageDirectory}/Kitchen/20210227_173658.jpg`);
+                images.push(`${imageDirectory}/Kitchen/PXL_20210228_162541568.jpg`);
+                images.push(`${imageDirectory}/Kitchen/20210227_173648.jpg`);
+                images.push(`${imageDirectory}/Kitchen/20210227_173702.jpg`);
+                images.push(`${imageDirectory}/Kitchen/PXL_20210228_162533029.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20220917_151914847.jpg`);
+                images.push(`${imageDirectory}/Outside/20210228_115615.jpg`);
+                images.push(`${imageDirectory}/Outside/20210228_115600.jpg`);
+                images.push(`${imageDirectory}/Outside/image (2).jpg`);
+                images.push(`${imageDirectory}/Outside/20210228_115639.jpg`);
+                images.push(`${imageDirectory}/Outside/20210228_115637.jpg`);
+                images.push(`${imageDirectory}/Outside/20210228_115547.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20221028_222133080.jpg`);
+                images.push(`${imageDirectory}/Basement/20210228_115313.jpg`);
+                images.push(`${imageDirectory}/Basement/20210228_115307.jpg`);
+                images.push(`${imageDirectory}/Basement/20210228_115322.jpg`);
+                images.push(`${imageDirectory}/Bed1/20210227_160850.jpg`);
+                images.push(`${imageDirectory}/Bed1/PXL_20210228_161826279.jpg`);
+                images.push(`${imageDirectory}/Bed1/PXL_20210228_161943255.jpg`);
+                images.push(`${imageDirectory}/Bed1/20210227_160822.jpg`);
+                images.push(`${imageDirectory}/Bed1/20210228_115200.jpg`);
+                images.push(`${imageDirectory}/Bed1/20210228_115216.jpg`);
+                images.push(`${imageDirectory}/Bed1/20210227_160813.jpg`);
+                images.push(`${imageDirectory}/Bed1/20210228_115208.jpg`);
+                images.push(`${imageDirectory}/Bed1/20210227_160810.jpg`);
+                images.push(`${imageDirectory}/Bed1/20210227_160838.jpg`);
+                images.push(`${imageDirectory}/Bed1/PXL_20210228_161919874.jpg`);
+                images.push(`${imageDirectory}/Bed2/PXL_20210228_162104120.jpg`);
+                images.push(`${imageDirectory}/Bed2/20210227_161146.jpg`);
+                images.push(`${imageDirectory}/Bed2/PXL_20210228_162225138.jpg`);
+                images.push(`${imageDirectory}/Bed2/20210228_115231.jpg`);
+                images.push(`${imageDirectory}/Bed2/20210228_115236.jpg`);
+                images.push(`${imageDirectory}/Bed2/20210227_161138.jpg`);
+                images.push(`${imageDirectory}/Bed3/PXL_20210228_162112179.jpg`);
+                images.push(`${imageDirectory}/Bed3/20210227_161124.jpg`);
+                images.push(`${imageDirectory}/Bed3/20210227_161115.jpg`);
+                images.push(`${imageDirectory}/Bed3/PXL_20210228_162207566.jpg`);
+                images.push(`${imageDirectory}/Bath1/PXL_20210228_161115033.jpg`);
+                images.push(`${imageDirectory}/Bath1/20210227_173257.jpg`);
+                images.push(`${imageDirectory}/Bath1/20210227_173323.jpg`);
+                images.push(`${imageDirectory}/Bath1/20210227_173311.jpg`);
+                images.push(`${imageDirectory}/Bath1/PXL_20210228_161009374.jpg`);
+                images.push(`${imageDirectory}/Bath1/PXL_20210228_161030457.jpg`);
+                images.push(`${imageDirectory}/Bath2/20210227_160800.jpg`);
+                images.push(`${imageDirectory}/Bath2/PXL_20210228_161747443.jpg`);
+                images.push(`${imageDirectory}/Bath2/PXL_20210228_161718609.jpg`);
+                images.push(`${imageDirectory}/Bath2/20210227_160724.jpg`);
+                images.push(`${imageDirectory}/Garage/20210228_115421.jpg`);
+                images.push(`${imageDirectory}/Garage/20210228_115432.jpg`);
+                images.push(`${imageDirectory}/Laundry/PXL_20210228_160708673.jpg`);
+                images.push(`${imageDirectory}/Other/20210227_161008.jpg`);
+                images.push(`${imageDirectory}/Other/20210228_115405.jpg`);
+                images.push(`${imageDirectory}/Other/20210228_115408.jpg`);
+                images.push(`${imageDirectory}/Other/20210228_115828.jpg`);
+                break;
+            case 'Living':
+                images.push(`${imageDirectory}/Living/PXL_20210228_161326530.jpg`);
+                images.push(`${imageDirectory}/Living/20210227_161435.jpg`);
+                images.push(`${imageDirectory}/Living/20210227_161353.jpg`);
+                images.push(`${imageDirectory}/Living/20210227_161308.jpg`);
+                images.push(`${imageDirectory}/Living/PXL_20210228_161402519.jpg`);
+                images.push(`${imageDirectory}/Living/PXL_20210228_162623904.jpg`);
+                images.push(`${imageDirectory}/Living/20210227_161405.jpg`);
+                break;
+            case 'Dining':
+                images.push(`${imageDirectory}/Dining/PXL_20210228_160443085.jpg`);
+                images.push(`${imageDirectory}/Dining/20210227_173133.jpg`);
+                images.push(`${imageDirectory}/Dining/20210227_173130.jpg`);
+                images.push(`${imageDirectory}/Dining/20210227_173149.jpg`);
+                images.push(`${imageDirectory}/Dining/PXL_20210228_161303583.jpg`);
+                break;
+            case 'Kitchen':
+                images.push(`${imageDirectory}/Kitchen/PXL_20210228_161226022.jpg`);
+                images.push(`${imageDirectory}/Kitchen/20210227_173707.jpg`);
+                images.push(`${imageDirectory}/Kitchen/20210227_173658.jpg`);
+                images.push(`${imageDirectory}/Kitchen/PXL_20210228_162541568.jpg`);
+                images.push(`${imageDirectory}/Kitchen/20210227_173648.jpg`);
+                images.push(`${imageDirectory}/Kitchen/20210227_173702.jpg`);
+                images.push(`${imageDirectory}/Kitchen/PXL_20210228_162533029.jpg`);
+                break;
+            case 'Outside':
+                images.push(`${imageDirectory}/Outside/PXL_20220917_151914847.jpg`);
+                images.push(`${imageDirectory}/Outside/20210228_115615.jpg`);
+                images.push(`${imageDirectory}/Outside/20210228_115600.jpg`);
+                images.push(`${imageDirectory}/Outside/image (2).jpg`);
+                images.push(`${imageDirectory}/Outside/20210228_115639.jpg`);
+                images.push(`${imageDirectory}/Outside/20210228_115637.jpg`);
+                images.push(`${imageDirectory}/Outside/20210228_115547.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20221028_222133080.jpg`);
+                break;
+            case 'Basement':
+                images.push(`${imageDirectory}/Basement/20210228_115313.jpg`);
+                images.push(`${imageDirectory}/Basement/20210228_115307.jpg`);
+                images.push(`${imageDirectory}/Basement/20210228_115322.jpg`);
+                break;
+            case 'Bed1':
+                images.push(`${imageDirectory}/Bed1/20210227_160850.jpg`);
+                images.push(`${imageDirectory}/Bed1/PXL_20210228_161826279.jpg`);
+                images.push(`${imageDirectory}/Bed1/PXL_20210228_161943255.jpg`);
+                images.push(`${imageDirectory}/Bed1/20210227_160822.jpg`);
+                images.push(`${imageDirectory}/Bed1/20210228_115200.jpg`);
+                images.push(`${imageDirectory}/Bed1/20210228_115216.jpg`);
+                images.push(`${imageDirectory}/Bed1/20210227_160813.jpg`);
+                images.push(`${imageDirectory}/Bed1/20210228_115208.jpg`);
+                images.push(`${imageDirectory}/Bed1/20210227_160810.jpg`);
+                images.push(`${imageDirectory}/Bed1/20210227_160838.jpg`);
+                images.push(`${imageDirectory}/Bed1/PXL_20210228_161919874.jpg`);
+                break;
+            case 'Bed2':
+                images.push(`${imageDirectory}/Bed2/PXL_20210228_162104120.jpg`);
+                images.push(`${imageDirectory}/Bed2/20210227_161146.jpg`);
+                images.push(`${imageDirectory}/Bed2/PXL_20210228_162225138.jpg`);
+                images.push(`${imageDirectory}/Bed2/20210228_115231.jpg`);
+                images.push(`${imageDirectory}/Bed2/20210228_115236.jpg`);
+                images.push(`${imageDirectory}/Bed2/20210227_161138.jpg`);
+                break;
+            case 'Bed3':
+                images.push(`${imageDirectory}/Bed3/PXL_20210228_162112179.jpg`);
+                images.push(`${imageDirectory}/Bed3/20210227_161124.jpg`);
+                images.push(`${imageDirectory}/Bed3/20210227_161115.jpg`);
+                images.push(`${imageDirectory}/Bed3/PXL_20210228_162207566.jpg`);
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                images.push(`${imageDirectory}/Bath1/PXL_20210228_161115033.jpg`);
+                images.push(`${imageDirectory}/Bath1/20210227_173257.jpg`);
+                images.push(`${imageDirectory}/Bath1/20210227_173323.jpg`);
+                images.push(`${imageDirectory}/Bath1/20210227_173311.jpg`);
+                images.push(`${imageDirectory}/Bath1/PXL_20210228_161009374.jpg`);
+                images.push(`${imageDirectory}/Bath1/PXL_20210228_161030457.jpg`);
+                break;
+            case 'Bath2':
+                images.push(`${imageDirectory}/Bath2/20210227_160800.jpg`);
+                images.push(`${imageDirectory}/Bath2/PXL_20210228_161747443.jpg`);
+                images.push(`${imageDirectory}/Bath2/PXL_20210228_161718609.jpg`);
+                images.push(`${imageDirectory}/Bath2/20210227_160724.jpg`);
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                images.push(`${imageDirectory}/Garage/20210228_115421.jpg`);
+                images.push(`${imageDirectory}/Garage/20210228_115432.jpg`);
+                break;
+            case 'Laundry':
+                images.push(`${imageDirectory}/Laundry/PXL_20210228_160708673.jpg`);
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                images.push(`${imageDirectory}/Other/20210227_161008.jpg`);
+                images.push(`${imageDirectory}/Other/20210228_115405.jpg`);
+                images.push(`${imageDirectory}/Other/20210228_115408.jpg`);
+                images.push(`${imageDirectory}/Other/20210228_115828.jpg`);
+                break;
+        }
+        break;
     case("1751 Marissa"):
         addressDisplay.textContent = '1751 Marissa Ct, De Pere, WI 54115';
         link = document.querySelector('option[rmknd="Living"]');
@@ -238,6 +826,537 @@ switch(imageDirectory) {
                 break;
         }
         break;
+    case("2707A 4th"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2707B 4th"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2707C 4th"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2707D 4th"):
+        addressDisplay.textContent = '';
+        link = document.querySelector('option[rmknd="Living"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Kitchen"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Outside"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Basement"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bed1"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bed2"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bed3"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bath1"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bath2"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Garage"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Laundry"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Other"]');
+        link.style.display = 'inline'
+        switch(room){
+            case 'All':
+                images.push(`${imageDirectory}/Living/image_50383105.JPG`);
+                images.push(`${imageDirectory}/Living/PXL_20220214_201739246.jpg`);
+                images.push(`${imageDirectory}/Living/PXL_20220214_201637536.jpg`);
+                images.push(`${imageDirectory}/Living/IMG_3341.heic.jpg`);
+                images.push(`${imageDirectory}/Living/image_50429185.JPG`);
+                images.push(`${imageDirectory}/Kitchen/PXL_20220214_202831888.jpg`);
+                images.push(`${imageDirectory}/Kitchen/image_50430209.JPG`);
+                images.push(`${imageDirectory}/Kitchen/PXL_20220214_201356516.jpg`);
+                images.push(`${imageDirectory}/Kitchen/PXL_20220214_202838859.jpg`);
+                images.push(`${imageDirectory}/Kitchen/image_67176961.JPG`);
+                images.push(`${imageDirectory}/Outside/PXL_20220214_203603367.jpg`);
+                images.push(`${imageDirectory}/Outside/IMG_3338.heic.jpg`);
+                images.push(`${imageDirectory}/Outside/IMG_3339.heic.jpg`);
+                images.push(`${imageDirectory}/Outside/IMG_3340.heic.jpg`);
+                images.push(`${imageDirectory}/Outside/IMG_3337.heic.jpg`);
+                images.push(`${imageDirectory}/Basement/IMG_3334.heic.jpg`);
+                images.push(`${imageDirectory}/Basement/PXL_20220214_203208403.jpg`);
+                images.push(`${imageDirectory}/Basement/IMG_3333.heic.jpg`);
+                images.push(`${imageDirectory}/Basement/IMG_3331.heic.jpg`);
+                images.push(`${imageDirectory}/Bed1/PXL_20220214_202117106.jpg`);
+                images.push(`${imageDirectory}/Bed1/image_50379777.JPG`);
+                images.push(`${imageDirectory}/Bed1/image_50391553.JPG`);
+                images.push(`${imageDirectory}/Bed1/image_50373377.JPG`);
+                images.push(`${imageDirectory}/Bed2/PXL_20220214_202146806.jpg`);
+                images.push(`${imageDirectory}/Bed2/image_50408705.JPG`);
+                images.push(`${imageDirectory}/Bed2/image_50401793.JPG`);
+                images.push(`${imageDirectory}/Bed3/PXL_20220214_202302073.jpg`);
+                images.push(`${imageDirectory}/Bed3/image_50391809.JPG`);
+                images.push(`${imageDirectory}/Bath1/image_67165953.JPG`);
+                images.push(`${imageDirectory}/Bath1/PXL_20220214_201930449.jpg`);
+                images.push(`${imageDirectory}/Bath1/image_67155713.JPG`);
+                images.push(`${imageDirectory}/Bath2/PXL_20220214_201208107.jpg`);
+                images.push(`${imageDirectory}/Bath2/image_67166721.JPG`);
+                images.push(`${imageDirectory}/Bath2/image_67179777.JPG`);
+                images.push(`${imageDirectory}/Garage/IMG_3335.heic.jpg`);
+                images.push(`${imageDirectory}/Garage/IMG_3336.heic.jpg`);
+                images.push(`${imageDirectory}/Laundry/IMG_3332.heic.jpg`);
+                images.push(`${imageDirectory}/Other/IMG_3323.heic.jpg`);
+                images.push(`${imageDirectory}/Other/image_67144961.JPG`);
+                break;
+            case 'Living':
+                images.push(`${imageDirectory}/Living/image_50383105.JPG`);
+                images.push(`${imageDirectory}/Living/PXL_20220214_201739246.jpg`);
+                images.push(`${imageDirectory}/Living/PXL_20220214_201637536.jpg`);
+                images.push(`${imageDirectory}/Living/IMG_3341.heic.jpg`);
+                images.push(`${imageDirectory}/Living/image_50429185.JPG`);
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                images.push(`${imageDirectory}/Kitchen/PXL_20220214_202831888.jpg`);
+                images.push(`${imageDirectory}/Kitchen/image_50430209.JPG`);
+                images.push(`${imageDirectory}/Kitchen/PXL_20220214_201356516.jpg`);
+                images.push(`${imageDirectory}/Kitchen/PXL_20220214_202838859.jpg`);
+                images.push(`${imageDirectory}/Kitchen/image_67176961.JPG`);
+                break;
+            case 'Outside':
+                images.push(`${imageDirectory}/Outside/PXL_20220214_203603367.jpg`);
+                images.push(`${imageDirectory}/Outside/IMG_3338.heic.jpg`);
+                images.push(`${imageDirectory}/Outside/IMG_3339.heic.jpg`);
+                images.push(`${imageDirectory}/Outside/IMG_3340.heic.jpg`);
+                images.push(`${imageDirectory}/Outside/IMG_3337.heic.jpg`);
+                break;
+            case 'Basement':
+                images.push(`${imageDirectory}/Basement/IMG_3334.heic.jpg`);
+                images.push(`${imageDirectory}/Basement/PXL_20220214_203208403.jpg`);
+                images.push(`${imageDirectory}/Basement/IMG_3333.heic.jpg`);
+                images.push(`${imageDirectory}/Basement/IMG_3331.heic.jpg`);
+                break;
+            case 'Bed1':
+                images.push(`${imageDirectory}/Bed1/PXL_20220214_202117106.jpg`);
+                images.push(`${imageDirectory}/Bed1/image_50379777.JPG`);
+                images.push(`${imageDirectory}/Bed1/image_50391553.JPG`);
+                images.push(`${imageDirectory}/Bed1/image_50373377.JPG`);
+                break;
+            case 'Bed2':
+                images.push(`${imageDirectory}/Bed2/PXL_20220214_202146806.jpg`);
+                images.push(`${imageDirectory}/Bed2/image_50408705.JPG`);
+                images.push(`${imageDirectory}/Bed2/image_50401793.JPG`);
+                break;
+            case 'Bed3':
+                images.push(`${imageDirectory}/Bed3/PXL_20220214_202302073.jpg`);
+                images.push(`${imageDirectory}/Bed3/image_50391809.JPG`);
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                images.push(`${imageDirectory}/Bath1/image_67165953.JPG`);
+                images.push(`${imageDirectory}/Bath1/PXL_20220214_201930449.jpg`);
+                images.push(`${imageDirectory}/Bath1/image_67155713.JPG`);
+                break;
+            case 'Bath2':
+                images.push(`${imageDirectory}/Bath2/PXL_20220214_201208107.jpg`);
+                images.push(`${imageDirectory}/Bath2/image_67166721.JPG`);
+                images.push(`${imageDirectory}/Bath2/image_67179777.JPG`);
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                images.push(`${imageDirectory}/Garage/IMG_3335.heic.jpg`);
+                images.push(`${imageDirectory}/Garage/IMG_3336.heic.jpg`);
+                break;
+            case 'Laundry':
+                images.push(`${imageDirectory}/Laundry/IMG_3332.heic.jpg`);
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                images.push(`${imageDirectory}/Other/IMG_3323.heic.jpg`);
+                images.push(`${imageDirectory}/Other/image_67144961.JPG`);
+                break;
+        }
+        break;
+    case("2711A 4th"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2711B 4th"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2711C 4th"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2711D 4th"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2715A 4th"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2715B 4th"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2715C 4th"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
     case("2715D 4th"):
         addressDisplay.textContent = '2715 W. 4th St, Apt. D, Appleton, WI 54914';
         link = document.querySelector('option[rmknd="Living"]');
@@ -265,12 +1384,10 @@ switch(imageDirectory) {
                 images.push(`${imageDirectory}/Living/image(1).jpg`);
                 images.push(`${imageDirectory}/Living/image(2).jpg`);
                 images.push(`${imageDirectory}/Kitchen/image.jpg`);
-                images.push(`${imageDirectory}/Outside/2715 W Fourth St, Appleton (Brian Batley) Front.tiff`);
                 images.push(`${imageDirectory}/Outside/2715 W Fourth St, Appleton (Brian Batley) Back.tiff`);
                 images.push(`${imageDirectory}/Basement/image(10).jpg`);
                 images.push(`${imageDirectory}/Basement/image(11).jpg`);
                 images.push(`${imageDirectory}/Bed1/image(6).jpg`);
-                images.push(`${imageDirectory}/Bed1/image(5).jpg`);
                 images.push(`${imageDirectory}/Bed2/image(9).jpg`);
                 images.push(`${imageDirectory}/Bed2/image(8).jpg`);
                 images.push(`${imageDirectory}/Bed3/image(7).jpg`);
@@ -290,7 +1407,6 @@ switch(imageDirectory) {
                 images.push(`${imageDirectory}/Kitchen/image.jpg`);
                 break;
             case 'Outside':
-                images.push(`${imageDirectory}/Outside/2715 W Fourth St, Appleton (Brian Batley) Front.tiff`);
                 images.push(`${imageDirectory}/Outside/2715 W Fourth St, Appleton (Brian Batley) Back.tiff`);
                 break;
             case 'Basement':
@@ -299,7 +1415,6 @@ switch(imageDirectory) {
                 break;
             case 'Bed1':
                 images.push(`${imageDirectory}/Bed1/image(6).jpg`);
-                images.push(`${imageDirectory}/Bed1/image(5).jpg`);
                 break;
             case 'Bed2':
                 images.push(`${imageDirectory}/Bed2/image(9).jpg`);
@@ -583,6 +1698,680 @@ switch(imageDirectory) {
                 images.push(`${imageDirectory}/Other/IMG_3165.heic.jpg`);
                 images.push(`${imageDirectory}/Other/IMG_3163.heic.jpg`);
                 images.push(`${imageDirectory}/Other/IMG_3162.heic.jpg`);
+                break;
+        }
+        break;
+    case("1708 E Main"):
+        addressDisplay.textContent = '';
+        link = document.querySelector('option[rmknd="Living"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Dining"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Kitchen"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Outside"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Basement"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bed1"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bed2"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bath1"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bath2"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Garage"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Laundry"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Other"]');
+        link.style.display = 'inline'
+        switch(room){
+            case 'All':
+                images.push(`${imageDirectory}/Living/IMG_0506.JPG`);
+                images.push(`${imageDirectory}/Living/IMG_0509.JPG`);
+                images.push(`${imageDirectory}/Living/IMG_7667.heic.jpg`);
+                images.push(`${imageDirectory}/Dining/IMG_7675.heic.jpg`);
+                images.push(`${imageDirectory}/Dining/IMG_0504.JPG`);
+                images.push(`${imageDirectory}/Dining/IMG_0505.JPG`);
+                images.push(`${imageDirectory}/Kitchen/IMG_7663.heic.jpg`);
+                images.push(`${imageDirectory}/Kitchen/IMG_0498.JPG`);
+                images.push(`${imageDirectory}/Kitchen/IMG_0499.JPG`);
+                images.push(`${imageDirectory}/Kitchen/IMG_0501.JPG`);
+                images.push(`${imageDirectory}/Kitchen/IMG_7664.heic.jpg`);
+                images.push(`${imageDirectory}/Kitchen/IMG_7665.heic.jpg`);
+                images.push(`${imageDirectory}/Kitchen/IMG_0500.JPG`);
+                images.push(`${imageDirectory}/Kitchen/IMG_0502.JPG`);
+                images.push(`${imageDirectory}/Kitchen/IMG_0503.JPG`);
+                images.push(`${imageDirectory}/Kitchen/IMG_0497.JPG`);
+                images.push(`${imageDirectory}/Outside/IMG_0513.JPG`);
+                images.push(`${imageDirectory}/Outside/IMG_0512.JPG`);
+                images.push(`${imageDirectory}/Outside/IMG_0510.JPG`);
+                images.push(`${imageDirectory}/Outside/IMG_0511.JPG`);
+                images.push(`${imageDirectory}/Outside/IMG_0515.JPG`);
+                images.push(`${imageDirectory}/Outside/IMG_0517.JPG`);
+                images.push(`${imageDirectory}/Outside/IMG_0519.JPG`);
+                images.push(`${imageDirectory}/Outside/IMG_0518.JPG`);
+                images.push(`${imageDirectory}/Outside/IMG_0521.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0489.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0488.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0485.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0491.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0490.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0484.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0492.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0486.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0487.JPG`);
+                images.push(`${imageDirectory}/Bed1/IMG_7669.heic.jpg`);
+                images.push(`${imageDirectory}/Bed1/IMG_7668.heic.jpg`);
+                images.push(`${imageDirectory}/Bed1/IMG_0467.JPG`);
+                images.push(`${imageDirectory}/Bed1/IMG_0466.JPG`);
+                images.push(`${imageDirectory}/Bed1/IMG_0465.JPG`);
+                images.push(`${imageDirectory}/Bed1/IMG_0468.JPG`);
+                images.push(`${imageDirectory}/Bed1/IMG_0469.JPG`);
+                images.push(`${imageDirectory}/Bed1/IMG_7670.heic.jpg`);
+                images.push(`${imageDirectory}/Bed1/IMG_7671.heic.jpg`);
+                images.push(`${imageDirectory}/Bed2/IMG_7672.heic.jpg`);
+                images.push(`${imageDirectory}/Bed2/IMG_0477.JPG`);
+                images.push(`${imageDirectory}/Bed2/IMG_0479.JPG`);
+                images.push(`${imageDirectory}/Bed2/IMG_0478.JPG`);
+                images.push(`${imageDirectory}/Bed2/IMG_0483.JPG`);
+                images.push(`${imageDirectory}/Bed2/IMG_0482.JPG`);
+                images.push(`${imageDirectory}/Bed2/IMG_0480.JPG`);
+                images.push(`${imageDirectory}/Bed2/IMG_0481.JPG`);
+                images.push(`${imageDirectory}/Bath1/IMG_7673.heic.jpg`);
+                images.push(`${imageDirectory}/Bath1/IMG_0475.JPG`);
+                images.push(`${imageDirectory}/Bath1/IMG_0474.JPG`);
+                images.push(`${imageDirectory}/Bath1/IMG_0476.JPG`);
+                images.push(`${imageDirectory}/Bath2/IMG_0473.JPG`);
+                images.push(`${imageDirectory}/Bath2/IMG_0472.JPG`);
+                images.push(`${imageDirectory}/Bath2/IMG_0470.JPG`);
+                images.push(`${imageDirectory}/Bath2/IMG_0471.JPG`);
+                images.push(`${imageDirectory}/Garage/IMG_0514.JPG`);
+                images.push(`${imageDirectory}/Garage/IMG_0520.JPG`);
+                images.push(`${imageDirectory}/Laundry/IMG_0496.JPG`);
+                images.push(`${imageDirectory}/Laundry/IMG_0494.JPG`);
+                images.push(`${imageDirectory}/Laundry/IMG_7660.heic.jpg`);
+                images.push(`${imageDirectory}/Laundry/IMG_7661.heic.jpg`);
+                images.push(`${imageDirectory}/Laundry/IMG_0495.JPG`);
+                images.push(`${imageDirectory}/Other/IMG_7662.heic.jpg`);
+                images.push(`${imageDirectory}/Other/IMG_7674.heic.jpg`);
+                images.push(`${imageDirectory}/Other/IMG_0507.JPG`);
+                images.push(`${imageDirectory}/Other/IMG_0493.JPG`);
+                images.push(`${imageDirectory}/Other/IMG_0508.JPG`);
+                images.push(`${imageDirectory}/Other/IMG_7659.heic.jpg`);
+                break;
+            case 'Living':
+                images.push(`${imageDirectory}/Living/IMG_0506.JPG`);
+                images.push(`${imageDirectory}/Living/IMG_0509.JPG`);
+                images.push(`${imageDirectory}/Living/IMG_7667.heic.jpg`);
+                break;
+            case 'Dining':
+                images.push(`${imageDirectory}/Dining/IMG_7675.heic.jpg`);
+                images.push(`${imageDirectory}/Dining/IMG_0504.JPG`);
+                images.push(`${imageDirectory}/Dining/IMG_0505.JPG`);
+                break;
+            case 'Kitchen':
+                images.push(`${imageDirectory}/Kitchen/IMG_7663.heic.jpg`);
+                images.push(`${imageDirectory}/Kitchen/IMG_0498.JPG`);
+                images.push(`${imageDirectory}/Kitchen/IMG_0499.JPG`);
+                images.push(`${imageDirectory}/Kitchen/IMG_0501.JPG`);
+                images.push(`${imageDirectory}/Kitchen/IMG_7664.heic.jpg`);
+                images.push(`${imageDirectory}/Kitchen/IMG_7665.heic.jpg`);
+                images.push(`${imageDirectory}/Kitchen/IMG_0500.JPG`);
+                images.push(`${imageDirectory}/Kitchen/IMG_0502.JPG`);
+                images.push(`${imageDirectory}/Kitchen/IMG_0503.JPG`);
+                images.push(`${imageDirectory}/Kitchen/IMG_0497.JPG`);
+                break;
+            case 'Outside':
+                images.push(`${imageDirectory}/Outside/IMG_0513.JPG`);
+                images.push(`${imageDirectory}/Outside/IMG_0512.JPG`);
+                images.push(`${imageDirectory}/Outside/IMG_0510.JPG`);
+                images.push(`${imageDirectory}/Outside/IMG_0511.JPG`);
+                images.push(`${imageDirectory}/Outside/IMG_0515.JPG`);
+                images.push(`${imageDirectory}/Outside/IMG_0517.JPG`);
+                images.push(`${imageDirectory}/Outside/IMG_0519.JPG`);
+                images.push(`${imageDirectory}/Outside/IMG_0518.JPG`);
+                images.push(`${imageDirectory}/Outside/IMG_0521.JPG`);
+                break;
+            case 'Basement':
+                images.push(`${imageDirectory}/Basement/IMG_0489.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0488.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0485.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0491.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0490.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0484.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0492.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0486.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0487.JPG`);
+                break;
+            case 'Bed1':
+                images.push(`${imageDirectory}/Bed1/IMG_7669.heic.jpg`);
+                images.push(`${imageDirectory}/Bed1/IMG_7668.heic.jpg`);
+                images.push(`${imageDirectory}/Bed1/IMG_0467.JPG`);
+                images.push(`${imageDirectory}/Bed1/IMG_0466.JPG`);
+                images.push(`${imageDirectory}/Bed1/IMG_0465.JPG`);
+                images.push(`${imageDirectory}/Bed1/IMG_0468.JPG`);
+                images.push(`${imageDirectory}/Bed1/IMG_0469.JPG`);
+                images.push(`${imageDirectory}/Bed1/IMG_7670.heic.jpg`);
+                images.push(`${imageDirectory}/Bed1/IMG_7671.heic.jpg`);
+                break;
+            case 'Bed2':
+                images.push(`${imageDirectory}/Bed2/IMG_7672.heic.jpg`);
+                images.push(`${imageDirectory}/Bed2/IMG_0477.JPG`);
+                images.push(`${imageDirectory}/Bed2/IMG_0479.JPG`);
+                images.push(`${imageDirectory}/Bed2/IMG_0478.JPG`);
+                images.push(`${imageDirectory}/Bed2/IMG_0483.JPG`);
+                images.push(`${imageDirectory}/Bed2/IMG_0482.JPG`);
+                images.push(`${imageDirectory}/Bed2/IMG_0480.JPG`);
+                images.push(`${imageDirectory}/Bed2/IMG_0481.JPG`);
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                images.push(`${imageDirectory}/Bath1/IMG_7673.heic.jpg`);
+                images.push(`${imageDirectory}/Bath1/IMG_0475.JPG`);
+                images.push(`${imageDirectory}/Bath1/IMG_0474.JPG`);
+                images.push(`${imageDirectory}/Bath1/IMG_0476.JPG`);
+                break;
+            case 'Bath2':
+                images.push(`${imageDirectory}/Bath2/IMG_0473.JPG`);
+                images.push(`${imageDirectory}/Bath2/IMG_0472.JPG`);
+                images.push(`${imageDirectory}/Bath2/IMG_0470.JPG`);
+                images.push(`${imageDirectory}/Bath2/IMG_0471.JPG`);
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                images.push(`${imageDirectory}/Garage/IMG_0514.JPG`);
+                images.push(`${imageDirectory}/Garage/IMG_0520.JPG`);
+                break;
+            case 'Laundry':
+                images.push(`${imageDirectory}/Laundry/IMG_0496.JPG`);
+                images.push(`${imageDirectory}/Laundry/IMG_0494.JPG`);
+                images.push(`${imageDirectory}/Laundry/IMG_7660.heic.jpg`);
+                images.push(`${imageDirectory}/Laundry/IMG_7661.heic.jpg`);
+                images.push(`${imageDirectory}/Laundry/IMG_0495.JPG`);
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                images.push(`${imageDirectory}/Other/IMG_7662.heic.jpg`);
+                images.push(`${imageDirectory}/Other/IMG_7674.heic.jpg`);
+                images.push(`${imageDirectory}/Other/IMG_0507.JPG`);
+                images.push(`${imageDirectory}/Other/IMG_0493.JPG`);
+                images.push(`${imageDirectory}/Other/IMG_0508.JPG`);
+                images.push(`${imageDirectory}/Other/IMG_7659.heic.jpg`);
+                break;
+        }
+        break;
+    case("1710 E Main"):
+        addressDisplay.textContent = '';
+        link = document.querySelector('option[rmknd="Living"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Dining"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Kitchen"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Outside"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Basement"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bed1"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bed2"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bath1"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bath2"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Garage"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Laundry"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Other"]');
+        link.style.display = 'inline'
+        switch(room){
+            case 'All':
+                images.push(`${imageDirectory}/Living/image_67128321.JPG`);
+                images.push(`${imageDirectory}/Living/PXL_20230728_205854997.jpg`);
+                images.push(`${imageDirectory}/Dining/PXL_20230728_212104036.jpg`);
+                images.push(`${imageDirectory}/Dining/PXL_20230728_212057938.jpg`);
+                images.push(`${imageDirectory}/Kitchen/PXL_20230728_212221602.jpg`);
+                images.push(`${imageDirectory}/Kitchen/image_50379009.JPG`);
+                images.push(`${imageDirectory}/Kitchen/PXL_20230728_212121999.jpg`);
+                images.push(`${imageDirectory}/Kitchen/image_67199489.JPG`);
+                images.push(`${imageDirectory}/Kitchen/PXL_20230728_205921311.jpg`);
+                images.push(`${imageDirectory}/Kitchen/image_67126273.JPG`);
+                images.push(`${imageDirectory}/Kitchen/PXL_20230728_212141191.jpg`);
+                images.push(`${imageDirectory}/Outside/image_50726401.JPG`);
+                images.push(`${imageDirectory}/Outside/image_50459905.JPG`);
+                images.push(`${imageDirectory}/Outside/image_67193089.JPG`);
+                images.push(`${imageDirectory}/Outside/PXL_20230728_210604181.jpg`);
+                images.push(`${imageDirectory}/Outside/image_67234561.JPG`);
+                images.push(`${imageDirectory}/Outside/PXL_20230728_210730246.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20230728_210639724.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20230728_210541118.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20230728_210653158.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20230728_210739236.jpg`);
+                images.push(`${imageDirectory}/Basement/PXL_20230728_205720158.jpg`);
+                images.push(`${imageDirectory}/Basement/PXL_20230728_205744784.jpg`);
+                images.push(`${imageDirectory}/Basement/PXL_20230728_205803116.jpg`);
+                images.push(`${imageDirectory}/Bed1/PXL_20230728_205428979.jpg`);
+                images.push(`${imageDirectory}/Bed1/PXL_20230728_205403526.jpg`);
+                images.push(`${imageDirectory}/Bed1/PXL_20230728_205445419.jpg`);
+                images.push(`${imageDirectory}/Bed1/PXL_20230728_205415449.jpg`);
+                images.push(`${imageDirectory}/Bed1/PXL_20230728_205344459.jpg`);
+                images.push(`${imageDirectory}/Bed2/PXL_20230728_205519726.jpg`);
+                images.push(`${imageDirectory}/Bed2/PXL_20230728_205539345.jpg`);
+                images.push(`${imageDirectory}/Bed2/PXL_20230728_205458453.jpg`);
+                images.push(`${imageDirectory}/Bath1/PXL_20230728_205601606.jpg`);
+                images.push(`${imageDirectory}/Bath2/image_67128065.JPG`);
+                images.push(`${imageDirectory}/Garage/PXL_20230728_212729252.jpg`);
+                images.push(`${imageDirectory}/Garage/PXL_20230728_212803060.jpg`);
+                images.push(`${imageDirectory}/Garage/PXL_20230728_212811777.jpg`);
+                images.push(`${imageDirectory}/Garage/PXL_20230728_212827813.jpg`);
+                images.push(`${imageDirectory}/Garage/PXL_20230728_212749806.jpg`);
+                images.push(`${imageDirectory}/Garage/image_50377729.JPG`);
+                images.push(`${imageDirectory}/Laundry/image_67114497.JPG`);
+                images.push(`${imageDirectory}/Laundry/PXL_20230728_205643417.jpg`);
+                images.push(`${imageDirectory}/Laundry/PXL_20230728_205632415.jpg`);
+                images.push(`${imageDirectory}/Other/PXL_20230728_205700393.jpg`);
+                images.push(`${imageDirectory}/Other/image_67183361.JPG`);
+                images.push(`${imageDirectory}/Other/PXL_20230728_212317518.jpg`);
+                break;
+            case 'Living':
+                images.push(`${imageDirectory}/Living/image_67128321.JPG`);
+                images.push(`${imageDirectory}/Living/PXL_20230728_205854997.jpg`);
+                break;
+            case 'Dining':
+                images.push(`${imageDirectory}/Dining/PXL_20230728_212104036.jpg`);
+                images.push(`${imageDirectory}/Dining/PXL_20230728_212057938.jpg`);
+                break;
+            case 'Kitchen':
+                images.push(`${imageDirectory}/Kitchen/PXL_20230728_212221602.jpg`);
+                images.push(`${imageDirectory}/Kitchen/image_50379009.JPG`);
+                images.push(`${imageDirectory}/Kitchen/PXL_20230728_212121999.jpg`);
+                images.push(`${imageDirectory}/Kitchen/image_67199489.JPG`);
+                images.push(`${imageDirectory}/Kitchen/PXL_20230728_205921311.jpg`);
+                images.push(`${imageDirectory}/Kitchen/image_67126273.JPG`);
+                images.push(`${imageDirectory}/Kitchen/PXL_20230728_212141191.jpg`);
+                break;
+            case 'Outside':
+                images.push(`${imageDirectory}/Outside/image_50726401.JPG`);
+                images.push(`${imageDirectory}/Outside/image_50459905.JPG`);
+                images.push(`${imageDirectory}/Outside/image_67193089.JPG`);
+                images.push(`${imageDirectory}/Outside/PXL_20230728_210604181.jpg`);
+                images.push(`${imageDirectory}/Outside/image_67234561.JPG`);
+                images.push(`${imageDirectory}/Outside/PXL_20230728_210730246.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20230728_210639724.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20230728_210541118.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20230728_210653158.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20230728_210739236.jpg`);
+                break;
+            case 'Basement':
+                images.push(`${imageDirectory}/Basement/PXL_20230728_205720158.jpg`);
+                images.push(`${imageDirectory}/Basement/PXL_20230728_205744784.jpg`);
+                images.push(`${imageDirectory}/Basement/PXL_20230728_205803116.jpg`);
+                break;
+            case 'Bed1':
+                images.push(`${imageDirectory}/Bed1/PXL_20230728_205428979.jpg`);
+                images.push(`${imageDirectory}/Bed1/PXL_20230728_205403526.jpg`);
+                images.push(`${imageDirectory}/Bed1/PXL_20230728_205445419.jpg`);
+                images.push(`${imageDirectory}/Bed1/PXL_20230728_205415449.jpg`);
+                images.push(`${imageDirectory}/Bed1/PXL_20230728_205344459.jpg`);
+                break;
+            case 'Bed2':
+                images.push(`${imageDirectory}/Bed2/PXL_20230728_205519726.jpg`);
+                images.push(`${imageDirectory}/Bed2/PXL_20230728_205539345.jpg`);
+                images.push(`${imageDirectory}/Bed2/PXL_20230728_205458453.jpg`);
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                images.push(`${imageDirectory}/Bath1/PXL_20230728_205601606.jpg`);
+                break;
+            case 'Bath2':
+                images.push(`${imageDirectory}/Bath2/image_67128065.JPG`);
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                images.push(`${imageDirectory}/Garage/PXL_20230728_212729252.jpg`);
+                images.push(`${imageDirectory}/Garage/PXL_20230728_212803060.jpg`);
+                images.push(`${imageDirectory}/Garage/PXL_20230728_212811777.jpg`);
+                images.push(`${imageDirectory}/Garage/PXL_20230728_212827813.jpg`);
+                images.push(`${imageDirectory}/Garage/PXL_20230728_212749806.jpg`);
+                images.push(`${imageDirectory}/Garage/image_50377729.JPG`);
+                break;
+            case 'Laundry':
+                images.push(`${imageDirectory}/Laundry/image_67114497.JPG`);
+                images.push(`${imageDirectory}/Laundry/PXL_20230728_205643417.jpg`);
+                images.push(`${imageDirectory}/Laundry/PXL_20230728_205632415.jpg`);
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                images.push(`${imageDirectory}/Other/PXL_20230728_205700393.jpg`);
+                images.push(`${imageDirectory}/Other/image_67183361.JPG`);
+                images.push(`${imageDirectory}/Other/PXL_20230728_212317518.jpg`);
+                break;
+        }
+        break;
+    case("1716 E Main"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("1718 E Main"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("1783 Burgoyne"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("1785 Burgoyne"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2021 Autumn"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2023 Autumn"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2701 Haas"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2703 Haas"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
                 break;
         }
         break;
