@@ -42,6 +42,318 @@ link.style.display = 'none';
 link = document.querySelector('option[rmknd="Other"]');
 link.style.display = 'none';
 switch(imageDirectory) {
+    case("903 Spring"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("102 Green Way"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("104 Green Way"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("5335 Brookview"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("5337 Brookview"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("N1841 Reimer"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("N1843 Reimer"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("1749 Marissa"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
     case("1751 Marissa"):
         addressDisplay.textContent = '1751 Marissa Ct, De Pere, WI 54115';
         link = document.querySelector('option[rmknd="Living"]');
@@ -229,6 +541,435 @@ switch(imageDirectory) {
                 break;
         }
         break;
+    case("2707A 4th"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2707B 4th"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2707C 4th"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2707D 4th"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2711A 4th"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2711B 4th"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2711C 4th"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2711D 4th"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2715A 4th"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2715B 4th"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2715C 4th"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
     case("2715D 4th"):
         addressDisplay.textContent = '2715 W. 4th St, Apt. D, Appleton, WI 54914';
         link = document.querySelector('option[rmknd="Living"]');
@@ -319,6 +1060,651 @@ switch(imageDirectory) {
                 break;
             case 'Other':
                 images.push(`${imageDirectory}/Other/image(13).jpg`);
+                break;
+        }
+        break;
+    case("500 E Alice"):
+        addressDisplay.textContent = '';
+        link = document.querySelector('option[rmknd="Living"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Dining"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Kitchen"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Outside"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Basement"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bed1"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bed2"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bed3"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bath1"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bath2"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Laundry"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Other"]');
+        link.style.display = 'inline'
+        switch(room){
+            case 'All':
+                images.push(`${imageDirectory}/Living/IMG_3149.heic`);
+                images.push(`${imageDirectory}/Living/PXL_20211123_153413505.jpg`);
+                images.push(`${imageDirectory}/Living/PXL_20211123_153333463.jpg`);
+                images.push(`${imageDirectory}/Living/PXL_20211123_153122837.jpg`);
+                images.push(`${imageDirectory}/Living/PXL_20211123_152604210.jpg`);
+                images.push(`${imageDirectory}/Living/PXL_20211123_153329505.jpg`);
+                images.push(`${imageDirectory}/Living/PXL_20211123_153446948.jpg`);
+                images.push(`${imageDirectory}/Living/PXL_20211123_153347831.jpg`);
+                images.push(`${imageDirectory}/Living/IMG_3147.heic`);
+                images.push(`${imageDirectory}/Living/IMG_3185.heic`);
+                images.push(`${imageDirectory}/Dining/IMG_3145.heic`);
+                images.push(`${imageDirectory}/Dining/IMG_3146.heic`);
+                images.push(`${imageDirectory}/Kitchen/PXL_20211123_154453447.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20211123_150803578.jpg`);
+                images.push(`${imageDirectory}/Outside/Backyard-PXL_20211123_150844501.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20211123_150426767.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20211123_150442790.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20211123_150827737.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20211123_150454571.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20211123_150356465.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20211123_150844501.jpg`);
+                images.push(`${imageDirectory}/Outside/Front 2-PXL_20211123_150727223.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20211123_150727223.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20211123_150713391.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20211123_150855332.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20211123_150404323.jpg`);
+                images.push(`${imageDirectory}/Basement/IMG_3190.heic`);
+                images.push(`${imageDirectory}/Basement/IMG_3201.heic`);
+                images.push(`${imageDirectory}/Basement/IMG_3187.heic`);
+                images.push(`${imageDirectory}/Basement/IMG_3200.heic`);
+                images.push(`${imageDirectory}/Basement/IMG_3191.heic`);
+                images.push(`${imageDirectory}/Basement/IMG_3196.heic`);
+                images.push(`${imageDirectory}/Basement/PXL_20211123_161633327.jpg`);
+                images.push(`${imageDirectory}/Basement/IMG_3197.heic`);
+                images.push(`${imageDirectory}/Basement/IMG_3198.heic`);
+                images.push(`${imageDirectory}/Basement/IMG_3194.heic`);
+                images.push(`${imageDirectory}/Basement/PXL_20211123_162251368.jpg`);
+                images.push(`${imageDirectory}/Basement/IMG_3195.heic`);
+                images.push(`${imageDirectory}/Basement/IMG_3204.heic`);
+                images.push(`${imageDirectory}/Basement/IMG_3203.heic`);
+                images.push(`${imageDirectory}/Basement/IMG_3192.heic`);
+                images.push(`${imageDirectory}/Basement/IMG_3188.heic`);
+                images.push(`${imageDirectory}/Basement/IMG_3189.heic`);
+                images.push(`${imageDirectory}/Basement/PXL_20211123_161529751.jpg`);
+                images.push(`${imageDirectory}/Basement/IMG_3193.heic`);
+                images.push(`${imageDirectory}/Basement/IMG_3202.heic`);
+                images.push(`${imageDirectory}/Bed1/PXL_20211123_155322977.jpg`);
+                images.push(`${imageDirectory}/Bed1/PXL_20211123_155506136.jpg`);
+                images.push(`${imageDirectory}/Bed1/PXL_20211123_155358832.jpg`);
+                images.push(`${imageDirectory}/Bed1/IMG_3155.heic`);
+                images.push(`${imageDirectory}/Bed1/IMG_3158.heic`);
+                images.push(`${imageDirectory}/Bed1/PXL_20211123_155343241.jpg`);
+                images.push(`${imageDirectory}/Bed1/IMG_3157.heic`);
+                images.push(`${imageDirectory}/Bed1/IMG_3156.heic`);
+                images.push(`${imageDirectory}/Bed1/IMG_3160.heic`);
+                images.push(`${imageDirectory}/Bed1/PXL_20211123_155453512.jpg`);
+                images.push(`${imageDirectory}/Bed2/IMG_3169.heic`);
+                images.push(`${imageDirectory}/Bed2/IMG_3173.heic`);
+                images.push(`${imageDirectory}/Bed2/IMG_3172.heic`);
+                images.push(`${imageDirectory}/Bed2/IMG_3168.heic`);
+                images.push(`${imageDirectory}/Bed2/IMG_3175.heic`);
+                images.push(`${imageDirectory}/Bed2/IMG_3174.heic`);
+                images.push(`${imageDirectory}/Bed2/PXL_20211123_152200266.jpg`);
+                images.push(`${imageDirectory}/Bed2/PXL_20211123_152141718.jpg`);
+                images.push(`${imageDirectory}/Bed2/PXL_20211123_152434979.jpg`);
+                images.push(`${imageDirectory}/Bed2/PXL_20211123_152442961.jpg`);
+                images.push(`${imageDirectory}/Bed2/IMG_3176.heic`);
+                images.push(`${imageDirectory}/Bed2/PXL_20211123_153028250.jpg`);
+                images.push(`${imageDirectory}/Bed2/PXL_20211123_152506376.jpg`);
+                images.push(`${imageDirectory}/Bed2/PXL_20211123_152216854.jpg`);
+                images.push(`${imageDirectory}/Bed2/IMG_3167.heic`);
+                images.push(`${imageDirectory}/Bed2/IMG_3171.heic`);
+                images.push(`${imageDirectory}/Bed2/IMG_3170.heic`);
+                images.push(`${imageDirectory}/Bed3/IMG_3181.heic`);
+                images.push(`${imageDirectory}/Bed3/IMG_3182.heic`);
+                images.push(`${imageDirectory}/Bed3/IMG_3183.heic`);
+                images.push(`${imageDirectory}/Bed3/IMG_3184.heic`);
+                images.push(`${imageDirectory}/Bath1/IMG_3159.heic`);
+                images.push(`${imageDirectory}/Bath1/PXL_20211123_155530218.jpg`);
+                images.push(`${imageDirectory}/Bath1/PXL_20211123_154701660.jpg`);
+                images.push(`${imageDirectory}/Bath2/PXL_20211123_152830440.jpg`);
+                images.push(`${imageDirectory}/Bath2/PXL_20211123_152727736.jpg`);
+                images.push(`${imageDirectory}/Bath2/PXL_20211123_152908906.jpg`);
+                images.push(`${imageDirectory}/Bath2/IMG_3179.heic`);
+                images.push(`${imageDirectory}/Bath2/IMG_3180.heic`);
+                images.push(`${imageDirectory}/Bath2/IMG_3178.heic`);
+                images.push(`${imageDirectory}/Bath2/IMG_3177.heic`);
+                images.push(`${imageDirectory}/Bath2/PXL_20211123_152848524.jpg`);
+                images.push(`${imageDirectory}/Bath2/PXL_20211123_152704247.jpg`);
+                images.push(`${imageDirectory}/Laundry/IMG_3199.heic`);
+                images.push(`${imageDirectory}/Other/IMG_3165.heic`);
+                images.push(`${imageDirectory}/Other/IMG_3164.heic`);
+                images.push(`${imageDirectory}/Other/IMG_3163.heic`);
+                images.push(`${imageDirectory}/Other/IMG_3162.heic`);
+                images.push(`${imageDirectory}/Other/IMG_3161.heic`);
+                images.push(`${imageDirectory}/Other/IMG_3166.heic`);
+                break;
+            case 'Living':
+                images.push(`${imageDirectory}/Living/IMG_3149.heic`);
+                images.push(`${imageDirectory}/Living/PXL_20211123_153413505.jpg`);
+                images.push(`${imageDirectory}/Living/PXL_20211123_153333463.jpg`);
+                images.push(`${imageDirectory}/Living/PXL_20211123_153122837.jpg`);
+                images.push(`${imageDirectory}/Living/PXL_20211123_152604210.jpg`);
+                images.push(`${imageDirectory}/Living/PXL_20211123_153329505.jpg`);
+                images.push(`${imageDirectory}/Living/PXL_20211123_153446948.jpg`);
+                images.push(`${imageDirectory}/Living/PXL_20211123_153347831.jpg`);
+                images.push(`${imageDirectory}/Living/IMG_3147.heic`);
+                images.push(`${imageDirectory}/Living/IMG_3185.heic`);
+                break;
+            case 'Dining':
+                images.push(`${imageDirectory}/Dining/IMG_3145.heic`);
+                images.push(`${imageDirectory}/Dining/IMG_3146.heic`);
+                break;
+            case 'Kitchen':
+                images.push(`${imageDirectory}/Kitchen/PXL_20211123_154453447.jpg`);
+                break;
+            case 'Outside':
+                images.push(`${imageDirectory}/Outside/PXL_20211123_150803578.jpg`);
+                images.push(`${imageDirectory}/Outside/Backyard-PXL_20211123_150844501.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20211123_150426767.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20211123_150442790.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20211123_150827737.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20211123_150454571.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20211123_150356465.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20211123_150844501.jpg`);
+                images.push(`${imageDirectory}/Outside/Front 2-PXL_20211123_150727223.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20211123_150727223.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20211123_150713391.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20211123_150855332.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20211123_150404323.jpg`);
+                break;
+            case 'Basement':
+                images.push(`${imageDirectory}/Basement/IMG_3190.heic`);
+                images.push(`${imageDirectory}/Basement/IMG_3201.heic`);
+                images.push(`${imageDirectory}/Basement/IMG_3187.heic`);
+                images.push(`${imageDirectory}/Basement/IMG_3200.heic`);
+                images.push(`${imageDirectory}/Basement/IMG_3191.heic`);
+                images.push(`${imageDirectory}/Basement/IMG_3196.heic`);
+                images.push(`${imageDirectory}/Basement/PXL_20211123_161633327.jpg`);
+                images.push(`${imageDirectory}/Basement/IMG_3197.heic`);
+                images.push(`${imageDirectory}/Basement/IMG_3198.heic`);
+                images.push(`${imageDirectory}/Basement/IMG_3194.heic`);
+                images.push(`${imageDirectory}/Basement/PXL_20211123_162251368.jpg`);
+                images.push(`${imageDirectory}/Basement/IMG_3195.heic`);
+                images.push(`${imageDirectory}/Basement/IMG_3204.heic`);
+                images.push(`${imageDirectory}/Basement/IMG_3203.heic`);
+                images.push(`${imageDirectory}/Basement/IMG_3192.heic`);
+                images.push(`${imageDirectory}/Basement/IMG_3188.heic`);
+                images.push(`${imageDirectory}/Basement/IMG_3189.heic`);
+                images.push(`${imageDirectory}/Basement/PXL_20211123_161529751.jpg`);
+                images.push(`${imageDirectory}/Basement/IMG_3193.heic`);
+                images.push(`${imageDirectory}/Basement/IMG_3202.heic`);
+                break;
+            case 'Bed1':
+                images.push(`${imageDirectory}/Bed1/PXL_20211123_155322977.jpg`);
+                images.push(`${imageDirectory}/Bed1/PXL_20211123_155506136.jpg`);
+                images.push(`${imageDirectory}/Bed1/PXL_20211123_155358832.jpg`);
+                images.push(`${imageDirectory}/Bed1/IMG_3155.heic`);
+                images.push(`${imageDirectory}/Bed1/IMG_3158.heic`);
+                images.push(`${imageDirectory}/Bed1/PXL_20211123_155343241.jpg`);
+                images.push(`${imageDirectory}/Bed1/IMG_3157.heic`);
+                images.push(`${imageDirectory}/Bed1/IMG_3156.heic`);
+                images.push(`${imageDirectory}/Bed1/IMG_3160.heic`);
+                images.push(`${imageDirectory}/Bed1/PXL_20211123_155453512.jpg`);
+                break;
+            case 'Bed2':
+                images.push(`${imageDirectory}/Bed2/IMG_3169.heic`);
+                images.push(`${imageDirectory}/Bed2/IMG_3173.heic`);
+                images.push(`${imageDirectory}/Bed2/IMG_3172.heic`);
+                images.push(`${imageDirectory}/Bed2/IMG_3168.heic`);
+                images.push(`${imageDirectory}/Bed2/IMG_3175.heic`);
+                images.push(`${imageDirectory}/Bed2/IMG_3174.heic`);
+                images.push(`${imageDirectory}/Bed2/PXL_20211123_152200266.jpg`);
+                images.push(`${imageDirectory}/Bed2/PXL_20211123_152141718.jpg`);
+                images.push(`${imageDirectory}/Bed2/PXL_20211123_152434979.jpg`);
+                images.push(`${imageDirectory}/Bed2/PXL_20211123_152442961.jpg`);
+                images.push(`${imageDirectory}/Bed2/IMG_3176.heic`);
+                images.push(`${imageDirectory}/Bed2/PXL_20211123_153028250.jpg`);
+                images.push(`${imageDirectory}/Bed2/PXL_20211123_152506376.jpg`);
+                images.push(`${imageDirectory}/Bed2/PXL_20211123_152216854.jpg`);
+                images.push(`${imageDirectory}/Bed2/IMG_3167.heic`);
+                images.push(`${imageDirectory}/Bed2/IMG_3171.heic`);
+                images.push(`${imageDirectory}/Bed2/IMG_3170.heic`);
+                break;
+            case 'Bed3':
+                images.push(`${imageDirectory}/Bed3/IMG_3181.heic`);
+                images.push(`${imageDirectory}/Bed3/IMG_3182.heic`);
+                images.push(`${imageDirectory}/Bed3/IMG_3183.heic`);
+                images.push(`${imageDirectory}/Bed3/IMG_3184.heic`);
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                images.push(`${imageDirectory}/Bath1/IMG_3159.heic`);
+                images.push(`${imageDirectory}/Bath1/PXL_20211123_155530218.jpg`);
+                images.push(`${imageDirectory}/Bath1/PXL_20211123_154701660.jpg`);
+                break;
+            case 'Bath2':
+                images.push(`${imageDirectory}/Bath2/PXL_20211123_152830440.jpg`);
+                images.push(`${imageDirectory}/Bath2/PXL_20211123_152727736.jpg`);
+                images.push(`${imageDirectory}/Bath2/PXL_20211123_152908906.jpg`);
+                images.push(`${imageDirectory}/Bath2/IMG_3179.heic`);
+                images.push(`${imageDirectory}/Bath2/IMG_3180.heic`);
+                images.push(`${imageDirectory}/Bath2/IMG_3178.heic`);
+                images.push(`${imageDirectory}/Bath2/IMG_3177.heic`);
+                images.push(`${imageDirectory}/Bath2/PXL_20211123_152848524.jpg`);
+                images.push(`${imageDirectory}/Bath2/PXL_20211123_152704247.jpg`);
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                images.push(`${imageDirectory}/Laundry/IMG_3199.heic`);
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                images.push(`${imageDirectory}/Other/IMG_3165.heic`);
+                images.push(`${imageDirectory}/Other/IMG_3164.heic`);
+                images.push(`${imageDirectory}/Other/IMG_3163.heic`);
+                images.push(`${imageDirectory}/Other/IMG_3162.heic`);
+                images.push(`${imageDirectory}/Other/IMG_3161.heic`);
+                images.push(`${imageDirectory}/Other/IMG_3166.heic`);
+                break;
+        }
+        break;
+    case("1708 E Main"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("1710 E Main"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("1716 E Main"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("1718 E Main"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("1783 Burgoyne"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("1785 Burgoyne"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2021 Autumn"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2023 Autumn"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2701 Haas"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2703 Haas"):
+        addressDisplay.textContent = '';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
                 break;
         }
         break;

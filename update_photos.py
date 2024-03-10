@@ -86,6 +86,12 @@ def calc_file_names(output_filename, case, addr, out_listing_file):
         outfile.write("        addressDisplay.textContent = '" + addr + "';\n")
         for room in rooms:
             if (os.path.exists(directory_name + room)) and (os.listdir(directory_name + room)):
+                for file in os.listdir(directory_name + room):
+                    if(file.endswith('.DS_Store')):
+                        os.remove(os.path.join(directory_name + room, file))
+
+        for room in rooms:
+            if (os.path.exists(directory_name + room)) and (os.listdir(directory_name + room)):
                 outfile.write("        link = document.querySelector('option[rmknd=\"" + room + "\"]');\n")
                 outfile.write("        link.style.display = 'inline'\n")
 

@@ -90,8 +90,6 @@ link = document.querySelector('a[tp="2715B%204th"]');
 link.style.display = 'none';
 link = document.querySelector('a[tp="2715C%204th"]');
 link.style.display = 'none';
-link = document.querySelector('a[tp="500%20E%20Alice"]');
-link.style.display = 'none';
 link = document.querySelector('a[tp="1708%20E%20Main"]');
 link.style.display = 'none';
 link = document.querySelector('a[tp="1710%20E%20Main"]');
