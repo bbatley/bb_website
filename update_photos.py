@@ -175,7 +175,7 @@ def copy_lines_between_markers(input_filename, output_filename, marker="START423
 
 if __name__ == "__main__":
     # Example usage:
-    input_filename = "script_swiper.js"   # Replace with your actual input filename
+    input_filename = "imageGalleryScript.js"   # Replace with your actual input filename
     output_filename = "tmp.js"  # Replace with your desired output filename
     copy_lines_before_marker(input_filename, output_filename) 
 
