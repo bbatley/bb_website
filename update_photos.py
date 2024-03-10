@@ -5,6 +5,40 @@ rooms = ["Living", "Dining", "Kitchen", "Outside", "Basement",
          "Bed1", "Bed2", "Bed3", "Bed4", "Bath1",
          "Bath2", "Bath3", "Garage", "Laundry", "Office/Den", "Other"]
 
+directory_names = {"903%20Spring":""
+                   , "102%20Green%20Way":""
+                   , "104%20Green%20Way":""
+                   , "5335%20Brookview":""
+                   , "5337%20Brookview":""
+                   , "N1841%20Reimer":""
+                   , "N1843%20Reimer":""
+                   , "1749%20Marissa":""
+                   , "1751%20Marissa":"1751 Marissa Ct, De Pere, WI 54115"
+                   , "2707A%204th":""
+                   , "2707B%204th":""
+                   , "2707C%204th":""
+                   , "2707D%204th":""
+                   , "2711A%204th":""
+                   , "2711B%204th":""
+                   , "2711C%204th":""
+                   , "2711D%204th":""
+                   , "2715A%204th":""
+                   , "2715B%204th":""
+                   , "2715C%204th":""
+                   , "2715D%204th":"2715 W. 4th St, Apt. D, Appleton, WI 54914"
+                   , "500%20E%20Alice":""
+                   , "1708%20E%20Main":""
+                   , "1710%20E%20Main":""
+                   , "1716%20E%20Main":""
+                   , "1718%20E%20Main":""
+                   , "1783%20Burgoyne":""
+                   , "1785%20Burgoyne":""
+                   , "2021%20Autumn":""
+                   , "2023%20Autumn":""
+                   , "2701%20Haas":""
+                   , "2703%20Haas":""
+                   }
+
 def copy_lines_after_marker(input_filename, output_filename, marker="START4231"):
     """
     Copies lines from the start of an input file up to a marker line into a new file.
@@ -43,7 +77,10 @@ def copy_lines_before_marker(input_filename, output_filename, marker="START4231"
 
         outfile.write("// **DONT REMOVE LINE** START4231\n\n")
 
-def calc_file_names(output_filename, directory_name, case, addr, out_listing_file):
+def calc_file_names(output_filename, case, addr, out_listing_file):
+    directory_name = "photos/" + case + "/"
+    if not os.path.exists(directory_name):
+        return
     with open(output_filename, 'a') as outfile:
         outfile.write("    case(\"" + case + "\"):\n")
         outfile.write("        addressDisplay.textContent = '" + addr + "';\n")
@@ -99,6 +136,19 @@ def calc_file_names(output_filename, directory_name, case, addr, out_listing_fil
             with open(out_listing_file, 'w') as file:
                 file.write(updated_contents)
 
+def remove_buttons(output_filename, dir):
+    directory_name = "photos/" + dir.replace("%20", " ") + "/"
+    empty = True 
+    with open(output_filename, 'a') as outfile:
+        for room in rooms:
+            if (os.path.exists(directory_name + room)) and (os.listdir(directory_name + room)):
+                empty = False 
+
+        if empty:
+            outfile.write("link = document.querySelector('a[tp=\"" + dir + "\"]');\n")
+            outfile.write("link.style.display = 'none';\n")
+
+
 if __name__ == "__main__":
     # Example usage:
     input_filename = "script_swiper.js"   # Replace with your actual input filename
@@ -114,13 +164,26 @@ if __name__ == "__main__":
         outfile.write("switch(imageDirectory) {\n")
 
     #TODO: Here add all the homes
-    calc_file_names(output_filename, "photos/1751 Marissa/", "1751 Marissa", "1751 Marissa Ct, De Pere, WI 54115", "listings.html")
-    calc_file_names(output_filename, "photos/2715D 4th/", "2715D 4th", "2715 W. 4th St, Apt. D, Appleton, WI 54914", "listings.html")
+    for dir, addr in directory_names.items():
+        calc_file_names(output_filename, dir.replace("%20", " "), addr, "listings.html")
 
     with open(output_filename, 'a') as outfile:
         outfile.write("}\n")
         outfile.write("// **DONT REMOVE LINE** END4231\n")
 
     copy_lines_after_marker(input_filename, output_filename, "END4231")
+
+    os.replace(output_filename, input_filename)
+    
+
+    # Update listing script to remove photo buttons
+
+    input_filename = "listingScript.js"
+    copy_lines_before_marker(input_filename, output_filename) 
+    with open(output_filename, 'a') as outfile:
+        outfile.write("var link = document.querySelector('a[tp=\"tmp\"]');\n")
+
+    for dir, addr in directory_names.items():
+        remove_buttons(output_filename, dir)
 
     os.replace(output_filename, input_filename)
