@@ -32,6 +32,23 @@ header nav ul li a:hover {
     background-color: #424242; /* Slightly darker hover color */
 }
 
+
+header select {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    text-decoration: none; 
+    display: inline-block; /* Allows setting width/height */
+    padding: 10px 20px;    /* Adjust padding as desired */
+    border: none;          /* Remove default link border */
+    margin: 5px;           /* Add some spacing between buttons */
+    margin-right: 20px;
+    border-radius: 5px;    /* Create rounded corners */
+    background-color: #0A5115; /* Example button color */
+    color: white;          /* Example text color */
+    cursor: pointer;       /* Indicate clickable element */
+    transition: background-color 0.3s ease; /* Add a transition effect */
+}
+
 nav ul {
     list-style: none;
     padding: 0;
