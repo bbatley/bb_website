@@ -90,6 +90,7 @@ nav li {
 .listings-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    place-items: center;
     gap: 20px;
 }
 
@@ -112,6 +113,7 @@ nav li {
 }
 
 .property-card {
+    max-width: 40vw;
     display: none;
     border: 1px solid #ddd;
     padding: 15px;
