@@ -1444,13 +1444,13 @@ switch(imageDirectory) {
 
 function adjustSlideWidth(slide, imgWidth, imgHeight) {
     if (imgWidth / imgHeight < .6) { // .5625 ratio 9:16
-        slide.style.width = '12.6%'; // Example width for horizontal images
+        slide.style.width = '21.1%'; // Example width for horizontal images
     } else if(imgWidth / imgHeight < .8) { // .75 ratio 3:4
         slide.style.width = '28%'; // Example width for horizontal images
     } else if(imgWidth / imgHeight < 1.5) { // 1.333 ratio 4:3
         slide.style.width = '50%'; // Example width for vertical images
     } else { // 1.7817 ratio 16:9
-        slide.style.width = '40%'; // Example width for horizontal images
+        slide.style.width = '66.7%'; // Example width for horizontal images
     }
 }
 
