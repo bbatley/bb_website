@@ -5,7 +5,7 @@ def convert_and_delete_heics(directory):
         filepath = os.path.join(directory, filename)
         print(filepath)
         if os.path.isfile(filepath):
-            if filename.endswith('.heic') or filename.endswith('.HEIC'):
+            if filename.endswith('.tiff') or filename.endswith('.TIFF'):
                 filepath = os.path.join(directory, filename)
                 # convert_heic_to_jpg(filename)
                 os.remove(filepath)
