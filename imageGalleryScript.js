@@ -11,6 +11,8 @@ let mainBeforeStyle = mainElement.style;  // Access inline styles
 
 function changeBackgroundImage(newImageUrl) {
   mainBeforeStyle.backgroundImage = `url(${newImageUrl})`;
+//   mainBeforeStyle.backgroundImage = `linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, <span class="math-inline">\{opacity\}\)\), url\(</span>${newImageUrl})`;
+//   mainElement.style.opacity = .5;
   mainElement.style.backgroundRepeat = 'no-repeat'; 
   mainElement.style.backgroundSize = 'cover'; 
 }
@@ -52,7 +54,7 @@ link = document.querySelector('option[rmknd="Other"]');
 link.style.display = 'none';
 switch(imageDirectory) {
     case("5335 Brookview"):
-        addressDisplay.textContent = '';
+        addressDisplay.textContent = '104 Green Way Dr, Combined Locks, WI 54113';
         link = document.querySelector('option[rmknd="Living"]');
         link.style.display = 'inline'
         link = document.querySelector('option[rmknd="Dining"]');
@@ -205,7 +207,7 @@ switch(imageDirectory) {
         }
         break;
     case("1749 Marissa"):
-        addressDisplay.textContent = '';
+        addressDisplay.textContent = '1749 Marissa Ct, De Pere, WI 54115';
         link = document.querySelector('option[rmknd="Living"]');
         link.style.display = 'inline'
         link = document.querySelector('option[rmknd="Dining"]');
@@ -593,7 +595,7 @@ switch(imageDirectory) {
         }
         break;
     case("2707D 4th"):
-        addressDisplay.textContent = '';
+        addressDisplay.textContent = '2707 W. 4th St, Apt. D, Appleton, WI 54914';
         link = document.querySelector('option[rmknd="Living"]');
         link.style.display = 'inline'
         link = document.querySelector('option[rmknd="Kitchen"]');
@@ -823,7 +825,7 @@ switch(imageDirectory) {
         }
         break;
     case("500 E Alice"):
-        addressDisplay.textContent = '';
+        addressDisplay.textContent = '500 E. Alice St, Appleton, WI 54911';
         link = document.querySelector('option[rmknd="Living"]');
         link.style.display = 'inline'
         link = document.querySelector('option[rmknd="Dining"]');
@@ -1078,7 +1080,7 @@ switch(imageDirectory) {
         }
         break;
     case("1708 E Main"):
-        addressDisplay.textContent = '';
+        addressDisplay.textContent = '1708 E. Main St, Little Chute, WI 54140';
         link = document.querySelector('option[rmknd="Living"]');
         link.style.display = 'inline'
         link = document.querySelector('option[rmknd="Dining"]');
@@ -1285,7 +1287,7 @@ switch(imageDirectory) {
         }
         break;
     case("1710 E Main"):
-        addressDisplay.textContent = '';
+        addressDisplay.textContent = '1710 E. Main St, Little Chute, WI 54140';
         link = document.querySelector('option[rmknd="Living"]');
         link.style.display = 'inline'
         link = document.querySelector('option[rmknd="Dining"]');
@@ -1510,15 +1512,6 @@ slides.forEach(slide => {
     }
 });
 
-// const roomButtons = document.querySelectorAll('.room_button');
-// roomButtons.forEach(button => {
-//     const url = new URL(button.href);  // Create a URL object
-//     const searchParams = url.searchParams;
- 
-//     searchParams.set('imageDirectory', imageDirectory); 
- 
-//     button.href = url.toString(); // Update the 'href' 
-//  });
 
  const dropdown = document.getElementById('room_dropdown');
 
