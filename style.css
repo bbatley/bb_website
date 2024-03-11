@@ -59,8 +59,18 @@ nav li {
     margin-right: 20px;
 }
 
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
 .logo img {
-    max-width: 150px;
+    vertical-align: middle;
+    max-width: 90px;
+    margin-left: 70px;
+    display:flex; /* Use flexbox for alignment */
+    align-items: flex-end; /* Vertically center logo and name */
 }
 
 /* Hero Section */
@@ -294,5 +304,16 @@ span.between {
 }
 
 main {
-    background-color: #ffe9bf;
+    background-color: #fdeed4;
+}
+
+.logo-name {
+    text-decoration: none; 
+    font-size: 25px;
+    font-weight: bold;
+    /* text-align: center; */
+    text-decoration: none; 
+    display: inline-block; 
+    color: #0A5115; /* Example: Dark Green Color */
+    margin-left: 30px
 }
