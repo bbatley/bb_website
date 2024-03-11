@@ -55,8 +55,11 @@ link.style.display = 'none';
 switch(imageDirectory) {
     case("903 Spring"):
         addressDisplay.textContent = '903 Spring Street, Ann Arbor, MI 48103';
+        link = document.querySelector('option[rmknd="Outside"]');
+        link.style.display = 'inline'
         switch(room){
             case 'All':
+                images.push(`${imageDirectory}/Outside/2012-12-17_16-17-40_423.jpg`);
                 break;
             case 'Living':
                 break;
@@ -65,6 +68,7 @@ switch(imageDirectory) {
             case 'Kitchen':
                 break;
             case 'Outside':
+                images.push(`${imageDirectory}/Outside/2012-12-17_16-17-40_423.jpg`);
                 break;
             case 'Basement':
                 break;
