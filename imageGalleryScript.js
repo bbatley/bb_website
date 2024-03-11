@@ -53,6 +53,123 @@ link.style.display = 'none';
 link = document.querySelector('option[rmknd="Other"]');
 link.style.display = 'none';
 switch(imageDirectory) {
+    case("903 Spring"):
+        addressDisplay.textContent = '903 Spring Street, Ann Arbor, MI 48103';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("102 Green Way"):
+        addressDisplay.textContent = '102 Green Way Dr, Combined Locks, WI 54113';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("104 Green Way"):
+        addressDisplay.textContent = '104 Green Way Dr, Combined Locks, WI 54113';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
     case("5335 Brookview"):
         addressDisplay.textContent = '104 Green Way Dr, Combined Locks, WI 54113';
         link = document.querySelector('option[rmknd="Living"]');
@@ -203,6 +320,123 @@ switch(imageDirectory) {
                 images.push(`${imageDirectory}/Other/IMG_3648.heic.jpg`);
                 images.push(`${imageDirectory}/Other/IMG_3622.heic.jpg`);
                 images.push(`${imageDirectory}/Other/IMG_3639.heic.jpg`);
+                break;
+        }
+        break;
+    case("5337 Brookview"):
+        addressDisplay.textContent = '5335 Brookview Dr, Appleton, WI 54913';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("N1841 Reimer"):
+        addressDisplay.textContent = '5337 Brookview Dr, Appleton, WI 54913';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("N1843 Reimer"):
+        addressDisplay.textContent = 'N1841 Reimer Ct, Greenville, WI 54942';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
                 break;
         }
         break;
@@ -594,6 +828,123 @@ switch(imageDirectory) {
                 break;
         }
         break;
+    case("2707A 4th"):
+        addressDisplay.textContent = '2707 W. 4th St, Apt. A, Appleton, WI 54914';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2707B 4th"):
+        addressDisplay.textContent = '2707 W. 4th St, Apt. B, Appleton, WI 54914';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2707C 4th"):
+        addressDisplay.textContent = '2707 W. 4th St, Apt. C, Appleton, WI 54914';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
     case("2707D 4th"):
         addressDisplay.textContent = '2707 W. 4th St, Apt. D, Appleton, WI 54914';
         link = document.querySelector('option[rmknd="Living"]');
@@ -732,6 +1083,279 @@ switch(imageDirectory) {
             case 'Other':
                 images.push(`${imageDirectory}/Other/IMG_3323.heic.jpg`);
                 images.push(`${imageDirectory}/Other/image_67144961.JPG`);
+                break;
+        }
+        break;
+    case("2711A 4th"):
+        addressDisplay.textContent = '2711 W. 4th St, Apt. A, Appleton, WI 54914';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2711B 4th"):
+        addressDisplay.textContent = '2711 W. 4th St, Apt. B, Appleton, WI 54914';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2711C 4th"):
+        addressDisplay.textContent = '2711 W. 4th St, Apt. C, Appleton, WI 54914';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2711D 4th"):
+        addressDisplay.textContent = '2711 W. 4th St, Apt. D, Appleton, WI 54914';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2715A 4th"):
+        addressDisplay.textContent = '2715 W. 4th St, Apt. A, Appleton, WI 54914';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2715B 4th"):
+        addressDisplay.textContent = '2715 W. 4th St, Apt. B, Appleton, WI 54914';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2715C 4th"):
+        addressDisplay.textContent = '2715 W. 4th St, Apt. C, Appleton, WI 54914';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
                 break;
         }
         break;
@@ -1438,6 +2062,572 @@ switch(imageDirectory) {
                 images.push(`${imageDirectory}/Other/PXL_20230728_205700393.jpg`);
                 images.push(`${imageDirectory}/Other/image_67183361.JPG`);
                 images.push(`${imageDirectory}/Other/PXL_20230728_212317518.jpg`);
+                break;
+        }
+        break;
+    case("1716 E Main"):
+        addressDisplay.textContent = '1716 E. Main St, Little Chute, WI 54140';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("1718 E Main"):
+        addressDisplay.textContent = '1718 E. Main St, Little Chute, WI 54140';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("1783 Burgoyne"):
+        addressDisplay.textContent = '1783 Burgoyne Ct, De Pere, WI 54115';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("1785 Burgoyne"):
+        addressDisplay.textContent = '1785 Burgoyne Ct, De Pere, WI 54115';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2021 Autumn"):
+        addressDisplay.textContent = '2021 Autumn Ln, Kaukauna, WI 54130';
+        link = document.querySelector('option[rmknd="Living"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Dining"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Kitchen"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Outside"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Basement"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bed1"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bed2"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bath1"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Garage"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Laundry"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Other"]');
+        link.style.display = 'inline'
+        switch(room){
+            case 'All':
+                images.push(`${imageDirectory}/Living/IMG_0298.JPG`);
+                images.push(`${imageDirectory}/Living/IMG_0299.JPG`);
+                images.push(`${imageDirectory}/Living/IMG_0296.JPG`);
+                images.push(`${imageDirectory}/Living/IMG_0294.JPG`);
+                images.push(`${imageDirectory}/Living/IMG_0295.JPG`);
+                images.push(`${imageDirectory}/Dining/IMG_0321.JPG`);
+                images.push(`${imageDirectory}/Dining/IMG_0324.JPG`);
+                images.push(`${imageDirectory}/Kitchen/IMG_0301.JPG`);
+                images.push(`${imageDirectory}/Kitchen/IMG_0307.JPG`);
+                images.push(`${imageDirectory}/Kitchen/IMG_0306.JPG`);
+                images.push(`${imageDirectory}/Kitchen/IMG_0305.JPG`);
+                images.push(`${imageDirectory}/Kitchen/IMG_0320.JPG`);
+                images.push(`${imageDirectory}/Kitchen/IMG_0308.JPG`);
+                images.push(`${imageDirectory}/Kitchen/IMG_0323.JPG`);
+                images.push(`${imageDirectory}/Kitchen/IMG_0322.JPG`);
+                images.push(`${imageDirectory}/Kitchen/IMG_0326.JPG`);
+                images.push(`${imageDirectory}/Kitchen/IMG_0325.JPG`);
+                images.push(`${imageDirectory}/Outside/IMG_0267.JPG`);
+                images.push(`${imageDirectory}/Outside/IMG_0266.JPG`);
+                images.push(`${imageDirectory}/Outside/IMG_0265.JPG`);
+                images.push(`${imageDirectory}/Outside/IMG_0268.JPG`);
+                images.push(`${imageDirectory}/Outside/IMG_0269.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0275.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0274.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0276.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0277.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0310.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0311.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0280.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0281.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0279.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0278.JPG`);
+                images.push(`${imageDirectory}/Bed1/IMG_0260.JPG`);
+                images.push(`${imageDirectory}/Bed1/IMG_0258.JPG`);
+                images.push(`${imageDirectory}/Bed1/IMG_0259.JPG`);
+                images.push(`${imageDirectory}/Bed1/IMG_0257.JPG`);
+                images.push(`${imageDirectory}/Bed1/IMG_0256.JPG`);
+                images.push(`${imageDirectory}/Bed2/IMG_0254.JPG`);
+                images.push(`${imageDirectory}/Bed2/IMG_0255.JPG`);
+                images.push(`${imageDirectory}/Bath1/IMG_0288.JPG`);
+                images.push(`${imageDirectory}/Bath1/IMG_0283.JPG`);
+                images.push(`${imageDirectory}/Bath1/IMG_0282.JPG`);
+                images.push(`${imageDirectory}/Bath1/IMG_0285.JPG`);
+                images.push(`${imageDirectory}/Bath1/IMG_0284.JPG`);
+                images.push(`${imageDirectory}/Bath1/IMG_0286.JPG`);
+                images.push(`${imageDirectory}/Bath1/IMG_0287.JPG`);
+                images.push(`${imageDirectory}/Garage/IMG_0262.JPG`);
+                images.push(`${imageDirectory}/Garage/IMG_0263.JPG`);
+                images.push(`${imageDirectory}/Laundry/IMG_0289.JPG`);
+                images.push(`${imageDirectory}/Laundry/IMG_0291.JPG`);
+                images.push(`${imageDirectory}/Laundry/IMG_0290.JPG`);
+                images.push(`${imageDirectory}/Laundry/IMG_0292.JPG`);
+                images.push(`${imageDirectory}/Laundry/IMG_0293.JPG`);
+                images.push(`${imageDirectory}/Other/IMG_0300.JPG`);
+                images.push(`${imageDirectory}/Other/IMG_0302.JPG`);
+                images.push(`${imageDirectory}/Other/IMG_0303.JPG`);
+                images.push(`${imageDirectory}/Other/IMG_0304.JPG`);
+                images.push(`${imageDirectory}/Other/IMG_0297.JPG`);
+                break;
+            case 'Living':
+                images.push(`${imageDirectory}/Living/IMG_0298.JPG`);
+                images.push(`${imageDirectory}/Living/IMG_0299.JPG`);
+                images.push(`${imageDirectory}/Living/IMG_0296.JPG`);
+                images.push(`${imageDirectory}/Living/IMG_0294.JPG`);
+                images.push(`${imageDirectory}/Living/IMG_0295.JPG`);
+                break;
+            case 'Dining':
+                images.push(`${imageDirectory}/Dining/IMG_0321.JPG`);
+                images.push(`${imageDirectory}/Dining/IMG_0324.JPG`);
+                break;
+            case 'Kitchen':
+                images.push(`${imageDirectory}/Kitchen/IMG_0301.JPG`);
+                images.push(`${imageDirectory}/Kitchen/IMG_0307.JPG`);
+                images.push(`${imageDirectory}/Kitchen/IMG_0306.JPG`);
+                images.push(`${imageDirectory}/Kitchen/IMG_0305.JPG`);
+                images.push(`${imageDirectory}/Kitchen/IMG_0320.JPG`);
+                images.push(`${imageDirectory}/Kitchen/IMG_0308.JPG`);
+                images.push(`${imageDirectory}/Kitchen/IMG_0323.JPG`);
+                images.push(`${imageDirectory}/Kitchen/IMG_0322.JPG`);
+                images.push(`${imageDirectory}/Kitchen/IMG_0326.JPG`);
+                images.push(`${imageDirectory}/Kitchen/IMG_0325.JPG`);
+                break;
+            case 'Outside':
+                images.push(`${imageDirectory}/Outside/IMG_0267.JPG`);
+                images.push(`${imageDirectory}/Outside/IMG_0266.JPG`);
+                images.push(`${imageDirectory}/Outside/IMG_0265.JPG`);
+                images.push(`${imageDirectory}/Outside/IMG_0268.JPG`);
+                images.push(`${imageDirectory}/Outside/IMG_0269.JPG`);
+                break;
+            case 'Basement':
+                images.push(`${imageDirectory}/Basement/IMG_0275.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0274.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0276.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0277.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0310.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0311.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0280.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0281.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0279.JPG`);
+                images.push(`${imageDirectory}/Basement/IMG_0278.JPG`);
+                break;
+            case 'Bed1':
+                images.push(`${imageDirectory}/Bed1/IMG_0260.JPG`);
+                images.push(`${imageDirectory}/Bed1/IMG_0258.JPG`);
+                images.push(`${imageDirectory}/Bed1/IMG_0259.JPG`);
+                images.push(`${imageDirectory}/Bed1/IMG_0257.JPG`);
+                images.push(`${imageDirectory}/Bed1/IMG_0256.JPG`);
+                break;
+            case 'Bed2':
+                images.push(`${imageDirectory}/Bed2/IMG_0254.JPG`);
+                images.push(`${imageDirectory}/Bed2/IMG_0255.JPG`);
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                images.push(`${imageDirectory}/Bath1/IMG_0288.JPG`);
+                images.push(`${imageDirectory}/Bath1/IMG_0283.JPG`);
+                images.push(`${imageDirectory}/Bath1/IMG_0282.JPG`);
+                images.push(`${imageDirectory}/Bath1/IMG_0285.JPG`);
+                images.push(`${imageDirectory}/Bath1/IMG_0284.JPG`);
+                images.push(`${imageDirectory}/Bath1/IMG_0286.JPG`);
+                images.push(`${imageDirectory}/Bath1/IMG_0287.JPG`);
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                images.push(`${imageDirectory}/Garage/IMG_0262.JPG`);
+                images.push(`${imageDirectory}/Garage/IMG_0263.JPG`);
+                break;
+            case 'Laundry':
+                images.push(`${imageDirectory}/Laundry/IMG_0289.JPG`);
+                images.push(`${imageDirectory}/Laundry/IMG_0291.JPG`);
+                images.push(`${imageDirectory}/Laundry/IMG_0290.JPG`);
+                images.push(`${imageDirectory}/Laundry/IMG_0292.JPG`);
+                images.push(`${imageDirectory}/Laundry/IMG_0293.JPG`);
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                images.push(`${imageDirectory}/Other/IMG_0300.JPG`);
+                images.push(`${imageDirectory}/Other/IMG_0302.JPG`);
+                images.push(`${imageDirectory}/Other/IMG_0303.JPG`);
+                images.push(`${imageDirectory}/Other/IMG_0304.JPG`);
+                images.push(`${imageDirectory}/Other/IMG_0297.JPG`);
+                break;
+        }
+        break;
+    case("2023 Autumn"):
+        addressDisplay.textContent = '2023 Autumn Ln, Kaukauna, WI 54130';
+        link = document.querySelector('option[rmknd="Living"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Dining"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Kitchen"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Outside"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Basement"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bed1"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bed2"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Bath1"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Garage"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Laundry"]');
+        link.style.display = 'inline'
+        link = document.querySelector('option[rmknd="Other"]');
+        link.style.display = 'inline'
+        switch(room){
+            case 'All':
+                images.push(`${imageDirectory}/Living/PXL_20230430_174810200.jpg`);
+                images.push(`${imageDirectory}/Living/PXL_20230430_174848002.jpg`);
+                images.push(`${imageDirectory}/Living/PXL_20230430_174743571.jpg`);
+                images.push(`${imageDirectory}/Living/PXL_20230430_174833706.jpg`);
+                images.push(`${imageDirectory}/Dining/PXL_20230430_194323176.jpg`);
+                images.push(`${imageDirectory}/Kitchen/PXL_20230430_194230452.jpg`);
+                images.push(`${imageDirectory}/Kitchen/PXL_20230430_194255988.jpg`);
+                images.push(`${imageDirectory}/Kitchen/PXL_20230430_172612219.jpg`);
+                images.push(`${imageDirectory}/Kitchen/PXL_20230430_194146611.jpg`);
+                images.push(`${imageDirectory}/Kitchen/PXL_20230430_194118963.jpg`);
+                images.push(`${imageDirectory}/Kitchen/PXL_20230430_194207915.jpg`);
+                images.push(`${imageDirectory}/Kitchen/PXL_20230430_194053308.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20230329_184428017.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20230329_175926063.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20230329_184256153.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20230329_175915156.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20230329_184159676.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20230329_184315501.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20230329_184333850.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20230329_184056644.jpg`);
+                images.push(`${imageDirectory}/Basement/PXL_20230216_181342332.jpg`);
+                images.push(`${imageDirectory}/Basement/PXL_20230430_175038817.jpg`);
+                images.push(`${imageDirectory}/Basement/PXL_20230430_174954524.jpg`);
+                images.push(`${imageDirectory}/Basement/PXL_20230430_175017023.jpg`);
+                images.push(`${imageDirectory}/Basement/PXL_20230329_174313504.jpg`);
+                images.push(`${imageDirectory}/Bed1/PXL_20230430_172114454.jpg`);
+                images.push(`${imageDirectory}/Bed1/PXL_20230430_172156664.jpg`);
+                images.push(`${imageDirectory}/Bed1/PXL_20230430_172135204.jpg`);
+                images.push(`${imageDirectory}/Bed1/PXL_20230430_194406894.jpg`);
+                images.push(`${imageDirectory}/Bed2/PXL_20230430_172246999.jpg`);
+                images.push(`${imageDirectory}/Bed2/PXL_20230430_172221582.jpg`);
+                images.push(`${imageDirectory}/Bed2/PXL_20230430_194417664.jpg`);
+                images.push(`${imageDirectory}/Bath1/PXL_20230430_171850302.jpg`);
+                images.push(`${imageDirectory}/Bath1/PXL_20230430_171928000.jpg`);
+                images.push(`${imageDirectory}/Bath1/PXL_20230430_171808882.jpg`);
+                images.push(`${imageDirectory}/Bath1/PXL_20230430_171957073.jpg`);
+                images.push(`${imageDirectory}/Garage/PXL_20230430_201721914.jpg`);
+                images.push(`${imageDirectory}/Garage/PXL_20230430_201809666.jpg`);
+                images.push(`${imageDirectory}/Garage/PXL_20230430_201752141.jpg`);
+                images.push(`${imageDirectory}/Garage/PXL_20230430_201727010.jpg`);
+                images.push(`${imageDirectory}/Laundry/PXL_20230430_171729289.jpg`);
+                images.push(`${imageDirectory}/Laundry/PXL_20230430_171713360.jpg`);
+                images.push(`${imageDirectory}/Other/PXL_20230430_171641830.jpg`);
+                images.push(`${imageDirectory}/Other/PXL_20230430_172446623.jpg`);
+                images.push(`${imageDirectory}/Other/PXL_20230430_172013405.jpg`);
+                images.push(`${imageDirectory}/Other/PXL_20230430_172346326.jpg`);
+                images.push(`${imageDirectory}/Other/PXL_20230430_172749377.jpg`);
+                break;
+            case 'Living':
+                images.push(`${imageDirectory}/Living/PXL_20230430_174810200.jpg`);
+                images.push(`${imageDirectory}/Living/PXL_20230430_174848002.jpg`);
+                images.push(`${imageDirectory}/Living/PXL_20230430_174743571.jpg`);
+                images.push(`${imageDirectory}/Living/PXL_20230430_174833706.jpg`);
+                break;
+            case 'Dining':
+                images.push(`${imageDirectory}/Dining/PXL_20230430_194323176.jpg`);
+                break;
+            case 'Kitchen':
+                images.push(`${imageDirectory}/Kitchen/PXL_20230430_194230452.jpg`);
+                images.push(`${imageDirectory}/Kitchen/PXL_20230430_194255988.jpg`);
+                images.push(`${imageDirectory}/Kitchen/PXL_20230430_172612219.jpg`);
+                images.push(`${imageDirectory}/Kitchen/PXL_20230430_194146611.jpg`);
+                images.push(`${imageDirectory}/Kitchen/PXL_20230430_194118963.jpg`);
+                images.push(`${imageDirectory}/Kitchen/PXL_20230430_194207915.jpg`);
+                images.push(`${imageDirectory}/Kitchen/PXL_20230430_194053308.jpg`);
+                break;
+            case 'Outside':
+                images.push(`${imageDirectory}/Outside/PXL_20230329_184428017.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20230329_175926063.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20230329_184256153.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20230329_175915156.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20230329_184159676.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20230329_184315501.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20230329_184333850.jpg`);
+                images.push(`${imageDirectory}/Outside/PXL_20230329_184056644.jpg`);
+                break;
+            case 'Basement':
+                images.push(`${imageDirectory}/Basement/PXL_20230216_181342332.jpg`);
+                images.push(`${imageDirectory}/Basement/PXL_20230430_175038817.jpg`);
+                images.push(`${imageDirectory}/Basement/PXL_20230430_174954524.jpg`);
+                images.push(`${imageDirectory}/Basement/PXL_20230430_175017023.jpg`);
+                images.push(`${imageDirectory}/Basement/PXL_20230329_174313504.jpg`);
+                break;
+            case 'Bed1':
+                images.push(`${imageDirectory}/Bed1/PXL_20230430_172114454.jpg`);
+                images.push(`${imageDirectory}/Bed1/PXL_20230430_172156664.jpg`);
+                images.push(`${imageDirectory}/Bed1/PXL_20230430_172135204.jpg`);
+                images.push(`${imageDirectory}/Bed1/PXL_20230430_194406894.jpg`);
+                break;
+            case 'Bed2':
+                images.push(`${imageDirectory}/Bed2/PXL_20230430_172246999.jpg`);
+                images.push(`${imageDirectory}/Bed2/PXL_20230430_172221582.jpg`);
+                images.push(`${imageDirectory}/Bed2/PXL_20230430_194417664.jpg`);
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                images.push(`${imageDirectory}/Bath1/PXL_20230430_171850302.jpg`);
+                images.push(`${imageDirectory}/Bath1/PXL_20230430_171928000.jpg`);
+                images.push(`${imageDirectory}/Bath1/PXL_20230430_171808882.jpg`);
+                images.push(`${imageDirectory}/Bath1/PXL_20230430_171957073.jpg`);
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                images.push(`${imageDirectory}/Garage/PXL_20230430_201721914.jpg`);
+                images.push(`${imageDirectory}/Garage/PXL_20230430_201809666.jpg`);
+                images.push(`${imageDirectory}/Garage/PXL_20230430_201752141.jpg`);
+                images.push(`${imageDirectory}/Garage/PXL_20230430_201727010.jpg`);
+                break;
+            case 'Laundry':
+                images.push(`${imageDirectory}/Laundry/PXL_20230430_171729289.jpg`);
+                images.push(`${imageDirectory}/Laundry/PXL_20230430_171713360.jpg`);
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                images.push(`${imageDirectory}/Other/PXL_20230430_171641830.jpg`);
+                images.push(`${imageDirectory}/Other/PXL_20230430_172446623.jpg`);
+                images.push(`${imageDirectory}/Other/PXL_20230430_172013405.jpg`);
+                images.push(`${imageDirectory}/Other/PXL_20230430_172346326.jpg`);
+                images.push(`${imageDirectory}/Other/PXL_20230430_172749377.jpg`);
+                break;
+        }
+        break;
+    case("2701 Haas"):
+        addressDisplay.textContent = '2701 Haas Rd, Kaukauna, WI 54130';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
+                break;
+        }
+        break;
+    case("2703 Haas"):
+        addressDisplay.textContent = '2703 Haas Rd, Kaukauna, WI 54130';
+        switch(room){
+            case 'All':
+                break;
+            case 'Living':
+                break;
+            case 'Dining':
+                break;
+            case 'Kitchen':
+                break;
+            case 'Outside':
+                break;
+            case 'Basement':
+                break;
+            case 'Bed1':
+                break;
+            case 'Bed2':
+                break;
+            case 'Bed3':
+                break;
+            case 'Bed4':
+                break;
+            case 'Bath1':
+                break;
+            case 'Bath2':
+                break;
+            case 'Bath3':
+                break;
+            case 'Garage':
+                break;
+            case 'Laundry':
+                break;
+            case 'Office/Den':
+                break;
+            case 'Other':
                 break;
         }
         break;
