@@ -3,8 +3,10 @@
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
+    padding:0;
     color: #333;
     text-align: center;
+    background-color: #fdeed4;
 }
 
 header {
@@ -125,7 +127,7 @@ nav li {
 
 .property-card {
     display: none;
-    border: 1px solid #ddd;
+    border: 3px solid #ddd;
     padding: 15px;
     text-align: center;
 }
@@ -191,14 +193,14 @@ footer {
 }
 
 button {
-    background-color: #165f00; /* Example: Green background */
+    background-color: #165f00; 
     color: white;
     padding: 10px 20px;
     margin: 10px 0;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease; /* Add a transition effect */
+    transition: background-color 0.3s ease; 
 }
 
 button:hover {
@@ -316,4 +318,70 @@ main {
     display: inline-block; 
     color: #0A5115; /* Example: Dark Green Color */
     margin-left: 30px
+}
+
+@media (prefers-color-scheme: dark) {
+
+    header {
+        background-color:#1d1d1d;
+    }
+    main {
+        background-color:#2e2e2e;
+    }
+    .hero {
+        color:#d0d0d0
+    }
+    img {
+        filter: brightness(.8) contrast(1.2);
+    }
+    .hd {
+        color:#d0d0d0
+    }
+    footer {
+        background-color:#1d1d1d;
+        color:#d0d0d0
+    }
+    header nav ul li a {
+        color: #d0d0d0;
+    }
+
+    .property-card {
+        background-color:#1d1d1d;
+        color: #d0d0d0;
+        border: 3px solid #d0d0d0;
+    }
+
+    .property-card.js_available{
+        background-color:#1d1d1d;
+        color: #d0d0d0
+    }
+    .photo_button {
+        color:#d0d0d0;
+        background-color: #3e413d; 
+    }
+    .photo_button:hover {
+        background-color: #9ca59d; 
+    }
+    select {
+        color:#d0d0d0;
+        background-color: #3e413d; 
+    }
+    select:hover {
+        background-color: #9ca59d; 
+    }
+    #redirect-dropdown {
+        color:#d0d0d0;
+    }
+    button {
+        background-color: rgb(4, 104, 42);
+    }
+    .logo-name {
+        color:rgb(4, 104, 42);
+    }
+    #address {
+        color:#d0d0d0
+    }
+    body {
+        background-color: #2e2e2e;
+    }
 }
