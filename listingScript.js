@@ -54,8 +54,6 @@ propertyCards.forEach(card => {
 // **DONT REMOVE LINE** START4231
 
 var link = document.querySelector('a[tp="tmp"]');
-link = document.querySelector('a[tp="903%20Spring"]');
-link.style.display = 'none';
 link = document.querySelector('a[tp="102%20Green%20Way"]');
 link.style.display = 'none';
 link = document.querySelector('a[tp="104%20Green%20Way"]');
