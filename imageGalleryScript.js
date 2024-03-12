@@ -1923,18 +1923,17 @@ slides.forEach(slide => {
 
  const dropdown = document.getElementById('room_dropdown');
 
- const roomSelect = document.getElementById('room_dropdown');
-
  function saveSelectedOption() {
-    const selectedValue = roomSelect.value;
+    const selectedValue = dropdown.value;
     localStorage.setItem('selectedRoom', selectedValue);
   }
 
 function loadSelectedOption() {
     const storedValue = localStorage.getItem('selectedRoom');
     if (storedValue) {
-      roomSelect.value = storedValue;
+      dropdown.value = storedValue;
     }
+    localStorage.setItem('selectedRoom', dropdown.options[0].text);
 }
 
 dropdown.addEventListener('change', function() {
