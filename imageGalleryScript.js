@@ -2639,6 +2639,18 @@ switch(imageDirectory) {
 // **DONT REMOVE LINE** END4231
 
 function adjustSlideWidth(slide, imgWidth, imgHeight) {
+if (window.matchMedia("(max-width: 768px)").matches) {
+    if (imgWidth / imgHeight < .6) { // .5625 ratio 9:16
+        slide.style.width = '28.5%'; // Example width for horizontal images
+    } else if(imgWidth / imgHeight < .8) { // .75 ratio 3:4
+        slide.style.width = '38%'; // Example width for horizontal images
+    } else if(imgWidth / imgHeight < 1.5) { // 1.333 ratio 4:3
+        slide.style.width = '67.5%'; // Example width for vertical images
+    } else { // 1.7817 ratio 16:9
+        slide.style.width = '90%'; // Example width for horizontal images
+    }
+}
+else{
     if (imgWidth / imgHeight < .6) { // .5625 ratio 9:16
         slide.style.width = '21.1%'; // Example width for horizontal images
     } else if(imgWidth / imgHeight < .8) { // .75 ratio 3:4
@@ -2649,7 +2661,7 @@ function adjustSlideWidth(slide, imgWidth, imgHeight) {
         slide.style.width = '66.7%'; // Example width for horizontal images
     }
 }
-
+}
 const KitchenswiperWrapper = document.querySelector('.mySwiperKitchen2 .swiper-wrapper');
 const KitchenthumbSwiperWrapper = document.querySelector('.mySwiperKitchen .swiper-wrapper'); // Target thumbnail
 
@@ -2671,6 +2683,26 @@ images.forEach(imgSrc => {
     KitchenthumbSwiperWrapper.appendChild(thumbSlide); 
 });
 
+
+if (window.matchMedia("(max-width: 768px)").matches) {
+var swiper3 = new Swiper(".mySwiperKitchen", { // This is the container under the images
+  loop: true,
+  spaceBetween: 5,
+  slidesPerView: 4,
+  freeMode: true,
+  watchSlidesProgress: true,
+});
+var swiper2 = new Swiper(".mySwiperKitchen2", {
+  slidesPerView: "auto",
+  centeredSlides: true,
+  spaceBetween: 5,
+  loop: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+} else {
 var swiper3 = new Swiper(".mySwiperKitchen", { // This is the container under the images
   loop: true,
   spaceBetween: 10,
@@ -2692,6 +2724,7 @@ var swiper2 = new Swiper(".mySwiperKitchen2", {
     swiper: swiper3,
   },
 });
+}
 
 const slides = swiper2.slides;
 slides.forEach(slide => {
