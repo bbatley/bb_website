@@ -106,17 +106,6 @@ nav li {
     gap: 20px;
 }
 
-.property-card-web {
-    border: 1px solid #ddd;
-    padding: 15px;
-    text-align: center;
-}
-
-.property-card-web img {
-    max-width: 100%;
-    height: auto;
-}
-
 .property-card.js_available{
     display: none;
     border: 5px solid green;
@@ -386,4 +375,73 @@ main {
     body {
         background-color: #2e2e2e;
     }
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    
+    .logo img {
+        vertical-align: middle;
+        max-width: 45px;
+        margin-left: 35px;
+        display:flex; /* Use flexbox for alignment */
+        align-items: flex-end; /* Vertically center logo and name */
+    }
+    .logo-name {
+        text-decoration: none; 
+        font-size: 17px;
+        font-weight: bold;
+        /* text-align: center; */
+        text-decoration: none; 
+        display: inline-block; 
+    }
+    .logo-container {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;    /* Center items horizontally */
+        text-decoration: none;
+        margin-right: 10px;
+      }
+    header nav ul li a {
+        text-decoration: none; 
+        display: inline-block; /* Allows setting width/height */
+        padding: 5px 5px;    /* Adjust padding as desired */
+    }
+    header {
+        padding: 0px 0;
+    }
+    header nav ul select {
+        padding: 5px 5px;    /* Adjust padding as desired */
+    }
+    button {
+        background-color: #0A5115; /* Example button color */
+        padding: 5px 10px;    /* Adjust padding as desired */
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+    select {
+        padding: 5px 5px;    /* Adjust padding as desired */
+        font-size: 16px;
+    }
+    .hd {
+        margin-top:-25px;
+        margin-bottom: 5px;
+    }
+  .swiper {
+    width: 95%;
+    margin-bottom: 30px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    max-width: 100%;
+  }
+
+  #address {
+    font-size: 20px;
+  }
 }

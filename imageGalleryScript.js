@@ -96,86 +96,8 @@ switch(imageDirectory) {
                 break;
         }
         break;
-    case("102 Green Way"):
-        addressDisplay.textContent = '102 Green Way Dr, Combined Locks, WI 54113';
-        switch(room){
-            case 'All':
-                break;
-            case 'Living':
-                break;
-            case 'Dining':
-                break;
-            case 'Kitchen':
-                break;
-            case 'Outside':
-                break;
-            case 'Basement':
-                break;
-            case 'Bed1':
-                break;
-            case 'Bed2':
-                break;
-            case 'Bed3':
-                break;
-            case 'Bed4':
-                break;
-            case 'Bath1':
-                break;
-            case 'Bath2':
-                break;
-            case 'Bath3':
-                break;
-            case 'Garage':
-                break;
-            case 'Laundry':
-                break;
-            case 'Office/Den':
-                break;
-            case 'Other':
-                break;
-        }
-        break;
-    case("104 Green Way"):
-        addressDisplay.textContent = '104 Green Way Dr, Combined Locks, WI 54113';
-        switch(room){
-            case 'All':
-                break;
-            case 'Living':
-                break;
-            case 'Dining':
-                break;
-            case 'Kitchen':
-                break;
-            case 'Outside':
-                break;
-            case 'Basement':
-                break;
-            case 'Bed1':
-                break;
-            case 'Bed2':
-                break;
-            case 'Bed3':
-                break;
-            case 'Bed4':
-                break;
-            case 'Bath1':
-                break;
-            case 'Bath2':
-                break;
-            case 'Bath3':
-                break;
-            case 'Garage':
-                break;
-            case 'Laundry':
-                break;
-            case 'Office/Den':
-                break;
-            case 'Other':
-                break;
-        }
-        break;
     case("5335 Brookview"):
-        addressDisplay.textContent = '104 Green Way Dr, Combined Locks, WI 54113';
+        addressDisplay.textContent = '5335 Brookview Dr, Appleton, WI 54913';
         link = document.querySelector('option[rmknd="Living"]');
         link.style.display = 'inline'
         link = document.querySelector('option[rmknd="Dining"]');
@@ -324,123 +246,6 @@ switch(imageDirectory) {
                 images.push(`${imageDirectory}/Other/IMG_3648.heic.jpg`);
                 images.push(`${imageDirectory}/Other/IMG_3622.heic.jpg`);
                 images.push(`${imageDirectory}/Other/IMG_3639.heic.jpg`);
-                break;
-        }
-        break;
-    case("5337 Brookview"):
-        addressDisplay.textContent = '5335 Brookview Dr, Appleton, WI 54913';
-        switch(room){
-            case 'All':
-                break;
-            case 'Living':
-                break;
-            case 'Dining':
-                break;
-            case 'Kitchen':
-                break;
-            case 'Outside':
-                break;
-            case 'Basement':
-                break;
-            case 'Bed1':
-                break;
-            case 'Bed2':
-                break;
-            case 'Bed3':
-                break;
-            case 'Bed4':
-                break;
-            case 'Bath1':
-                break;
-            case 'Bath2':
-                break;
-            case 'Bath3':
-                break;
-            case 'Garage':
-                break;
-            case 'Laundry':
-                break;
-            case 'Office/Den':
-                break;
-            case 'Other':
-                break;
-        }
-        break;
-    case("N1841 Reimer"):
-        addressDisplay.textContent = '5337 Brookview Dr, Appleton, WI 54913';
-        switch(room){
-            case 'All':
-                break;
-            case 'Living':
-                break;
-            case 'Dining':
-                break;
-            case 'Kitchen':
-                break;
-            case 'Outside':
-                break;
-            case 'Basement':
-                break;
-            case 'Bed1':
-                break;
-            case 'Bed2':
-                break;
-            case 'Bed3':
-                break;
-            case 'Bed4':
-                break;
-            case 'Bath1':
-                break;
-            case 'Bath2':
-                break;
-            case 'Bath3':
-                break;
-            case 'Garage':
-                break;
-            case 'Laundry':
-                break;
-            case 'Office/Den':
-                break;
-            case 'Other':
-                break;
-        }
-        break;
-    case("N1843 Reimer"):
-        addressDisplay.textContent = 'N1841 Reimer Ct, Greenville, WI 54942';
-        switch(room){
-            case 'All':
-                break;
-            case 'Living':
-                break;
-            case 'Dining':
-                break;
-            case 'Kitchen':
-                break;
-            case 'Outside':
-                break;
-            case 'Basement':
-                break;
-            case 'Bed1':
-                break;
-            case 'Bed2':
-                break;
-            case 'Bed3':
-                break;
-            case 'Bed4':
-                break;
-            case 'Bath1':
-                break;
-            case 'Bath2':
-                break;
-            case 'Bath3':
-                break;
-            case 'Garage':
-                break;
-            case 'Laundry':
-                break;
-            case 'Office/Den':
-                break;
-            case 'Other':
                 break;
         }
         break;
@@ -832,123 +637,6 @@ switch(imageDirectory) {
                 break;
         }
         break;
-    case("2707A 4th"):
-        addressDisplay.textContent = '2707 W. 4th St, Apt. A, Appleton, WI 54914';
-        switch(room){
-            case 'All':
-                break;
-            case 'Living':
-                break;
-            case 'Dining':
-                break;
-            case 'Kitchen':
-                break;
-            case 'Outside':
-                break;
-            case 'Basement':
-                break;
-            case 'Bed1':
-                break;
-            case 'Bed2':
-                break;
-            case 'Bed3':
-                break;
-            case 'Bed4':
-                break;
-            case 'Bath1':
-                break;
-            case 'Bath2':
-                break;
-            case 'Bath3':
-                break;
-            case 'Garage':
-                break;
-            case 'Laundry':
-                break;
-            case 'Office/Den':
-                break;
-            case 'Other':
-                break;
-        }
-        break;
-    case("2707B 4th"):
-        addressDisplay.textContent = '2707 W. 4th St, Apt. B, Appleton, WI 54914';
-        switch(room){
-            case 'All':
-                break;
-            case 'Living':
-                break;
-            case 'Dining':
-                break;
-            case 'Kitchen':
-                break;
-            case 'Outside':
-                break;
-            case 'Basement':
-                break;
-            case 'Bed1':
-                break;
-            case 'Bed2':
-                break;
-            case 'Bed3':
-                break;
-            case 'Bed4':
-                break;
-            case 'Bath1':
-                break;
-            case 'Bath2':
-                break;
-            case 'Bath3':
-                break;
-            case 'Garage':
-                break;
-            case 'Laundry':
-                break;
-            case 'Office/Den':
-                break;
-            case 'Other':
-                break;
-        }
-        break;
-    case("2707C 4th"):
-        addressDisplay.textContent = '2707 W. 4th St, Apt. C, Appleton, WI 54914';
-        switch(room){
-            case 'All':
-                break;
-            case 'Living':
-                break;
-            case 'Dining':
-                break;
-            case 'Kitchen':
-                break;
-            case 'Outside':
-                break;
-            case 'Basement':
-                break;
-            case 'Bed1':
-                break;
-            case 'Bed2':
-                break;
-            case 'Bed3':
-                break;
-            case 'Bed4':
-                break;
-            case 'Bath1':
-                break;
-            case 'Bath2':
-                break;
-            case 'Bath3':
-                break;
-            case 'Garage':
-                break;
-            case 'Laundry':
-                break;
-            case 'Office/Den':
-                break;
-            case 'Other':
-                break;
-        }
-        break;
     case("2707D 4th"):
         addressDisplay.textContent = '2707 W. 4th St, Apt. D, Appleton, WI 54914';
         link = document.querySelector('option[rmknd="Living"]');
@@ -1087,279 +775,6 @@ switch(imageDirectory) {
             case 'Other':
                 images.push(`${imageDirectory}/Other/IMG_3323.heic.jpg`);
                 images.push(`${imageDirectory}/Other/image_67144961.JPG`);
-                break;
-        }
-        break;
-    case("2711A 4th"):
-        addressDisplay.textContent = '2711 W. 4th St, Apt. A, Appleton, WI 54914';
-        switch(room){
-            case 'All':
-                break;
-            case 'Living':
-                break;
-            case 'Dining':
-                break;
-            case 'Kitchen':
-                break;
-            case 'Outside':
-                break;
-            case 'Basement':
-                break;
-            case 'Bed1':
-                break;
-            case 'Bed2':
-                break;
-            case 'Bed3':
-                break;
-            case 'Bed4':
-                break;
-            case 'Bath1':
-                break;
-            case 'Bath2':
-                break;
-            case 'Bath3':
-                break;
-            case 'Garage':
-                break;
-            case 'Laundry':
-                break;
-            case 'Office/Den':
-                break;
-            case 'Other':
-                break;
-        }
-        break;
-    case("2711B 4th"):
-        addressDisplay.textContent = '2711 W. 4th St, Apt. B, Appleton, WI 54914';
-        switch(room){
-            case 'All':
-                break;
-            case 'Living':
-                break;
-            case 'Dining':
-                break;
-            case 'Kitchen':
-                break;
-            case 'Outside':
-                break;
-            case 'Basement':
-                break;
-            case 'Bed1':
-                break;
-            case 'Bed2':
-                break;
-            case 'Bed3':
-                break;
-            case 'Bed4':
-                break;
-            case 'Bath1':
-                break;
-            case 'Bath2':
-                break;
-            case 'Bath3':
-                break;
-            case 'Garage':
-                break;
-            case 'Laundry':
-                break;
-            case 'Office/Den':
-                break;
-            case 'Other':
-                break;
-        }
-        break;
-    case("2711C 4th"):
-        addressDisplay.textContent = '2711 W. 4th St, Apt. C, Appleton, WI 54914';
-        switch(room){
-            case 'All':
-                break;
-            case 'Living':
-                break;
-            case 'Dining':
-                break;
-            case 'Kitchen':
-                break;
-            case 'Outside':
-                break;
-            case 'Basement':
-                break;
-            case 'Bed1':
-                break;
-            case 'Bed2':
-                break;
-            case 'Bed3':
-                break;
-            case 'Bed4':
-                break;
-            case 'Bath1':
-                break;
-            case 'Bath2':
-                break;
-            case 'Bath3':
-                break;
-            case 'Garage':
-                break;
-            case 'Laundry':
-                break;
-            case 'Office/Den':
-                break;
-            case 'Other':
-                break;
-        }
-        break;
-    case("2711D 4th"):
-        addressDisplay.textContent = '2711 W. 4th St, Apt. D, Appleton, WI 54914';
-        switch(room){
-            case 'All':
-                break;
-            case 'Living':
-                break;
-            case 'Dining':
-                break;
-            case 'Kitchen':
-                break;
-            case 'Outside':
-                break;
-            case 'Basement':
-                break;
-            case 'Bed1':
-                break;
-            case 'Bed2':
-                break;
-            case 'Bed3':
-                break;
-            case 'Bed4':
-                break;
-            case 'Bath1':
-                break;
-            case 'Bath2':
-                break;
-            case 'Bath3':
-                break;
-            case 'Garage':
-                break;
-            case 'Laundry':
-                break;
-            case 'Office/Den':
-                break;
-            case 'Other':
-                break;
-        }
-        break;
-    case("2715A 4th"):
-        addressDisplay.textContent = '2715 W. 4th St, Apt. A, Appleton, WI 54914';
-        switch(room){
-            case 'All':
-                break;
-            case 'Living':
-                break;
-            case 'Dining':
-                break;
-            case 'Kitchen':
-                break;
-            case 'Outside':
-                break;
-            case 'Basement':
-                break;
-            case 'Bed1':
-                break;
-            case 'Bed2':
-                break;
-            case 'Bed3':
-                break;
-            case 'Bed4':
-                break;
-            case 'Bath1':
-                break;
-            case 'Bath2':
-                break;
-            case 'Bath3':
-                break;
-            case 'Garage':
-                break;
-            case 'Laundry':
-                break;
-            case 'Office/Den':
-                break;
-            case 'Other':
-                break;
-        }
-        break;
-    case("2715B 4th"):
-        addressDisplay.textContent = '2715 W. 4th St, Apt. B, Appleton, WI 54914';
-        switch(room){
-            case 'All':
-                break;
-            case 'Living':
-                break;
-            case 'Dining':
-                break;
-            case 'Kitchen':
-                break;
-            case 'Outside':
-                break;
-            case 'Basement':
-                break;
-            case 'Bed1':
-                break;
-            case 'Bed2':
-                break;
-            case 'Bed3':
-                break;
-            case 'Bed4':
-                break;
-            case 'Bath1':
-                break;
-            case 'Bath2':
-                break;
-            case 'Bath3':
-                break;
-            case 'Garage':
-                break;
-            case 'Laundry':
-                break;
-            case 'Office/Den':
-                break;
-            case 'Other':
-                break;
-        }
-        break;
-    case("2715C 4th"):
-        addressDisplay.textContent = '2715 W. 4th St, Apt. C, Appleton, WI 54914';
-        switch(room){
-            case 'All':
-                break;
-            case 'Living':
-                break;
-            case 'Dining':
-                break;
-            case 'Kitchen':
-                break;
-            case 'Outside':
-                break;
-            case 'Basement':
-                break;
-            case 'Bed1':
-                break;
-            case 'Bed2':
-                break;
-            case 'Bed3':
-                break;
-            case 'Bed4':
-                break;
-            case 'Bath1':
-                break;
-            case 'Bath2':
-                break;
-            case 'Bath3':
-                break;
-            case 'Garage':
-                break;
-            case 'Laundry':
-                break;
-            case 'Office/Den':
-                break;
-            case 'Other':
                 break;
         }
         break;
@@ -2069,162 +1484,6 @@ switch(imageDirectory) {
                 break;
         }
         break;
-    case("1716 E Main"):
-        addressDisplay.textContent = '1716 E. Main St, Little Chute, WI 54140';
-        switch(room){
-            case 'All':
-                break;
-            case 'Living':
-                break;
-            case 'Dining':
-                break;
-            case 'Kitchen':
-                break;
-            case 'Outside':
-                break;
-            case 'Basement':
-                break;
-            case 'Bed1':
-                break;
-            case 'Bed2':
-                break;
-            case 'Bed3':
-                break;
-            case 'Bed4':
-                break;
-            case 'Bath1':
-                break;
-            case 'Bath2':
-                break;
-            case 'Bath3':
-                break;
-            case 'Garage':
-                break;
-            case 'Laundry':
-                break;
-            case 'Office/Den':
-                break;
-            case 'Other':
-                break;
-        }
-        break;
-    case("1718 E Main"):
-        addressDisplay.textContent = '1718 E. Main St, Little Chute, WI 54140';
-        switch(room){
-            case 'All':
-                break;
-            case 'Living':
-                break;
-            case 'Dining':
-                break;
-            case 'Kitchen':
-                break;
-            case 'Outside':
-                break;
-            case 'Basement':
-                break;
-            case 'Bed1':
-                break;
-            case 'Bed2':
-                break;
-            case 'Bed3':
-                break;
-            case 'Bed4':
-                break;
-            case 'Bath1':
-                break;
-            case 'Bath2':
-                break;
-            case 'Bath3':
-                break;
-            case 'Garage':
-                break;
-            case 'Laundry':
-                break;
-            case 'Office/Den':
-                break;
-            case 'Other':
-                break;
-        }
-        break;
-    case("1783 Burgoyne"):
-        addressDisplay.textContent = '1783 Burgoyne Ct, De Pere, WI 54115';
-        switch(room){
-            case 'All':
-                break;
-            case 'Living':
-                break;
-            case 'Dining':
-                break;
-            case 'Kitchen':
-                break;
-            case 'Outside':
-                break;
-            case 'Basement':
-                break;
-            case 'Bed1':
-                break;
-            case 'Bed2':
-                break;
-            case 'Bed3':
-                break;
-            case 'Bed4':
-                break;
-            case 'Bath1':
-                break;
-            case 'Bath2':
-                break;
-            case 'Bath3':
-                break;
-            case 'Garage':
-                break;
-            case 'Laundry':
-                break;
-            case 'Office/Den':
-                break;
-            case 'Other':
-                break;
-        }
-        break;
-    case("1785 Burgoyne"):
-        addressDisplay.textContent = '1785 Burgoyne Ct, De Pere, WI 54115';
-        switch(room){
-            case 'All':
-                break;
-            case 'Living':
-                break;
-            case 'Dining':
-                break;
-            case 'Kitchen':
-                break;
-            case 'Outside':
-                break;
-            case 'Basement':
-                break;
-            case 'Bed1':
-                break;
-            case 'Bed2':
-                break;
-            case 'Bed3':
-                break;
-            case 'Bed4':
-                break;
-            case 'Bath1':
-                break;
-            case 'Bath2':
-                break;
-            case 'Bath3':
-                break;
-            case 'Garage':
-                break;
-            case 'Laundry':
-                break;
-            case 'Office/Den':
-                break;
-            case 'Other':
-                break;
-        }
-        break;
     case("2021 Autumn"):
         addressDisplay.textContent = '2021 Autumn Ln, Kaukauna, WI 54130';
         link = document.querySelector('option[rmknd="Living"]');
@@ -2557,88 +1816,22 @@ switch(imageDirectory) {
                 break;
         }
         break;
-    case("2701 Haas"):
-        addressDisplay.textContent = '2701 Haas Rd, Kaukauna, WI 54130';
-        switch(room){
-            case 'All':
-                break;
-            case 'Living':
-                break;
-            case 'Dining':
-                break;
-            case 'Kitchen':
-                break;
-            case 'Outside':
-                break;
-            case 'Basement':
-                break;
-            case 'Bed1':
-                break;
-            case 'Bed2':
-                break;
-            case 'Bed3':
-                break;
-            case 'Bed4':
-                break;
-            case 'Bath1':
-                break;
-            case 'Bath2':
-                break;
-            case 'Bath3':
-                break;
-            case 'Garage':
-                break;
-            case 'Laundry':
-                break;
-            case 'Office/Den':
-                break;
-            case 'Other':
-                break;
-        }
-        break;
-    case("2703 Haas"):
-        addressDisplay.textContent = '2703 Haas Rd, Kaukauna, WI 54130';
-        switch(room){
-            case 'All':
-                break;
-            case 'Living':
-                break;
-            case 'Dining':
-                break;
-            case 'Kitchen':
-                break;
-            case 'Outside':
-                break;
-            case 'Basement':
-                break;
-            case 'Bed1':
-                break;
-            case 'Bed2':
-                break;
-            case 'Bed3':
-                break;
-            case 'Bed4':
-                break;
-            case 'Bath1':
-                break;
-            case 'Bath2':
-                break;
-            case 'Bath3':
-                break;
-            case 'Garage':
-                break;
-            case 'Laundry':
-                break;
-            case 'Office/Den':
-                break;
-            case 'Other':
-                break;
-        }
-        break;
 }
 // **DONT REMOVE LINE** END4231
 
 function adjustSlideWidth(slide, imgWidth, imgHeight) {
+if (window.matchMedia("(max-width: 768px)").matches) {
+    if (imgWidth / imgHeight < .6) { // .5625 ratio 9:16
+        slide.style.width = '28.5%'; // Example width for horizontal images
+    } else if(imgWidth / imgHeight < .8) { // .75 ratio 3:4
+        slide.style.width = '38%'; // Example width for horizontal images
+    } else if(imgWidth / imgHeight < 1.5) { // 1.333 ratio 4:3
+        slide.style.width = '67.5%'; // Example width for vertical images
+    } else { // 1.7817 ratio 16:9
+        slide.style.width = '90%'; // Example width for horizontal images
+    }
+}
+else{
     if (imgWidth / imgHeight < .6) { // .5625 ratio 9:16
         slide.style.width = '21.1%'; // Example width for horizontal images
     } else if(imgWidth / imgHeight < .8) { // .75 ratio 3:4
@@ -2649,7 +1842,7 @@ function adjustSlideWidth(slide, imgWidth, imgHeight) {
         slide.style.width = '66.7%'; // Example width for horizontal images
     }
 }
-
+}
 const KitchenswiperWrapper = document.querySelector('.mySwiperKitchen2 .swiper-wrapper');
 const KitchenthumbSwiperWrapper = document.querySelector('.mySwiperKitchen .swiper-wrapper'); // Target thumbnail
 
@@ -2671,6 +1864,26 @@ images.forEach(imgSrc => {
     KitchenthumbSwiperWrapper.appendChild(thumbSlide); 
 });
 
+
+if (window.matchMedia("(max-width: 768px)").matches) {
+var swiper3 = new Swiper(".mySwiperKitchen", { // This is the container under the images
+  loop: true,
+  spaceBetween: 5,
+  slidesPerView: 4,
+  freeMode: true,
+  watchSlidesProgress: true,
+});
+var swiper2 = new Swiper(".mySwiperKitchen2", {
+  slidesPerView: "auto",
+  centeredSlides: true,
+  spaceBetween: 5,
+  loop: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+} else {
 var swiper3 = new Swiper(".mySwiperKitchen", { // This is the container under the images
   loop: true,
   spaceBetween: 10,
@@ -2692,6 +1905,7 @@ var swiper2 = new Swiper(".mySwiperKitchen2", {
     swiper: swiper3,
   },
 });
+}
 
 const slides = swiper2.slides;
 slides.forEach(slide => {
@@ -2709,18 +1923,17 @@ slides.forEach(slide => {
 
  const dropdown = document.getElementById('room_dropdown');
 
- const roomSelect = document.getElementById('room_dropdown');
-
  function saveSelectedOption() {
-    const selectedValue = roomSelect.value;
+    const selectedValue = dropdown.value;
     localStorage.setItem('selectedRoom', selectedValue);
   }
 
 function loadSelectedOption() {
     const storedValue = localStorage.getItem('selectedRoom');
     if (storedValue) {
-      roomSelect.value = storedValue;
+      dropdown.value = storedValue;
     }
+    localStorage.setItem('selectedRoom', dropdown.options[0].text);
 }
 
 dropdown.addEventListener('change', function() {
