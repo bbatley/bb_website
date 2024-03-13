@@ -1,3 +1,77 @@
+<?php
+
+function test_input($data) {
+    $data = trim($data);
+    $data = stripslashes($data);
+    $data = htmlspecialchars($data);
+    return $data;
+}
+
+$nameErr = $emailErr = $genderErr = $websiteErr = "";
+$firstName = $lastName = $email = $property = $subject = "";
+  
+// Check if the form was submitted
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+    // Collect form data (basic validation added)
+    if (empty($_POST["firstname"])) {
+        $nameErr = "Name is required";
+      } else {
+        $firstName = test_input($_POST["name"]);
+        // check if name only contains letters and whitespace
+        if (!preg_match("/^[a-zA-Z-' ]*$/",$name)) {
+          $nameErr = "Only letters and white space allowed";
+        }
+      }
+
+    if (empty($_POST["firstname"])) {
+        $nameErr = "Name is required";
+      } else {
+        $lastName = test_input($_POST["name"]);
+        // check if name only contains letters and whitespace
+        if (!preg_match("/^[a-zA-Z-' ]*$/",$name)) {
+          $nameErr = "Only letters and white space allowed";
+        }
+      }
+      
+      if (empty($_POST["email"])) {
+        $emailErr = "Email is required";
+      } else {
+        $email = test_input($_POST["email"]);
+        // check if e-mail address is well-formed
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+          $emailErr = "Invalid email format";
+        }
+      }
+
+    $country = filter_var($_POST["country"]);
+    $subject = filter_var($_POST["subject"]);
+
+    // Ensure required fields aren't empty
+    if (empty($firstName) || empty($lastName) || empty($email)) {
+        echo "Error: First name, last name, and email are required.";
+        exit;
+    }
+
+    // Compose email
+    $to = "bbatleyhomes@gmail.com"; 
+    $emailSubject = "Contact Form Submission: $firstName $lastName";
+    $body = "Name: $firstName $lastName\n".
+            "Email: $email\n".
+            "Property: $country\n".
+            "Message:\n$subject";
+    $headers = "From: $email\r\n";
+    $email = test_input($_POST["email"]);
+
+    // Send the email
+    if (mail($to, $emailSubject, $body, $headers)) {
+        echo "Thank you for contacting us! Your message has been sent.";
+    } else {
+        echo "Error: There was a problem sending your message. Please try again later.";
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,6 +79,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BBatley Homes | Contact</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contactForm.css">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <meta property="og:title" content="BBatley Homes | Contact" />
     <meta property="og:image" content="https://www.bbatleyhomes.com/photos/500 E Alice/Front 1-PXL_20211123_150426767.jpg" /> 
@@ -50,7 +125,38 @@
             <img src="Self.jpg" alt="headshot" style="width: 150px; height: 150px"> 
             <p><i class="fa-solid fa-address-book fa-xl"></i> PO Box 321, Greenville, WI 54942-0321</p>
             <p><i class="fa-solid fa-envelope fa-xl"></i> bbatleyhomes@gmail.com</p>
+            <h3>Send a Message</h3>
         </section>
+
+        <div class="container">
+            <form action="" method="post">
+          
+              <div class="name-fields">
+                <label for="fname">First Name *</label>
+                <input type="text" id="fname" name="firstname" placeholder="First Name" maxlength="100" required class="inp">
+          
+                <label for="lname">Last Name *</label>
+                <input type="text" id="lname" name="lastname" placeholder="Last Name" maxlength="100" required class="inp">
+              </div>
+
+              <label for="email">Email *</label>
+              <input type="text" id="email" name="lastname" placeholder="Email" maxlength="100" required class="inp">
+          
+              <label for="country">Property</label>
+              <select id="country" name="country" class="inp">
+                <option value="">Interested Property</option>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Custom Message" style="height:200px" maxlength="1000" class="inp"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
 
     </main>
 
