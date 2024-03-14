@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BBatley Homes | Contact</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contactForm.css">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <meta property="og:title" content="BBatley Homes | Contact" />
     <meta property="og:image" content="https://www.bbatleyhomes.com/photos/500 E Alice/Front 1-PXL_20211123_150426767.jpg" /> 
     <meta property="og:url" content="https://www.bbatleyhomes.com/contact.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/11011031fb.js" crossorigin="anonymous"></script>
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-R83F8YEVZC"></script>
@@ -47,10 +49,44 @@
         <section class="hero">
             <h1>BBatley</h1>
             <img src="Self.jpg" alt="headshot" style="width: 150px; height: 150px"> 
-            <p><strong>Address:</strong> PO Box 321, Greenville, WI 54942-0321</p>
-            <p><strong>Primary Email:</strong> bbatleyhomes@gmail.com</p>
-            <p><strong>Secondary Email:</strong> bbatleyhouses@gmail.com</p>
+            <p><i class="fa-solid fa-address-book fa-xl"></i> PO Box 321, Greenville, WI 54942-0321</p>
+            <p><i class="fa-solid fa-envelope fa-xl"></i> bbatleyhomes@gmail.com</p>
         </section>
+
+        <div class="container">
+            <form action="https://api.web3forms.com/submit" method="POST", id="frm">
+
+            <input type="hidden" name="access_key" value="e79bb29b-01b3-41a9-a015-716bb5b2a6e0">
+            <input type="hidden" name="subject" value="Inquiry">
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+            <label for="fname">Full Name</label>
+            <input type="text" id="fname" name="full name" placeholder="First Name" maxlength="100" required class="inp">
+
+              <label for="email" name="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="Email" maxlength="100" required class="inp">
+              <input type="hidden" name="redirect" value="https://bbatleyhomes.com/success.html">
+          
+              <label for="property">Interested Property</label>
+              <select id="property" name="property" class="inp">
+        <!-- **DONT REMOVE LINE** START4231 -->
+
+            <option value="not-selected">Select</option>
+            <option value="903 Spring Street, Ann Arbor, MI 48103">903 Spring Street, Ann Arbor, MI 48103</option>
+            <option value="1749 Marissa Ct, De Pere, WI 54115">1749 Marissa Ct, De Pere, WI 54115</option>
+
+        <!-- **DONT REMOVE LINE** END4231 -->
+              </select>
+          
+              <label for="sub">Subject</label>
+              <textarea id="sub" name="Message" placeholder="Custom Message" style="height:200px" maxlength="1000" class="inp"></textarea>
+
+              <div class="h-captcha" data-captcha="true" data-theme="light"></div>
+
+              <input type="submit" value="Send Message" class="sub_button">
+          
+            </form>
+          </div>
 
     </main>
 
@@ -59,6 +95,8 @@
     </footer>
 
     <script src="../documentDropdown.js"></script>
+    <script src="../contact.js"></script>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
 
     </div>
   
