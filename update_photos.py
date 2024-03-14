@@ -1,42 +1,52 @@
 import re
 import os
+from dataclasses import dataclass
 
 rooms = ["Living", "Dining", "Kitchen", "Outside", "Basement",
          "Bed1", "Bed2", "Bed3", "Bed4", "Bath1",
          "Bath2", "Bath3", "Garage", "Laundry", "Office/Den", "Other"]
 
-directory_names = {"903%20Spring":"903 Spring Street, Ann Arbor, MI 48103"
-                   , "102%20Green%20Way":"102 Green Way Dr, Combined Locks, WI 54113"
-                   , "104%20Green%20Way":"104 Green Way Dr, Combined Locks, WI 54113"
-                   , "5335%20Brookview":"5335 Brookview Dr, Appleton, WI 54913"
-                   , "5337%20Brookview":"5337 Brookview Dr, Appleton, WI 54913"
-                   , "N1841%20Reimer":"N1841 Reimer Ct, Greenville, WI 54942"
-                   , "N1843%20Reimer":"N1843 Reimer Ct, Greenville, WI 54942"
-                   , "1749%20Marissa":"1749 Marissa Ct, De Pere, WI 54115"
-                   , "1751%20Marissa":"1751 Marissa Ct, De Pere, WI 54115"
-                   , "2707A%204th":"2707 W. 4th St, Apt. A, Appleton, WI 54914"
-                   , "2707B%204th":"2707 W. 4th St, Apt. B, Appleton, WI 54914"
-                   , "2707C%204th":"2707 W. 4th St, Apt. C, Appleton, WI 54914"
-                   , "2707D%204th":"2707 W. 4th St, Apt. D, Appleton, WI 54914"
-                   , "2711A%204th":"2711 W. 4th St, Apt. A, Appleton, WI 54914"
-                   , "2711B%204th":"2711 W. 4th St, Apt. B, Appleton, WI 54914"
-                   , "2711C%204th":"2711 W. 4th St, Apt. C, Appleton, WI 54914"
-                   , "2711D%204th":"2711 W. 4th St, Apt. D, Appleton, WI 54914"
-                   , "2715A%204th":"2715 W. 4th St, Apt. A, Appleton, WI 54914"
-                   , "2715B%204th":"2715 W. 4th St, Apt. B, Appleton, WI 54914"
-                   , "2715C%204th":"2715 W. 4th St, Apt. C, Appleton, WI 54914"
-                   , "2715D%204th":"2715 W. 4th St, Apt. D, Appleton, WI 54914"
-                   , "500%20E%20Alice":"500 E. Alice St, Appleton, WI 54911"
-                   , "1708%20E%20Main":"1708 E. Main St, Little Chute, WI 54140"
-                   , "1710%20E%20Main":"1710 E. Main St, Little Chute, WI 54140"
-                   , "1716%20E%20Main":"1716 E. Main St, Little Chute, WI 54140"
-                   , "1718%20E%20Main":"1718 E. Main St, Little Chute, WI 54140"
-                   , "1783%20Burgoyne":"1783 Burgoyne Ct, De Pere, WI 54115"
-                   , "1785%20Burgoyne":"1785 Burgoyne Ct, De Pere, WI 54115"
-                   , "2021%20Autumn":"2021 Autumn Ln, Kaukauna, WI 54130"
-                   , "2023%20Autumn":"2023 Autumn Ln, Kaukauna, WI 54130"
-                   , "2701%20Haas":"2701 Haas Rd, Kaukauna, WI 54130"
-                   , "2703%20Haas":"2703 Haas Rd, Kaukauna, WI 54130"
+@dataclass
+class Listing:
+    address: str
+    available: bool
+    beds: int
+    baths: float
+
+
+
+directory_names = {"903%20Spring":Listing("903 Spring Street, Ann Arbor, MI 48103", True, 1, 1)
+                   , "102%20Green%20Way":Listing("102 Green Way Dr, Combined Locks, WI 54113", False, 1, 1)
+                   , "104%20Green%20Way":Listing("104 Green Way Dr, Combined Locks, WI 54113", False, 1, 1)
+                   , "5335%20Brookview":Listing("5335 Brookview Dr, Appleton, WI 54913", False, 1, 1)
+                   , "5337%20Brookview":Listing("5337 Brookview Dr, Appleton, WI 54913", False, 1, 1)
+                   , "N1841%20Reimer":Listing("N1841 Reimer Ct, Greenville, WI 54942", False, 1, 1)
+                   , "N1843%20Reimer":Listing("N1843 Reimer Ct, Greenville, WI 54942", False, 1, 1)
+                   , "1749%20Marissa":Listing("1749 Marissa Ct, De Pere, WI 54115", True, 1, 1)
+                   , "1751%20Marissa":Listing("1751 Marissa Ct, De Pere, WI 54115", False, 1, 1)
+                   , "2707A%204th":Listing("2707 W. 4th St, Apt. A, Appleton, WI 54914", False, 1, 1)
+                   , "2707B%204th":Listing("2707 W. 4th St, Apt. B, Appleton, WI 54914", False, 1, 1)
+                   , "2707C%204th":Listing("2707 W. 4th St, Apt. C, Appleton, WI 54914", False, 1, 1)
+                   , "2707D%204th":Listing("2707 W. 4th St, Apt. D, Appleton, WI 54914", False, 1, 1)
+                   , "2711A%204th":Listing("2711 W. 4th St, Apt. A, Appleton, WI 54914", False, 1, 1)
+                   , "2711B%204th":Listing("2711 W. 4th St, Apt. B, Appleton, WI 54914", False, 1, 1)
+                   , "2711C%204th":Listing("2711 W. 4th St, Apt. C, Appleton, WI 54914", False, 1, 1)
+                   , "2711D%204th":Listing("2711 W. 4th St, Apt. D, Appleton, WI 54914", False, 1, 1)
+                   , "2715A%204th":Listing("2715 W. 4th St, Apt. A, Appleton, WI 54914", False, 1, 1)
+                   , "2715B%204th":Listing("2715 W. 4th St, Apt. B, Appleton, WI 54914", False, 1, 1)
+                   , "2715C%204th":Listing("2715 W. 4th St, Apt. C, Appleton, WI 54914", False, 1, 1)
+                   , "2715D%204th":Listing("2715 W. 4th St, Apt. D, Appleton, WI 54914", False, 1, 1)
+                   , "500%20E%20Alice":Listing("500 E. Alice St, Appleton, WI 54911", False, 1, 1)
+                   , "1708%20E%20Main":Listing("1708 E. Main St, Little Chute, WI 54140", False, 1, 1)
+                   , "1710%20E%20Main":Listing("1710 E. Main St, Little Chute, WI 54140", False, 1, 1)
+                   , "1716%20E%20Main":Listing("1716 E. Main St, Little Chute, WI 54140", False, 1, 1)
+                   , "1718%20E%20Main":Listing("1718 E. Main St, Little Chute, WI 54140", False, 1, 1)
+                   , "1783%20Burgoyne":Listing("1783 Burgoyne Ct, De Pere, WI 54115", False, 1, 1)
+                   , "1785%20Burgoyne":Listing("1785 Burgoyne Ct, De Pere, WI 54115", False, 1, 1)
+                   , "2021%20Autumn":Listing("2021 Autumn Ln, Kaukauna, WI 54130", False, 1, 1)
+                   , "2023%20Autumn":Listing("2023 Autumn Ln, Kaukauna, WI 54130", False, 1, 1)
+                   , "2701%20Haas":Listing("2701 Haas Rd, Kaukauna, WI 54130", False, 1, 1)
+                   , "2703%20Haas":Listing("2703 Haas Rd, Kaukauna, WI 54130", False, 1, 1)
                    }
 
 def copy_lines_after_marker(input_filename, output_filename, marker="START4231"):
@@ -173,6 +183,14 @@ def copy_lines_between_markers(input_filename, output_filename, marker="START423
             elif markFound == True:
                 outfile.write(line)  # Copy the line to the output file
         
+def write_lines_between_markers(output_filename):
+    markFound = False
+    with open(output_filename, 'a') as outfile:
+        outfile.write("            <option value=\"not-selected\">Select</option>\n")
+        for dir, addr in directory_names.items():
+            if(addr.available):
+                outfile.write(f"            <option value=\"{addr.address}\">{addr.address}</option>\n")
+        outfile.write("\n        <!-- **DONT REMOVE LINE** END4231 -->\n")
 
 
 if __name__ == "__main__":
@@ -191,7 +209,7 @@ if __name__ == "__main__":
 
     #TODO: Here add all the homes
     for dir, addr in directory_names.items():
-        calc_file_names(output_filename, dir.replace("%20", " "), addr, "listings.html")
+        calc_file_names(output_filename, dir.replace("%20", " "), addr.address, "listings.html")
 
     with open(output_filename, 'a') as outfile:
         outfile.write("}\n")
@@ -231,4 +249,13 @@ if __name__ == "__main__":
     input_filename = "index.html"
     copy_lines_after_marker(input_filename, output_filename, "END4231")
     
+    os.replace(output_filename, input_filename)
+
+
+    # Copy listings into forms
+    input_filename = "contact.html"
+    copy_lines_before_marker(input_filename, output_filename, rmln=False) 
+    write_lines_between_markers(output_filename)
+    copy_lines_after_marker(input_filename, output_filename, "END4231")
+
     os.replace(output_filename, input_filename)

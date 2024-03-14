@@ -12,7 +12,7 @@ input[type=text], select, textarea {
   
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #0A5115;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -22,7 +22,7 @@ input[type=text], select, textarea {
   
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #424242;
   }
   
   /* Add a background color and some padding around the form */
@@ -30,31 +30,49 @@ input[type=text], select, textarea {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-    max-width: 750px;
+    max-width: 400px;
     margin: 0 auto;
     margin-bottom: 20px;
   }
 
   select {
-    background-color: #f2f2f2;
-    color: black
+    background-color: white;
+    color: #424242;
   }
 
   .inp {
     width: 100%; 
   }
 
-  /* .name-fields {
-    display: flex; 
-    flex-wrap: wrap; 
+  .sub_button {
+    width: 100%;
+    margin-top: 10px
+  }
+
+
+@media (prefers-color-scheme: dark) {
+    input[type=text], select, textarea {
+        border: 1px solid #ccc; /* Gray border */
+        background-color: #424242;
+        color:#d0d0d0;
+    }
+
+  input[type=submit] {
+    background-color: #0A5115;
+    color:#d0d0d0;
+  }
+
+  input[type=submit]:hover {
+    background-color: #424242;
+  }
+
+  .container {
+    background-color: #1d1d1d;
+    color:#d0d0d0;
+  }
+
+  select {
+    background-color: #3e413d;
+    color:#d0d0d0;
+  }
 }
-
-
-.name-fields label {
-    flex-basis: 20%; 
-    margin-right: 5px;
-}
-
-.name-fields input {
-    flex-grow: 1;
-} */
