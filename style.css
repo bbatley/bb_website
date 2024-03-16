@@ -6,7 +6,7 @@ body {
     padding:0;
     color: #333;
     text-align: center;
-    background-color: #fdeed4;
+    background-color: #e8e3dd;
 }
 
 header {
@@ -112,7 +112,7 @@ nav li {
 
 .property-card {
     display: none;
-    border: 3px solid #ddd;
+    border: 3px solid #b6b6b6;
     padding: 15px;
     text-align: center;
     background-color: rgb(255, 255, 255);
@@ -292,7 +292,7 @@ span.between {
 }
 
 main {
-    background-color: #fdeed4;
+    background-color: #e8e3dd;
 }
 
 .logo-name {
