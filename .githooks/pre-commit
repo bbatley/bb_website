@@ -1,0 +1,9 @@
+COLOR='\033[32m'
+RESET='\033[0m'
+
+git stash --keep-index --include-untracked
+python3 update_photos.py
+git add .
+git stash pop
+
+echo "${COLOR}Ran update_photos.py${RESET}" >&2

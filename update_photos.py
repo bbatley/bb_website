@@ -17,7 +17,7 @@ class Listing:
 
 
 #                    folder name        |               Address (+ indicates new line)        |  Available | featured  | Beds  | Baths |   Rent
-directory_names = {  "903%20Spring":      Listing("903 Spring Street+ Ann Arbor, MI 48103",         "no",      "yes",      3,      1,    "$--/month")
+directory_names = {  "903%20Spring":      Listing("903 Spring Street+ Ann Arbor, MI 48103",         "no",      "no",      3,      1,    "$--/month")
                    , "102%20Green%20Way": Listing("102 Green Way Dr+ Combined Locks, WI 54113",     "no",      "no",      2,      1.5,    "$--/month")
                    , "104%20Green%20Way": Listing("104 Green Way Dr+ Combined Locks, WI 54113",     "no",      "no",      2,      1.5,    "$--/month")
                    , "5335%20Brookview":  Listing("5335 Brookview Dr+ Appleton, WI 54913",          "yes",      "yes",      3,      2.5,    "$--/month")
