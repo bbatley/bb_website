@@ -13,8 +13,8 @@ const availDropdown = document.getElementById('avail_dropdown');
 showSomeButton.addEventListener('click', () => {
     propertyCards.forEach((card, index) => {
         // Example: Show only cards with even indexes
-        if ((card.getAttribute('avail') === 'yes' && availDropdown.selectedIndex == 1) ||
-                (card.getAttribute('avail') === 'no' && availDropdown.selectedIndex == 0) ||
+        if ((card.getAttribute('avail') === 'yes' && availDropdown.selectedIndex == 2) ||
+                (card.getAttribute('avail') === 'no' && availDropdown.selectedIndex == 1) ||
                 (bedroomDropdown.selectedIndex != 0 && card.getAttribute('bedroom') !== String(bedroomDropdown.selectedIndex)) || 
                 (bathroomDropdown.selectedIndex != 0 && card.getAttribute('bath') !== String((bathroomDropdown.selectedIndex+1)/2)))  {
             card.classList.remove('show');
