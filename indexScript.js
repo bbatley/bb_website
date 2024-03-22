@@ -30,15 +30,7 @@ propertyCards.forEach(card => {
 // **DONT REMOVE LINE** START4231
 
 var link = document.querySelector('a[tp="tmp"]');
-link = document.querySelector('a[tp="102%20Green%20Way"]');
-link.style.display = 'none';
-link = document.querySelector('a[tp="104%20Green%20Way"]');
-link.style.display = 'none';
-link = document.querySelector('a[tp="5337%20Brookview"]');
-link.style.display = 'none';
 link = document.querySelector('a[tp="N1841%20Reimer"]');
-link.style.display = 'none';
-link = document.querySelector('a[tp="N1843%20Reimer"]');
 link.style.display = 'none';
 link = document.querySelector('a[tp="2707A%204th"]');
 link.style.display = 'none';
@@ -59,16 +51,4 @@ link.style.display = 'none';
 link = document.querySelector('a[tp="2715B%204th"]');
 link.style.display = 'none';
 link = document.querySelector('a[tp="2715C%204th"]');
-link.style.display = 'none';
-link = document.querySelector('a[tp="1716%20E%20Main"]');
-link.style.display = 'none';
-link = document.querySelector('a[tp="1718%20E%20Main"]');
-link.style.display = 'none';
-link = document.querySelector('a[tp="1783%20Burgoyne"]');
-link.style.display = 'none';
-link = document.querySelector('a[tp="1785%20Burgoyne"]');
-link.style.display = 'none';
-link = document.querySelector('a[tp="2701%20Haas"]');
-link.style.display = 'none';
-link = document.querySelector('a[tp="2703%20Haas"]');
 link.style.display = 'none';
