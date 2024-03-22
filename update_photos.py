@@ -17,7 +17,7 @@ class Listing:
 
 
 #                    folder name        |               Address (+ indicates new line)        |  Available | featured  | Beds  | Baths |   Rent
-directory_names = {  "903%20Spring":      Listing("903 Spring Street+ Ann Arbor, MI 48103",         "no",      "yes",      3,      1,    "$--/month")
+directory_names = {  "903%20Spring":      Listing("903 Spring Street+ Ann Arbor, MI 48103",         "no",      "no",      3,      1,    "$--/month")
                    , "102%20Green%20Way": Listing("102 Green Way Dr+ Combined Locks, WI 54113",     "no",      "no",      2,      1.5,    "$--/month")
                    , "104%20Green%20Way": Listing("104 Green Way Dr+ Combined Locks, WI 54113",     "no",      "no",      2,      1.5,    "$--/month")
                    , "5335%20Brookview":  Listing("5335 Brookview Dr+ Appleton, WI 54913",          "yes",      "yes",      3,      2.5,    "$--/month")
@@ -156,7 +156,7 @@ def remove_buttons(output_filename, dir):
 
         if empty:
             outfile.write("link = document.querySelector('a[tp=\"" + dir + "\"]');\n")
-            outfile.write("link.style.display = 'none';\n")
+            outfile.write("if (link) link.style.display = 'none';\n")
 
 def copy_lines_between_markers(input_filename, output_filename, marker="START4231", end_marker="END4231"):
     """ Copies lines between two markers from the start of an input file up to a marker line into a new file.
@@ -232,7 +232,7 @@ if __name__ == "__main__":
         outfile.write("var link = document.querySelector('option[rmknd=\"Basement\"]');\n")
         for room in rooms:
             outfile.write("link = document.querySelector('option[rmknd=\""+ room +"\"]');\n")
-            outfile.write("link.style.display = 'none';\n")
+            outfile.write("if (link) link.style.display = 'none';\n")
         outfile.write("switch(imageDirectory) {\n")
 
     # Update image Gallery script with updated photo paths and copy rest of file

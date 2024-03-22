@@ -21,8 +21,10 @@ var apartmentData = [
 ];
 
 // Add markers 
+var icon = new L.Icon.Default();
+icon.options.shadowSize = [0,0];
 for (var i = 0; i < apartmentData.length; i++) {
-    var marker = L.marker([apartmentData[i].lat, apartmentData[i].lng]).addTo(map);
+    var marker = L.marker([apartmentData[i].lat, apartmentData[i].lng], {icon: icon}).addTo(map);
     var googleMapsLink = "https://www.google.com/maps/search/?api=1&query=" + apartmentData[i].lat + "," + apartmentData[i].lng;
     // marker.bindPopup("<b>" + apartmentData[i].name + "</b>"); 
     marker.bindPopup("<b>" + apartmentData[i].name + "</b><br><a href='" + googleMapsLink + "' target='_blank'>Google Maps</a>");

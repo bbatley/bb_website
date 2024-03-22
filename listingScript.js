@@ -13,8 +13,8 @@ const availDropdown = document.getElementById('avail_dropdown');
 showSomeButton.addEventListener('click', () => {
     propertyCards.forEach((card, index) => {
         // Example: Show only cards with even indexes
-        if ((card.getAttribute('avail') === 'yes' && availDropdown.selectedIndex == 1) ||
-                (card.getAttribute('avail') === 'no' && availDropdown.selectedIndex == 0) ||
+        if ((card.getAttribute('avail') === 'yes' && availDropdown.selectedIndex == 2) ||
+                (card.getAttribute('avail') === 'no' && availDropdown.selectedIndex == 1) ||
                 (bedroomDropdown.selectedIndex != 0 && card.getAttribute('bedroom') !== String(bedroomDropdown.selectedIndex)) || 
                 (bathroomDropdown.selectedIndex != 0 && card.getAttribute('bath') !== String((bathroomDropdown.selectedIndex+1)/2)))  {
             card.classList.remove('show');
@@ -55,24 +55,24 @@ propertyCards.forEach(card => {
 
 var link = document.querySelector('a[tp="tmp"]');
 link = document.querySelector('a[tp="N1841%20Reimer"]');
-link.style.display = 'none';
+if (link) link.style.display = 'none';
 link = document.querySelector('a[tp="2707A%204th"]');
-link.style.display = 'none';
+if (link) link.style.display = 'none';
 link = document.querySelector('a[tp="2707B%204th"]');
-link.style.display = 'none';
+if (link) link.style.display = 'none';
 link = document.querySelector('a[tp="2707C%204th"]');
-link.style.display = 'none';
+if (link) link.style.display = 'none';
 link = document.querySelector('a[tp="2711A%204th"]');
-link.style.display = 'none';
+if (link) link.style.display = 'none';
 link = document.querySelector('a[tp="2711B%204th"]');
-link.style.display = 'none';
+if (link) link.style.display = 'none';
 link = document.querySelector('a[tp="2711C%204th"]');
-link.style.display = 'none';
+if (link) link.style.display = 'none';
 link = document.querySelector('a[tp="2711D%204th"]');
-link.style.display = 'none';
+if (link) link.style.display = 'none';
 link = document.querySelector('a[tp="2715A%204th"]');
-link.style.display = 'none';
+if (link) link.style.display = 'none';
 link = document.querySelector('a[tp="2715B%204th"]');
-link.style.display = 'none';
+if (link) link.style.display = 'none';
 link = document.querySelector('a[tp="2715C%204th"]');
-link.style.display = 'none';
+if (link) link.style.display = 'none';
